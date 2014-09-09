@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HQI" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HQI.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HQI_LINPRO" type="string"/>
+<Field name="HQI_ISTCIA" type="string"/>
+<Field name="HQI_EMPRES" type="string"/>
+<Field name="HQI_FILIAL" type="string"/>
+<Field name="HQI_ESTABL" type="string"/>
+<Field name="HQI_SERDOC" type="string"/>
+<Field name="HQI_NUMDOC" type="string"/>
+<Field name="HQI_FORNEC" type="string"/>
+<Field name="HQI_GRPFOR" type="string"/>
+<Field name="HQI_NATOPR" type="string"/>
+<Field name="HQI_CFOP" type="string"/>
+<Field length="15" name="HQI_SEQINF" scale="5" type="decimal"/>
+<Field name="HQI_UNDNEG" type="string"/>
+<Field name="HQI_MOEDA" type="string"/>
+<Field name="HQI_NUMEMB" type="string"/>
+<Field name="HQI_NPRIMP" type="string"/>
+<Field name="HQI_ORDEM" type="string"/>
+<Field name="HQI_PEDIDO" type="string"/>
+<Field length="15" name="HQI_PARCEL" scale="5" type="decimal"/>
+<Field name="HQI_ITEM" type="string"/>
+<Field name="HQI_FAMCOM" type="string"/>
+<Field name="HQI_FAMMAT" type="string"/>
+<Field name="HQI_GRPEST" type="string"/>
+<Field name="HQI_CCUSTO" type="string"/>
+<Field name="HQI_CMPRDR" type="string"/>
+<Field name="HQI_CONDPG" type="string"/>
+<Field name="HQI_REGIAO" type="string"/>
+<Field name="HQI_REFER" type="string"/>
+<Field name="HQI_EMERG" type="string"/>
+<Field name="HQI_TRANSP" type="string"/>
+<Field name="HQI_CEMBHO" type="string"/>
+<Field name="HQI_CEMBMA" type="string"/>
+<Field name="HQI_BCO" type="string"/>
+<Field name="HQI_FORNDP" type="string"/>
+<Field name="HQI_FORNDX" type="string"/>
+<Field name="HQI_FORNFB" type="string"/>
+<Field name="HQI_NUMFAT" type="string"/>
+<Field name="HQI_INCOTR" type="string"/>
+<Field name="HQI_DECIMP" type="string"/>
+<Field name="HQI_PAIS" type="string"/>
+<Field name="HQI_SITIMP" type="string"/>
+<Field name="HQI_EMBENC" type="string"/>
+<Field name="HQI_VIATRA" type="string"/>
+<Field name="HQI_ITINER" type="string"/>
+<Field name="HQI_UNFORN" type="string"/>
+<Field name="HQI_FORNAC" type="string"/>
+<Field name="HQI_NLCIMP" type="string"/>
+<Field name="HQI_FORNSG" type="string"/>
+<Field name="HQI_FORNCS" type="string"/>
+<Field name="HQI_NCRTCR" type="string"/>
+<Field length="15" name="HQI_NMADIT" scale="5" type="decimal"/>
+<Field length="15" name="HQI_SQADIT" scale="5" type="decimal"/>
+<Field name="HQI_NATODB" type="string"/>
+<Field name="HQI_PLCCST" type="string"/>
+<Field name="HQI_DATA" type="string"/>
+<Field name="HQI_DATADI" type="string"/>
+<Field name="HQI_DTPEDC" type="string"/>
+<Field length="15" name="HQI_VLIMPI" scale="5" type="decimal"/>
+<Field length="15" name="HQI_QCOMPR" scale="5" type="decimal"/>
+<Field length="15" name="HQI_VINCOT" scale="5" type="decimal"/>
+<Field length="15" name="HQI_VCOFIN" scale="5" type="decimal"/>
+<Field length="15" name="HQI_VDESPE" scale="5" type="decimal"/>
+<Field length="15" name="HQI_VLSEGU" scale="5" type="decimal"/>
+<Field length="15" name="HQI_VFRTNF" scale="5" type="decimal"/>
+<Field length="15" name="HQI_VICMSF" scale="5" type="decimal"/>
+<Field length="15" name="HQI_VIPIFT" scale="5" type="decimal"/>
+<Field length="15" name="HQI_VPISFT" scale="5" type="decimal"/>
+<Field length="15" name="HQI_VLTXDI" scale="5" type="decimal"/>
+<Field length="15" name="HQI_QTPESL" scale="5" type="decimal"/>
+<Field length="15" name="HQI_QTPESB" scale="5" type="decimal"/>
+<Field length="15" name="HQI_VCUSTI" scale="5" type="decimal"/>
+<Field length="15" name="HQI_VALIQI" scale="5" type="decimal"/>
+<Field length="15" name="HQI_VCOMPR" scale="5" type="decimal"/>
+<Field length="15" name="HQI_VLCIF" scale="5" type="decimal"/>
+<Field length="15" name="HQI_VLCFR" scale="5" type="decimal"/>
+<Field length="15" name="HQI_VLFOB" scale="5" type="decimal"/>
+<Field length="15" name="HQI_VFOBCI" scale="5" type="decimal"/>
+<Field name="HQI_LIVRE0" type="string"/>
+<Field name="HQI_LIVRE1" type="string"/>
+<Field name="HQI_LIVRE2" type="string"/>
+<Field name="HQI_LIVRE3" type="string"/>
+<Field name="HQI_LIVRE4" type="string"/>
+<Field name="HQI_LIVRE5" type="string"/>
+<Field name="HQI_LIVRE6" type="string"/>
+<Field name="HQI_LIVRE7" type="string"/>
+<Field name="HQI_LIVRE8" type="string"/>
+<Field name="HQI_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

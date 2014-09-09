@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HKJ" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HKJ.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HKJ_FILIAL" type="string"/>
+<Field name="HKJ_FORNEC" type="string"/>
+<Field name="HKJ_ISTCIA" type="string"/>
+<Field name="HKJ_LINPRO" type="string"/>
+<Field name="HKJ_GRPEMP" type="string"/>
+<Field name="HKJ_CDUNEG" type="string"/>
+<Field name="HKJ_CDEMPR" type="string"/>
+<Field name="HKJ_CODIGO" type="string"/>
+<Field name="HKJ_LOJA" type="string"/>
+<Field name="HKJ_FORNMT" type="string"/>
+<Field name="HKJ_NOME" type="string"/>
+<Field name="HKJ_MATRIZ" type="string"/>
+<Field name="HKJ_RAMO" type="string"/>
+<Field name="HKJ_MATFOR" type="string"/>
+<Field name="HKJ_LIVRE0" type="string"/>
+<Field name="HKJ_LIVRE1" type="string"/>
+<Field name="HKJ_LIVRE2" type="string"/>
+<Field name="HKJ_LIVRE3" type="string"/>
+<Field name="HKJ_LIVRE4" type="string"/>
+<Field name="HKJ_LIVRE5" type="string"/>
+<Field name="HKJ_LIVRE6" type="string"/>
+<Field name="HKJ_LIVRE7" type="string"/>
+<Field name="HKJ_LIVRE8" type="string"/>
+<Field name="HKJ_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

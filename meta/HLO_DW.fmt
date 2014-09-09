@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLO_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HLO_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HLO_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_SINDIC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_TURNO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_TIPMOB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_CCUSTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_PLCCST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_COLABR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_FXASAL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_TIPHRS" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_CATSAL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_CARGO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_NIVHIE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_ESTCIV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_FXAETA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_GRAINS" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_TPCASA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_TPCARG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_RELTRB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_SECAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_LOCALI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_PRESRV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_PLOTAC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLO_ULOTAC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HLO_QBCOHR" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLO_VBCOHR" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

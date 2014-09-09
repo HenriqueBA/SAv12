@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," label="HJL.csv" name="HJL" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HJL.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HJL_ISTCIA" type="string"/>
+<Field name="HJL_LINPRO" type="string"/>
+<Field name="HJL_GRPEMP" type="string"/>
+<Field name="HJL_CDUNEG" type="string"/>
+<Field name="HJL_CDEMPR" type="string"/>
+<Field name="HJL_FILIAL" type="string"/>
+<Field name="HJL_CURSO" type="string"/>
+<Field name="HJL_CODIGO" type="string"/>
+<Field name="HJL_DESC" type="string"/>
+<Field name="HJL_LIVRE0" type="string"/>
+<Field name="HJL_LIVRE1" type="string"/>
+<Field name="HJL_LIVRE2" type="string"/>
+<Field name="HJL_LIVRE3" type="string"/>
+<Field name="HJL_LIVRE4" type="string"/>
+<Field name="HJL_LIVRE5" type="string"/>
+<Field name="HJL_LIVRE6" type="string"/>
+<Field name="HJL_LIVRE7" type="string"/>
+<Field name="HJL_LIVRE8" type="string"/>
+<Field name="HJL_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

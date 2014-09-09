@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLA" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HLA.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HLA_FILIAL" type="string"/>
+<Field name="HLA_LINPRO" type="string"/>
+<Field name="HLA_ISTCIA" type="string"/>
+<Field name="HLA_EMPRES" type="string"/>
+<Field name="HLA_ESTABL" type="string"/>
+<Field name="HLA_UNDNEG" type="string"/>
+<Field name="HLA_PLCONT" type="string"/>
+<Field name="HLA_INDICA" type="string"/>
+<Field name="HLA_MOEDA" type="string"/>
+<Field name="HLA_DATA" type="string"/>
+<Field length="15" name="HLA_VRLMES" scale="5" type="decimal"/>
+<Field length="15" name="HLA_VRLMSA" scale="5" type="decimal"/>
+<Field length="15" name="HLA_MESREF" scale="5" type="decimal"/>
+<Field name="HLA_CNARIO" type="string"/>
+<Field name="HLA_UNIORG" type="string"/>
+<Field name="HLA_PROJET" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

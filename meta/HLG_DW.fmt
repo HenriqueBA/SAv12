@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLG_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HLG_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HLG_DTABRQ" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLG_DTPREV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLG_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLG_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLG_COLABR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLG_GRAINS" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLG_NIVHIE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLG_SINDIC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLG_SECAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLG_STAREQ" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLG_TIPREQ" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLG_NUMREQ" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLG_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HLG_QTDIAC" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLG_VLSAL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLG_QPOTDV" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

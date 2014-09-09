@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HOB" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HOB.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HOB_ISTCIA" type="string"/>
+<Field name="HOB_LINPRO" type="string"/>
+<Field name="HOB_FILIAL" type="string"/>
+<Field name="HOB_EMPRES" type="string"/>
+<Field name="HOB_ESTABL" type="string"/>
+<Field name="HOB_UNDNEG" type="string"/>
+<Field name="HOB_FILBAS" type="string"/>
+<Field name="HOB_VEICLO" type="string"/>
+<Field format="yyyyMMdd" name="HOB_DATA" type="date"/>
+<Field name="HOB_HORACH" type="string"/>
+<Field name="HOB_DTSAID" type="string"/>
+<Field name="HOB_HORASA" type="string"/>
+<Field length="15" name="HOB_TEMPO" scale="5" type="decimal"/>
+<Field name="HOB_CONCLU" type="string"/>
+<Field name="HOB_LIVRE0" type="string"/>
+<Field name="HOB_LIVRE1" type="string"/>
+<Field name="HOB_LIVRE2" type="string"/>
+<Field name="HOB_LIVRE3" type="string"/>
+<Field name="HOB_LIVRE4" type="string"/>
+<Field name="HOB_LIVRE5" type="string"/>
+<Field name="HOB_LIVRE6" type="string"/>
+<Field name="HOB_LIVRE7" type="string"/>
+<Field name="HOB_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HOB_LIVRE9" type="string"/>
+</Record>

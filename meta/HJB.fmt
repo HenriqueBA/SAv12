@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HJB" previewAttachment="zip:(${DATA_TMP_DIR}/TOTVSBA.zip)#HJB.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HJB_REGIAO" type="string"/>
+<Field name="HJB_ISTCIA" type="string"/>
+<Field name="HJB_LINPRO" type="string"/>
+<Field name="HJB_GRPEMP" type="string"/>
+<Field name="HJB_CDUNEG" type="string"/>
+<Field name="HJB_CDEMPR" type="string"/>
+<Field name="HJB_FILIAL" type="string"/>
+<Field name="HJB_REGGEO" type="string"/>
+<Field name="HJB_ESTADO" type="string"/>
+<Field name="HJB_CIDADE" type="string"/>
+<Field name="HJB_PAIS" type="string"/>
+<Field name="HJB_NOMEUF" type="string"/>
+<Field name="HJB_LIVRE0" type="string"/>
+<Field name="HJB_LIVRE1" type="string"/>
+<Field name="HJB_LIVRE2" type="string"/>
+<Field name="HJB_LIVRE3" type="string"/>
+<Field name="HJB_LIVRE4" type="string"/>
+<Field name="HJB_LIVRE5" type="string"/>
+<Field name="HJB_LIVRE6" type="string"/>
+<Field name="HJB_LIVRE7" type="string"/>
+<Field name="HJB_LIVRE8" type="string"/>
+<Field name="HJB_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

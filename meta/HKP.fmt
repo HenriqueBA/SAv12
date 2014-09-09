@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HKP" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HKP.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HKP_LINPRO" type="string"/>
+<Field name="HKP_ISTCIA" type="string"/>
+<Field name="HKP_EMPRES" type="string"/>
+<Field name="HKP_FILIAL" type="string"/>
+<Field name="HKP_ESTABL" type="string"/>
+<Field name="HKP_FAMMAT" type="string"/>
+<Field name="HKP_FAMCOM" type="string"/>
+<Field name="HKP_GRPEST" type="string"/>
+<Field name="HKP_ITEM" type="string"/>
+<Field name="HKP_FORNEC" type="string"/>
+<Field name="HKP_REGIAO" type="string"/>
+<Field name="HKP_MOEDA" type="string"/>
+<Field name="HKP_UNDNEG" type="string"/>
+<Field name="HKP_DTEXTR" type="string"/>
+<Field length="15" name="HKP_QPENDT" scale="5" type="decimal"/>
+<Field length="15" name="HKP_QPDFMT" scale="5" type="decimal"/>
+<Field length="15" name="HKP_QPDFMC" scale="5" type="decimal"/>
+<Field length="15" name="HKP_VPENDT" scale="5" type="decimal"/>
+<Field name="HKP_FICHA" type="string"/>
+<Field name="HKP_SEQCIA" type="string"/>
+<Field name="HKP_CRITIC" type="string"/>
+<Field name="HKP_GRPFOR" type="string"/>
+<Field name="HKP_REFER" type="string"/>
+<Field name="HKP_LIVRE0" type="string"/>
+<Field name="HKP_LIVRE1" type="string"/>
+<Field name="HKP_LIVRE2" type="string"/>
+<Field name="HKP_LIVRE3" type="string"/>
+<Field name="HKP_LIVRE4" type="string"/>
+<Field name="HKP_LIVRE5" type="string"/>
+<Field name="HKP_LIVRE6" type="string"/>
+<Field name="HKP_LIVRE7" type="string"/>
+<Field name="HKP_LIVRE8" type="string"/>
+<Field name="HKP_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

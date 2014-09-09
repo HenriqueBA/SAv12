@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HSL" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HSL.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HSL_ISTCIA" type="string"/>
+<Field name="HSL_LINPRO" type="string"/>
+<Field name="HSL_FILIAL" type="string"/>
+<Field name="HSL_GRPEMP" type="string"/>
+<Field name="HSL_CDUNEG" type="string"/>
+<Field name="HSL_CDEMPR" type="string"/>
+<Field name="HSL_TIPATV" type="string"/>
+<Field name="HSL_CODIGO" type="string"/>
+<Field name="HSL_DESC" type="string"/>
+<Field name="HSL_LIVRE0" type="string"/>
+<Field name="HSL_LIVRE1" type="string"/>
+<Field name="HSL_LIVRE2" type="string"/>
+<Field name="HSL_LIVRE3" type="string"/>
+<Field name="HSL_LIVRE4" type="string"/>
+<Field name="HSL_LIVRE5" type="string"/>
+<Field name="HSL_LIVRE6" type="string"/>
+<Field name="HSL_LIVRE7" type="string"/>
+<Field name="HSL_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HSL_LIVRE9" type="string"/>
+</Record>

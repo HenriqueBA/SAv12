@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record fieldDelimiter="|" name="RunGraph_Output" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="graphURL" type="string"/>
+<Field name="result" type="string"/>
+<Field name="description" type="string"/>
+<Field name="message" type="string"/>
+<Field name="duration" type="long"/>
+<Field name="runId" type="long"/>
+</Record>

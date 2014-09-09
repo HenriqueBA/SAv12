@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," label="HQO.csv" name="HQO" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HQO.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HQO_ISTCIA" type="string"/>
+<Field name="HQO_LINPRO" type="string"/>
+<Field name="HQO_GRPEMP" type="string"/>
+<Field name="HQO_CDUNEG" type="string"/>
+<Field name="HQO_CDEMPR" type="string"/>
+<Field name="HQO_FILIAL" type="string"/>
+<Field name="HQO_LOCALI" type="string"/>
+<Field name="HQO_CODIGO" type="string"/>
+<Field name="HQO_CDPAIS" type="string"/>
+<Field name="HQO_DESC" type="string"/>
+<Field name="HQO_LIVRE0" type="string"/>
+<Field name="HQO_LIVRE1" type="string"/>
+<Field name="HQO_LIVRE2" type="string"/>
+<Field name="HQO_LIVRE3" type="string"/>
+<Field name="HQO_LIVRE4" type="string"/>
+<Field name="HQO_LIVRE5" type="string"/>
+<Field name="HQO_LIVRE6" type="string"/>
+<Field name="HQO_LIVRE7" type="string"/>
+<Field name="HQO_LIVRE8" type="string"/>
+<Field name="HQO_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

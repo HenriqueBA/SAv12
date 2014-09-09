@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HL0" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HL0.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HL0_LINPRO" type="string"/>
+<Field name="HL0_ISTCIA" type="string"/>
+<Field name="HL0_FILIAL" type="string"/>
+<Field name="HL0_EMPRES" type="string"/>
+<Field name="HL0_ESTABL" type="string"/>
+<Field name="HL0_REPRES" type="string"/>
+<Field name="HL0_GRPCLI" type="string"/>
+<Field name="HL0_CLIENT" type="string"/>
+<Field name="HL0_MOEDA" type="string"/>
+<Field name="HL0_CONDPG" type="string"/>
+<Field name="HL0_STCRED" type="string"/>
+<Field name="HL0_DTEXTR" type="string"/>
+<Field length="15" name="HL0_VLMCDT" scale="5" type="decimal"/>
+<Field length="15" name="HL0_VLMCDD" scale="5" type="decimal"/>
+<Field name="HL0_REGIAO" type="string"/>
+<Field name="HL0_TABPCO" type="string"/>
+<Field name="HL0_CANALV" type="string"/>
+<Field name="HL0_REGCOM" type="string"/>
+<Field name="HL0_MICREG" type="string"/>
+<Field name="HL0_TRANSP" type="string"/>
+<Field name="HL0_LIVRE0" type="string"/>
+<Field name="HL0_LIVRE1" type="string"/>
+<Field name="HL0_LIVRE2" type="string"/>
+<Field name="HL0_LIVRE3" type="string"/>
+<Field name="HL0_LIVRE4" type="string"/>
+<Field name="HL0_LIVRE5" type="string"/>
+<Field name="HL0_LIVRE6" type="string"/>
+<Field name="HL0_LIVRE7" type="string"/>
+<Field name="HL0_LIVRE8" type="string"/>
+<Field name="HL0_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

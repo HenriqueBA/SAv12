@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HHZ" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HHZ.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HHZ_ISTCIA" type="string"/>
+<Field name="HHZ_LINPRO" type="string"/>
+<Field name="HHZ_FILIAL" type="string"/>
+<Field name="HHZ_GRPEMP" type="string"/>
+<Field name="HHZ_CDUNEG" type="string"/>
+<Field name="HHZ_CDEMPR" type="string"/>
+<Field name="HHZ_VEICLO" type="string"/>
+<Field name="HHZ_CODIGO" type="string"/>
+<Field name="HHZ_DESC" type="string"/>
+<Field name="HHZ_LIVRE0" type="string"/>
+<Field name="HHZ_LIVRE1" type="string"/>
+<Field name="HHZ_LIVRE2" type="string"/>
+<Field name="HHZ_LIVRE3" type="string"/>
+<Field name="HHZ_LIVRE4" type="string"/>
+<Field name="HHZ_LIVRE5" type="string"/>
+<Field name="HHZ_LIVRE6" type="string"/>
+<Field name="HHZ_LIVRE7" type="string"/>
+<Field name="HHZ_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HHZ_LIVRE9" type="string"/>
+</Record>

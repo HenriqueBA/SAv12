@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HOK" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HOK.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HOK_ISTCIA" type="string"/>
+<Field name="HOK_LINPRO" type="string"/>
+<Field name="HOK_FILIAL" type="string"/>
+<Field name="HOK_GRPEMP" type="string"/>
+<Field name="HOK_CDUNEG" type="string"/>
+<Field name="HOK_CDEMPR" type="string"/>
+<Field name="HOK_AREA" type="string"/>
+<Field name="HOK_CODIGO" type="string"/>
+<Field name="HOK_DESC" type="string"/>
+<Field name="HOK_LIVRE0" type="string"/>
+<Field name="HOK_LIVRE1" type="string"/>
+<Field name="HOK_LIVRE2" type="string"/>
+<Field name="HOK_LIVRE3" type="string"/>
+<Field name="HOK_LIVRE4" type="string"/>
+<Field name="HOK_LIVRE5" type="string"/>
+<Field name="HOK_LIVRE6" type="string"/>
+<Field name="HOK_LIVRE7" type="string"/>
+<Field name="HOK_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HOK_LIVRE9" type="string"/>
+</Record>

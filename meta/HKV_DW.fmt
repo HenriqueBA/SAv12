@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HKV_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HKV_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HKV_DTEXTR" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HKV_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKV_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKV_ITEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKV_FAMMAT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKV_FAMCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKV_GRPEST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKV_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKV_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKV_REFER" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKV_TIPITM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKV_LINHAP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HKV_CNCUST" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HKV_VCSREA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HKV_VCSRMT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HKV_VCSRMO" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HKV_VCSRGF" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

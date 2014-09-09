@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HSF" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HSF.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HSF_ISTCIA" type="string"/>
+<Field name="HSF_LINPRO" type="string"/>
+<Field name="HSF_FILIAL" type="string"/>
+<Field name="HSF_EMPRES" type="string"/>
+<Field name="HSF_ESTABL" type="string"/>
+<Field name="HSF_STTATI" type="string"/>
+<Field name="HSF_TIPATI" type="string"/>
+<Field name="HSF_REPRES" type="string"/>
+<Field name="HSF_USUARI" type="string"/>
+<Field name="HSF_UNICOM" type="string"/>
+<Field name="HSF_EQUVEN" type="string"/>
+<Field format="yyyyMMdd" name="HSF_DTAINI" type="date"/>
+<Field name="HSF_HORAIN" type="string"/>
+<Field format="yyyyMMdd" name="HSF_DTAFIM" type="date"/>
+<Field name="HSF_HORAFI" type="string"/>
+<Field length="15" name="HSF_QTATVI" scale="5" type="decimal"/>
+<Field length="15" name="HSF_QTMINT" scale="5" type="decimal"/>
+<Field name="HSF_LIVRE0" type="string"/>
+<Field name="HSF_LIVRE1" type="string"/>
+<Field name="HSF_LIVRE2" type="string"/>
+<Field name="HSF_LIVRE3" type="string"/>
+<Field name="HSF_LIVRE4" type="string"/>
+<Field name="HSF_LIVRE5" type="string"/>
+<Field name="HSF_LIVRE6" type="string"/>
+<Field name="HSF_LIVRE7" type="string"/>
+<Field name="HSF_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HSF_LIVRE9" type="string"/>
+</Record>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HKL_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HKL_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HKL_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_FORNEC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_TRANSP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_FAMMAT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_FAMCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_GRPEST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_ITEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_CMPRDR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_SITCMP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_NATCMP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_GRPFOR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_CONDPG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_REFER" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_CCUSTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_CFOP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_PLCCST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_NATOPR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_ORDEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_EMERG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_PEDIDO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_SERNF" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKL_NUMNF" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HKL_SEQCIA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HKL_NUMPRG" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HKL_QORDDV" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HKL_QDEVOL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HKL_QDVFMT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HKL_VDEVOL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

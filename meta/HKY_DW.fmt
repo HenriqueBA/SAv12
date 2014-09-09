@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HKY_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HKY_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HKY_FILIAL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_LINPRO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_ISTCIA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_FAMMAT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_FAMCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_GRPEST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_ITEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_PLANEJ" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_GRPCLI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_CCUSTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_GRPMAQ" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_CLIENT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_PLCCST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_TIPITM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_LINHAP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_REFER" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_PEDIDO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKY_ORDEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HKY_SEQCIA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HKY_QHRGGF" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HKY_VCSGGF" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

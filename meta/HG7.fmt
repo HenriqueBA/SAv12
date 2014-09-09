@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," label="HG7.csv" name="HG7" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HG7.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HG7_ISTCIA" type="string"/>
+<Field name="HG7_LINPRO" type="string"/>
+<Field name="HG7_GRPEMP" type="string"/>
+<Field name="HG7_CDUNEG" type="string"/>
+<Field name="HG7_CDEMPR" type="string"/>
+<Field name="HG7_FILIAL" type="string"/>
+<Field name="HG7_TIPMOT" type="string"/>
+<Field name="HG7_CODIGO" type="string"/>
+<Field name="HG7_DESC" type="string"/>
+<Field name="HG7_LIVRE0" type="string"/>
+<Field name="HG7_LIVRE1" type="string"/>
+<Field name="HG7_LIVRE2" type="string"/>
+<Field name="HG7_LIVRE3" type="string"/>
+<Field name="HG7_LIVRE4" type="string"/>
+<Field name="HG7_LIVRE5" type="string"/>
+<Field name="HG7_LIVRE6" type="string"/>
+<Field name="HG7_LIVRE7" type="string"/>
+<Field name="HG7_LIVRE8" type="string"/>
+<Field name="HG7_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

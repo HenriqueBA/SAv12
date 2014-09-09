@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLO" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HLO.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HLO_LINPRO" type="string"/>
+<Field name="HLO_ISTCIA" type="string"/>
+<Field name="HLO_EMPRES" type="string"/>
+<Field name="HLO_FILIAL" type="string"/>
+<Field name="HLO_ESTABL" type="string"/>
+<Field name="HLO_SINDIC" type="string"/>
+<Field name="HLO_TURNO" type="string"/>
+<Field name="HLO_TIPMOB" type="string"/>
+<Field name="HLO_CCUSTO" type="string"/>
+<Field name="HLO_COLABR" type="string"/>
+<Field name="HLO_UNDNEG" type="string"/>
+<Field name="HLO_FXASAL" type="string"/>
+<Field name="HLO_MOEDA" type="string"/>
+<Field name="HLO_TIPHRS" type="string"/>
+<Field name="HLO_REGIAO" type="string"/>
+<Field name="HLO_CATSAL" type="string"/>
+<Field name="HLO_CARGO" type="string"/>
+<Field name="HLO_NIVHIE" type="string"/>
+<Field name="HLO_ESTCIV" type="string"/>
+<Field name="HLO_FXAETA" type="string"/>
+<Field name="HLO_GRAINS" type="string"/>
+<Field name="HLO_TPCASA" type="string"/>
+<Field name="HLO_TPCARG" type="string"/>
+<Field name="HLO_RELTRB" type="string"/>
+<Field name="HLO_DATA" type="string"/>
+<Field length="15" name="HLO_QBCOHR" scale="5" type="decimal"/>
+<Field length="15" name="HLO_VBCOHR" scale="5" type="decimal"/>
+<Field name="HLO_PLCCST" type="string"/>
+<Field name="HLO_SECAO" type="string"/>
+<Field name="HLO_LOCALI" type="string"/>
+<Field name="HLO_PRESRV" type="string"/>
+<Field name="HLO_PLOTAC" type="string"/>
+<Field name="HLO_ULOTAC" type="string"/>
+<Field name="HLO_LIVRE0" type="string"/>
+<Field name="HLO_LIVRE1" type="string"/>
+<Field name="HLO_LIVRE2" type="string"/>
+<Field name="HLO_LIVRE3" type="string"/>
+<Field name="HLO_LIVRE4" type="string"/>
+<Field name="HLO_LIVRE5" type="string"/>
+<Field name="HLO_LIVRE6" type="string"/>
+<Field name="HLO_LIVRE7" type="string"/>
+<Field name="HLO_LIVRE8" type="string"/>
+<Field name="HLO_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

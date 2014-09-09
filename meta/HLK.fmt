@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," label="HLK.csv" name="HLK" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HLK.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HLK_LINPRO" type="string"/>
+<Field name="HLK_ISTCIA" type="string"/>
+<Field name="HLK_ESTABL" type="string"/>
+<Field name="HLK_EMPRES" type="string"/>
+<Field name="HLK_FILIAL" type="string"/>
+<Field name="HLK_BANCO" type="string"/>
+<Field name="HLK_ESPDOC" type="string"/>
+<Field name="HLK_UNDNEG" type="string"/>
+<Field name="HLK_FORNEC" type="string"/>
+<Field name="HLK_MOEDA" type="string"/>
+<Field name="HLK_REGIAO" type="string"/>
+<Field name="HLK_MODALI" type="string"/>
+<Field name="HLK_DTEXTR" type="string"/>
+<Field name="HLK_DTEMIS" type="string"/>
+<Field name="HLK_SERDOC" type="string"/>
+<Field name="HLK_DTVENC" type="string"/>
+<Field name="HLK_NUMDOC" type="string"/>
+<Field name="HLK_PARCEL" type="string"/>
+<Field length="15" name="HLK_PRZVCT" scale="5" type="decimal"/>
+<Field length="15" name="HLK_VPAGAR" scale="5" type="decimal"/>
+<Field name="HLK_GRPFOR" type="string"/>
+<Field length="15" name="HLK_VSUBCT" scale="5" type="decimal"/>
+<Field name="HLK_LIVRE0" type="string"/>
+<Field name="HLK_LIVRE1" type="string"/>
+<Field name="HLK_LIVRE2" type="string"/>
+<Field name="HLK_LIVRE3" type="string"/>
+<Field name="HLK_LIVRE4" type="string"/>
+<Field name="HLK_LIVRE5" type="string"/>
+<Field name="HLK_LIVRE6" type="string"/>
+<Field name="HLK_LIVRE7" type="string"/>
+<Field name="HLK_LIVRE8" type="string"/>
+<Field name="HLK_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HO4" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HO4.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HO4_ISTCIA" type="string"/>
+<Field name="HO4_LINPRO" type="string"/>
+<Field name="HO4_FILIAL" type="string"/>
+<Field name="HO4_GRPEMP" type="string"/>
+<Field name="HO4_CDUNEG" type="string"/>
+<Field name="HO4_CDEMPR" type="string"/>
+<Field name="HO4_TAREFA" type="string"/>
+<Field name="HO4_CODIGO" type="string"/>
+<Field name="HO4_DESC" type="string"/>
+<Field name="HO4_LIVRE0" type="string"/>
+<Field name="HO4_LIVRE1" type="string"/>
+<Field name="HO4_LIVRE2" type="string"/>
+<Field name="HO4_LIVRE3" type="string"/>
+<Field name="HO4_LIVRE4" type="string"/>
+<Field name="HO4_LIVRE5" type="string"/>
+<Field name="HO4_LIVRE6" type="string"/>
+<Field name="HO4_LIVRE7" type="string"/>
+<Field name="HO4_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HO4_LIVRE9" type="string"/>
+</Record>

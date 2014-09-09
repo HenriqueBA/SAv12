@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," label="HGT.csv" name="HGT" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HGT.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HGT_ISTCIA" type="string"/>
+<Field name="HGT_LINPRO" type="string"/>
+<Field name="HGT_GRPEMP" type="string"/>
+<Field name="HGT_CDUNEG" type="string"/>
+<Field name="HGT_CDEMPR" type="string"/>
+<Field name="HGT_FILIAL" type="string"/>
+<Field name="HGT_TRCHCT" type="string"/>
+<Field name="HGT_CODIGO" type="string"/>
+<Field name="HGT_DESC" type="string"/>
+<Field name="HGT_LIVRE0" type="string"/>
+<Field name="HGT_LIVRE1" type="string"/>
+<Field name="HGT_LIVRE2" type="string"/>
+<Field name="HGT_LIVRE3" type="string"/>
+<Field name="HGT_LIVRE4" type="string"/>
+<Field name="HGT_LIVRE5" type="string"/>
+<Field name="HGT_LIVRE6" type="string"/>
+<Field name="HGT_LIVRE7" type="string"/>
+<Field name="HGT_LIVRE8" type="string"/>
+<Field name="HGT_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

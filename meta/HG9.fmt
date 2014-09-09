@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HG9" previewAttachment="${DATA_TMP_DIR}/HG9.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HG9_ISTCIA" type="string"/>
+<Field name="HG9_LINPRO" type="string"/>
+<Field name="HG9_GRPEMP" type="string"/>
+<Field name="HG9_CDUNEG" type="string"/>
+<Field name="HG9_CDEMPR" type="string"/>
+<Field name="HG9_FILIAL" type="string"/>
+<Field name="HG9_ITMCTB" type="string"/>
+<Field name="HG9_CODIGO" type="string"/>
+<Field name="HG9_DESC" type="string"/>
+<Field name="HG9_ITMCTP" type="string"/>
+<Field name="HG9_CODPAI" type="string"/>
+<Field name="HG9_LIVRE0" type="string"/>
+<Field name="HG9_LIVRE1" type="string"/>
+<Field name="HG9_LIVRE2" type="string"/>
+<Field name="HG9_LIVRE3" type="string"/>
+<Field name="HG9_LIVRE4" type="string"/>
+<Field name="HG9_LIVRE5" type="string"/>
+<Field name="HG9_LIVRE6" type="string"/>
+<Field name="HG9_LIVRE7" type="string"/>
+<Field name="HG9_LIVRE8" type="string"/>
+<Field name="HG9_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

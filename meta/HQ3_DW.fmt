@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HQ3_DW" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HQ3_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HQ3_DTCBDP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_DTEPTC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_DTULPV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_DTPPTC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_DTEMBA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_GRPCLI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_CLIENT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_NPREXP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_SITEXP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_FORNTI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_FORNAC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_FORNDP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_FORNSG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_INCOTR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_NATEXP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_DESPES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_ITINER" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_PTOCTR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_FORNDS" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_CLDESP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_CONDPG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_VIATRA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ3_SEQPTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HQ3_VDESPD" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HQ3_VDESPI" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HQ3_VTXFIN" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HQ3_VDESDX" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

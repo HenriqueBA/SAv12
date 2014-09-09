@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HOE_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyyMMdd" name="HOE_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HOE_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOE_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOE_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOE_FILATV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOE_TIPTRA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOE_SERTRA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOE_SEROPE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOE_TAREFA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOE_ATIVID" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOE_TIPOPE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOE_VIAGEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HOE_PERFOR" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field default="0" length="15" name="PERFOR_COLETA" scale="5" type="decimal"/>
+<Field default="0" length="15" name="PERFOR_ENTR" scale="5" type="decimal"/>
+<Field default="0" length="15" name="PERFOR_TRANS" scale="5" type="decimal"/>
+</Record>

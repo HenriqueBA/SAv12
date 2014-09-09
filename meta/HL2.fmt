@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HL2" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HL2.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HL2_LINPRO" type="string"/>
+<Field name="HL2_ISTCIA" type="string"/>
+<Field name="HL2_EMPRES" type="string"/>
+<Field name="HL2_FILIAL" type="string"/>
+<Field name="HL2_ESTABL" type="string"/>
+<Field name="HL2_ITEM" type="string"/>
+<Field name="HL2_FAMCOM" type="string"/>
+<Field name="HL2_FAMMAT" type="string"/>
+<Field name="HL2_GRPEST" type="string"/>
+<Field name="HL2_PRDUTO" type="string"/>
+<Field name="HL2_REPRES" type="string"/>
+<Field name="HL2_TRANSP" type="string"/>
+<Field name="HL2_NATOPR" type="string"/>
+<Field name="HL2_CFOP" type="string"/>
+<Field name="HL2_GRPCLI" type="string"/>
+<Field name="HL2_CLIENT" type="string"/>
+<Field name="HL2_REGIAO" type="string"/>
+<Field name="HL2_MOEDA" type="string"/>
+<Field name="HL2_CONDPG" type="string"/>
+<Field name="HL2_UNDNEG" type="string"/>
+<Field format="yyyyMMdd" name="HL2_DATA" type="date"/>
+<Field name="HL2_SERNF" type="string"/>
+<Field name="HL2_NUMNF" type="string"/>
+<Field length="15" name="HL2_VFATOT" scale="5" type="decimal"/>
+<Field length="15" name="HL2_VCMFAT" scale="5" type="decimal"/>
+<Field length="15" name="HL2_VLCSFT" scale="5" type="decimal"/>
+<Field length="15" name="HL2_VICMSF" scale="5" type="decimal"/>
+<Field length="15" name="HL2_VIPIFT" scale="5" type="decimal"/>
+<Field length="15" name="HL2_VRECFI" scale="5" type="decimal"/>
+<Field length="15" name="HL2_VFRTNF" scale="5" type="decimal"/>
+<Field length="15" name="HL2_VDESPE" scale="5" type="decimal"/>
+<Field length="15" name="HL2_VFATME" scale="5" type="decimal"/>
+<Field length="15" name="HL2_VFATLQ" scale="5" type="decimal"/>
+<Field length="15" name="HL2_VPISFT" scale="5" type="decimal"/>
+<Field length="15" name="HL2_VCOFIN" scale="5" type="decimal"/>
+<Field length="15" name="HL2_QFATIT" scale="5" type="decimal"/>
+<Field length="15" name="HL2_VISSFT" scale="5" type="decimal"/>
+<Field name="HL2_PEDIDO" type="string"/>
+<Field length="15" name="HL2_QFATFC" scale="5" type="decimal"/>
+<Field length="15" name="HL2_QFATFM" scale="5" type="decimal"/>
+<Field name="HL2_TABPCO" type="string"/>
+<Field name="HL2_CANALV" type="string"/>
+<Field name="HL2_ROTA" type="string"/>
+<Field name="HL2_REGCOM" type="string"/>
+<Field name="HL2_MICREG" type="string"/>
+<Field name="HL2_REFER" type="string"/>
+<Field name="HL2_NMITNF" type="string"/>
+<Field length="15" name="HL2_VICMSS" scale="5" type="decimal"/>
+<Field length="15" name="HL2_VLDESF" scale="5" type="decimal"/>
+<Field length="15" name="HL2_VLIRFF" scale="5" type="decimal"/>
+<Field length="15" name="HL2_VINSSF" scale="5" type="decimal"/>
+<Field name="HL2_FGERDP" type="string"/>
+<Field name="HL2_DTSANF" type="string"/>
+<Field length="15" name="HL2_QPRZDP" scale="5" type="decimal"/>
+<Field name="HL2_TPFRET" type="string"/>
+<Field name="HL2_TPNOTA" type="string"/>
+<Field length="15" name="HL2_QTPESL" scale="5" type="decimal"/>
+<Field length="15" name="HL2_QTPESB" scale="5" type="decimal"/>
+<Field name="HL2_TRARED" type="string"/>
+<Field name="HL2_FBXEST" type="string"/>
+<Field name="HL2_TPCPIT" type="string"/>
+<Field name="HL2_LIVRE0" type="string"/>
+<Field name="HL2_LIVRE1" type="string"/>
+<Field name="HL2_LIVRE2" type="string"/>
+<Field name="HL2_LIVRE3" type="string"/>
+<Field name="HL2_LIVRE4" type="string"/>
+<Field name="HL2_LIVRE5" type="string"/>
+<Field name="HL2_LIVRE6" type="string"/>
+<Field name="HL2_LIVRE7" type="string"/>
+<Field name="HL2_LIVRE8" type="string"/>
+<Field name="HL2_LIVRE9" type="string"/>
+<Field name="HL2_REMITO" type="string"/>
+<Field name="HL2_SERREM" type="string"/>
+<Field name="HL2_ITEREM" type="string"/>
+<Field name="HL2_UNITEM" type="string"/>
+<Field length="15" name="HL2_VIPINC" scale="5" type="decimal"/>
+<Field length="15" name="HL2_VIPNIN" scale="5" type="decimal"/>
+<Field name="HL2_TIPDOC" type="string"/>
+<Field length="15" name="HL2_VALCMV" scale="5" type="decimal"/>
+<Field length="15" name="HL2_QTDVEN" scale="5" type="decimal"/>
+<Field length="15" name="HL2_VLUNIT" scale="5" type="decimal"/>
+<Field name="HL2_CANMID" type="string"/>
+<Field name="HL2_CLIREM" type="string"/>
+<Field name="HL2_CLIDES" type="string"/>
+<Field name="HL2_CLIDEV" type="string"/>
+<Field name="HL2_FORNEC" type="string"/>
+<Field name="HL2_FXHORA" type="string"/>
+<Field name="HL2_FORPAG" type="string"/>
+<Field name="HL2_ORILAN" type="string"/>
+<Field name="HL2_REGTRA" type="string"/>
+<Field name="HL2_REGDES" type="string"/>
+<Field name="HL2_SERTRA" type="string"/>
+<Field name="HL2_TIPTRA" type="string"/>
+<Field name="HL2_VIAGEM" type="string"/>
+<Field name="HL2_FILORI" type="string"/>
+</Record>

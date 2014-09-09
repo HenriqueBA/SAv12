@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLS" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HLS.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HLS_LINPRO" type="string"/>
+<Field name="HLS_ISTCIA" type="string"/>
+<Field name="HLS_EMPRES" type="string"/>
+<Field name="HLS_FILIAL" type="string"/>
+<Field name="HLS_ESTABL" type="string"/>
+<Field name="HLS_CCUSTO" type="string"/>
+<Field name="HLS_MOEDA" type="string"/>
+<Field name="HLS_UNDNEG" type="string"/>
+<Field name="HLS_DATA" type="string"/>
+<Field length="15" name="HLS_VCUSTO" scale="5" type="decimal"/>
+<Field length="15" name="HLS_VCSPRV" scale="5" type="decimal"/>
+<Field length="15" name="HLS_VCSTOT" scale="5" type="decimal"/>
+<Field length="15" name="HLS_VCSPAD" scale="5" type="decimal"/>
+<Field length="15" name="HLS_QHRPRO" scale="5" type="decimal"/>
+<Field length="15" name="HLS_QHRDSP" scale="5" type="decimal"/>
+<Field length="15" name="HLS_QHRPAD" scale="5" type="decimal"/>
+<Field name="HLS_PLCCST" type="string"/>
+<Field length="15" name="HLS_QHRREP" scale="5" type="decimal"/>
+<Field name="HLS_LIVRE0" type="string"/>
+<Field name="HLS_LIVRE1" type="string"/>
+<Field name="HLS_LIVRE2" type="string"/>
+<Field name="HLS_LIVRE3" type="string"/>
+<Field name="HLS_LIVRE4" type="string"/>
+<Field name="HLS_LIVRE5" type="string"/>
+<Field name="HLS_LIVRE6" type="string"/>
+<Field name="HLS_LIVRE7" type="string"/>
+<Field name="HLS_LIVRE8" type="string"/>
+<Field name="HLS_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLF_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HLF_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HLF_DTPROC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLF_DTFIMP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLF_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLF_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLF_COLREC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLF_GRAINS" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLF_NIVHIE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLF_SINDIC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLF_SITCLB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLF_TPCASA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLF_TPCARG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLF_SECAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLF_NUMPRC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HLF_QTRECL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

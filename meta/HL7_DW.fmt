@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HL7_DW" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HL7_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HL7_DTFATU" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_DTVEND" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_DTIMPL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_ITEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_FAMCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_FAMMAT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_GRPEST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_PRDUTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_REPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_TRANSP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_NATOPR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_CFOP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_CONDPG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_GRPCLI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_CLIENT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_PEDIDO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_SERNF" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_NUMNF" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_CANALV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_REGCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_MICREG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_ROTA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_REFER" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_TRARED" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_STPEDV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_STITPV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_TPCPIT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL7_NMITEN" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HL7_QNRENT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL7_QLEADT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL7_QDSATR" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL7_QDSANT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL7_QDEMIP" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL7_NMPRIO" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HKT" previewAttachment="${DATA_TMP_DIR}/HKT.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HKT_LINPRO" type="string"/>
+<Field name="HKT_ISTCIA" type="string"/>
+<Field name="HKT_EMPRES" type="string"/>
+<Field name="HKT_FILIAL" type="string"/>
+<Field name="HKT_ESTABL" type="string"/>
+<Field name="HKT_FAMMAT" type="string"/>
+<Field name="HKT_FAMCOM" type="string"/>
+<Field name="HKT_GRPEST" type="string"/>
+<Field name="HKT_ITEM" type="string"/>
+<Field name="HKT_DEPOSI" type="string"/>
+<Field name="HKT_MOEDA" type="string"/>
+<Field name="HKT_UNDNEG" type="string"/>
+<Field name="HKT_DATA" type="string"/>
+<Field length="15" name="HKT_QINISD" scale="5" type="decimal"/>
+<Field length="15" name="HKT_QFINSD" scale="5" type="decimal"/>
+<Field length="15" name="HKT_VINISD" scale="5" type="decimal"/>
+<Field length="15" name="HKT_VFINSD" scale="5" type="decimal"/>
+<Field name="HKT_REFER" type="string"/>
+<Field name="HKT_CODLOC" type="string"/>
+<Field name="HKT_NMLOTE" type="string"/>
+<Field name="HKT_LIVRE0" type="string"/>
+<Field name="HKT_LIVRE1" type="string"/>
+<Field name="HKT_LIVRE2" type="string"/>
+<Field name="HKT_LIVRE3" type="string"/>
+<Field name="HKT_LIVRE4" type="string"/>
+<Field name="HKT_LIVRE5" type="string"/>
+<Field name="HKT_LIVRE6" type="string"/>
+<Field name="HKT_LIVRE7" type="string"/>
+<Field name="HKT_LIVRE8" type="string"/>
+<Field name="HKT_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

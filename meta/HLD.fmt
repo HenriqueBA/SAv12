@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLD" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HLD.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HLD_LINPRO" type="string"/>
+<Field name="HLD_ISTCIA" type="string"/>
+<Field name="HLD_EMPRES" type="string"/>
+<Field name="HLD_FILIAL" type="string"/>
+<Field name="HLD_ESTABL" type="string"/>
+<Field name="HLD_BANCO" type="string"/>
+<Field name="HLD_ESPDOC" type="string"/>
+<Field name="HLD_UNDNEG" type="string"/>
+<Field name="HLD_FORNEC" type="string"/>
+<Field name="HLD_REGIAO" type="string"/>
+<Field name="HLD_MODALI" type="string"/>
+<Field name="HLD_MOEDA" type="string"/>
+<Field name="HLD_DATA" type="string"/>
+<Field name="HLD_DTEMIS" type="string"/>
+<Field name="HLD_SERDOC" type="string"/>
+<Field name="HLD_NUMDOC" type="string"/>
+<Field name="HLD_PARCEL" type="string"/>
+<Field length="15" name="HLD_VCOMPR" scale="5" type="decimal"/>
+<Field length="15" name="HLD_VVECTO" scale="5" type="decimal"/>
+<Field length="15" name="HLD_PRZVCT" scale="5" type="decimal"/>
+<Field name="HLD_GRPFOR" type="string"/>
+<Field length="15" name="HLD_VSUBVC" scale="5" type="decimal"/>
+<Field name="HLD_LIVRE0" type="string"/>
+<Field name="HLD_LIVRE1" type="string"/>
+<Field name="HLD_LIVRE2" type="string"/>
+<Field name="HLD_LIVRE3" type="string"/>
+<Field name="HLD_LIVRE4" type="string"/>
+<Field name="HLD_LIVRE5" type="string"/>
+<Field name="HLD_LIVRE6" type="string"/>
+<Field name="HLD_LIVRE7" type="string"/>
+<Field name="HLD_LIVRE8" type="string"/>
+<Field name="HLD_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

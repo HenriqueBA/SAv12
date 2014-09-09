@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLT_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HLT_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HLT_FILIAL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_LINPRO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_ISTCIA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_FAMMAT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_FAMCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_GRPEST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_ITEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_PLANEJ" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_GRPCLI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_CCUSTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_GRPMAQ" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_CLIENT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_PLCCST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_TIPITM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_LINHAP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_REFER" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_PEDIDO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLT_ORDEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HLT_SEQCIA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLT_QHRGFP" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLT_VCSGFP" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

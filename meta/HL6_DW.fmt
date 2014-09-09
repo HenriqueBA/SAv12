@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HL6_DW" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field eofAsDelimiter="false" name="HL6_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HL6_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_NATOPR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_CFOP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_TRANSP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_CONDPG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_ITEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_FAMCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_FAMMAT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_GRPEST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_PRDUTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_REPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_GRPCLI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_CLIENT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_SERDEV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_NUMDEV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_SERNF" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_NUMNF" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_ROTA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_CANALV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_REGCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_MICREG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_SEQDEV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_SEQNF" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL6_REFER" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HL6_VICMSS" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL6_VDESDV" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL6_VINSSD" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL6_QDEVIT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL6_VDEVTO" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL6_VICMSD" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL6_VIPIDV" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL6_VDEVLQ" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL6_VDEVME" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL6_VPISDV" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL6_VCOFID" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL6_VCSTDV" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL6_QDEVFC" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL6_QDEVFM" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

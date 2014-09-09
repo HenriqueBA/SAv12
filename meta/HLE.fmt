@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLE" previewAttachment="${DATA_TMP_DIR}/HLE.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HLE_LINPRO" type="string"/>
+<Field name="HLE_ISTCIA" type="string"/>
+<Field name="HLE_EMPRES" type="string"/>
+<Field name="HLE_FILIAL" type="string"/>
+<Field name="HLE_ESTABL" type="string"/>
+<Field name="HLE_REPRES" type="string"/>
+<Field name="HLE_BANCO" type="string"/>
+<Field name="HLE_ESPDOC" type="string"/>
+<Field name="HLE_UNDNEG" type="string"/>
+<Field name="HLE_CLIENT" type="string"/>
+<Field name="HLE_REGIAO" type="string"/>
+<Field name="HLE_MOEDA" type="string"/>
+<Field name="HLE_MODALI" type="string"/>
+<Field name="HLE_DTEMIS" type="string"/>
+<Field name="HLE_DATA" type="string"/>
+<Field name="HLE_SERDOC" type="string"/>
+<Field name="HLE_NUMDOC" type="string"/>
+<Field name="HLE_PARCEL" type="string"/>
+<Field length="15" name="HLE_VFATUR" scale="5" type="decimal"/>
+<Field length="15" name="HLE_PRZVCT" scale="5" type="decimal"/>
+<Field length="15" name="HLE_VVECTO" scale="5" type="decimal"/>
+<Field name="HLE_GRPCLI" type="string"/>
+<Field length="15" name="HLE_VSUBVC" scale="5" type="decimal"/>
+<Field name="HLE_LIVRE0" type="string"/>
+<Field name="HLE_LIVRE1" type="string"/>
+<Field name="HLE_LIVRE2" type="string"/>
+<Field name="HLE_LIVRE3" type="string"/>
+<Field name="HLE_LIVRE4" type="string"/>
+<Field name="HLE_LIVRE5" type="string"/>
+<Field name="HLE_LIVRE6" type="string"/>
+<Field name="HLE_LIVRE7" type="string"/>
+<Field name="HLE_LIVRE8" type="string"/>
+<Field name="HLE_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

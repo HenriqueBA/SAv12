@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLP_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HLP_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HLP_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_SINDIC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_TURNO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_EVENTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_TIPMOB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_CCUSTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_COLABR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_PLCCST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_CARGO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_NIVHIE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_FXASAL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_CATSAL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_ESTCIV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_FXAETA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_GRAINS" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_TPCASA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_TPCARG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_SECAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_LOCALI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_PRESRV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_PLOTAC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_ULOTAC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_SITCLB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLP_RELTRB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HLP_QDEPEN" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLP_QHRPRV" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLP_QHREXT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLP_VHREXT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLP_QHRTRB" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLP_VHRTRB" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" name="HLP_VENCEM" nullable="true" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLP_VENCCB" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLP_VBENEM" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLP_VBENCB" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLP_VFLHPG" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLP_VEVESP" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLP_QCBCAL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLP_VDESFP" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLP_QCBNCA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HKM" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HKM.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HKM_FILIAL" type="string"/>
+<Field name="HKM_FORNEC" type="string"/>
+<Field name="HKM_LINPRO" type="string"/>
+<Field name="HKM_EMPRES" type="string"/>
+<Field name="HKM_ESTABL" type="string"/>
+<Field name="HKM_TRANSP" type="string"/>
+<Field name="HKM_FAMMAT" type="string"/>
+<Field name="HKM_FAMCOM" type="string"/>
+<Field name="HKM_GRPEST" type="string"/>
+<Field name="HKM_ITEM" type="string"/>
+<Field name="HKM_CMPRDR" type="string"/>
+<Field name="HKM_ORDEM" type="string"/>
+<Field name="HKM_PEDIDO" type="string"/>
+<Field name="HKM_CONDPG" type="string"/>
+<Field name="HKM_REGIAO" type="string"/>
+<Field name="HKM_MOEDA" type="string"/>
+<Field name="HKM_UNDNEG" type="string"/>
+<Field name="HKM_CCUSTO" type="string"/>
+<Field name="HKM_DATA" type="string"/>
+<Field length="15" name="HKM_QDIAAN" scale="5" type="decimal"/>
+<Field length="15" name="HKM_QDIAAT" scale="5" type="decimal"/>
+<Field length="15" name="HKM_QRECEB" scale="5" type="decimal"/>
+<Field length="15" name="HKM_QRECFM" scale="5" type="decimal"/>
+<Field length="15" name="HKM_VRECEB" scale="5" type="decimal"/>
+<Field name="HKM_ISTCIA" type="string"/>
+<Field name="HKM_DATANF" type="string"/>
+<Field name="HKM_DTEORD" type="string"/>
+<Field name="HKM_DTEPED" type="string"/>
+<Field name="HKM_DTPREV" type="string"/>
+<Field name="HKM_NUMNF" type="string"/>
+<Field name="HKM_SERNF" type="string"/>
+<Field name="HKM_CFOP" type="string"/>
+<Field name="HKM_NATOPR" type="string"/>
+<Field length="15" name="HKM_NUMPRG" scale="5" type="decimal"/>
+<Field name="HKM_PLCCST" type="string"/>
+<Field name="HKM_GRPFOR" type="string"/>
+<Field name="HKM_EMERG" type="string"/>
+<Field name="HKM_SITCMP" type="string"/>
+<Field name="HKM_NATCMP" type="string"/>
+<Field name="HKM_REFER" type="string"/>
+<Field length="15" name="HKM_SEQCIA" scale="5" type="decimal"/>
+<Field length="15" name="HKM_QRECAN" scale="5" type="decimal"/>
+<Field length="15" name="HKM_QRECAT" scale="5" type="decimal"/>
+<Field length="15" name="HKM_QRECDT" scale="5" type="decimal"/>
+<Field length="15" name="HKM_QRECUN" scale="5" type="decimal"/>
+<Field name="HKM_LIVRE0" type="string"/>
+<Field name="HKM_LIVRE1" type="string"/>
+<Field name="HKM_LIVRE2" type="string"/>
+<Field name="HKM_LIVRE3" type="string"/>
+<Field name="HKM_LIVRE4" type="string"/>
+<Field name="HKM_LIVRE5" type="string"/>
+<Field name="HKM_LIVRE6" type="string"/>
+<Field name="HKM_LIVRE7" type="string"/>
+<Field name="HKM_LIVRE8" type="string"/>
+<Field name="HKM_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HOQ_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyyMMdd" name="HOQ_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HOQ_DTEXTR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOQ_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOQ_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOQ_POSTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOQ_CONTRA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOQ_TIPCON" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOQ_CLIENT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOQ_SITCON" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOQ_STTPOS" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOQ_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOQ_ITEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOQ_UNITEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOQ_CARGO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOQ_TURNO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOQ_TIPREC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HOQ_SALDO" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HOQ_QTDCON" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HOQ_QTDALO" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HOQ_QUANTI" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field length="15" name="POSTO_COBERTO" scale="5" type="decimal"/>
+<Field length="15" name="POSTO_DESCOBERTO" scale="5" type="decimal"/>
+<Field length="15" name="POSTO_EXCEDIDO" scale="5" type="decimal"/>
+<Field length="15" name="SERV_NAO_CONTRATADO" scale="5" type="decimal"/>
+</Record>

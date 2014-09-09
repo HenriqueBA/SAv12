@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HJ6" previewAttachment="zip:(${DATA_TMP_DIR}/TOTVSBA.zip)#HJ6.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HJ6_MOEDA" type="string"/>
+<Field name="HJ6_ISTCIA" type="string"/>
+<Field name="HJ6_LINPRO" type="string"/>
+<Field name="HJ6_GRPEMP" type="string"/>
+<Field name="HJ6_CDUNEG" type="string"/>
+<Field name="HJ6_CDEMPR" type="string"/>
+<Field name="HJ6_FILIAL" type="string"/>
+<Field name="HJ6_CODIGO" type="string"/>
+<Field name="HJ6_NOME" type="string"/>
+<Field name="HJ6_LIVRE0" type="string"/>
+<Field name="HJ6_LIVRE1" type="string"/>
+<Field name="HJ6_LIVRE2" type="string"/>
+<Field name="HJ6_LIVRE3" type="string"/>
+<Field name="HJ6_LIVRE4" type="string"/>
+<Field name="HJ6_LIVRE5" type="string"/>
+<Field name="HJ6_LIVRE6" type="string"/>
+<Field name="HJ6_LIVRE7" type="string"/>
+<Field name="HJ6_LIVRE8" type="string"/>
+<Field name="HJ6_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

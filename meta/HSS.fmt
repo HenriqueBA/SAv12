@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HSS" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HSS.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HSS_ISTCIA" type="string"/>
+<Field name="HSS_LINPRO" type="string"/>
+<Field name="HSS_FILIAL" type="string"/>
+<Field name="HSS_EMPRES" type="string"/>
+<Field name="HSS_ESTABL" type="string"/>
+<Field name="HSS_STTOPO" type="string"/>
+<Field name="HSS_STTEST" type="string"/>
+<Field name="HSS_OPOVEN" type="string"/>
+<Field name="HSS_PROVEN" type="string"/>
+<Field name="HSS_UNICOM" type="string"/>
+<Field name="HSS_EQUVEN" type="string"/>
+<Field name="HSS_CLIENT" type="string"/>
+<Field name="HSS_PROSPE" type="string"/>
+<Field name="HSS_REGIAO" type="string"/>
+<Field name="HSS_AREA" type="string"/>
+<Field length="15" name="HSS_QTDADE" scale="5" type="decimal"/>
+<Field length="15" name="HSS_QTMINT" scale="5" type="decimal"/>
+<Field name="HSS_DTINIE" type="string"/>
+<Field name="HSS_HRINIE" type="string"/>
+<Field name="HSS_DTFIME" type="string"/>
+<Field name="HSS_HRFIME" type="string"/>
+<Field name="HSS_ULTEST" type="string"/>
+<Field format="yyyyMMdd" name="HSS_DTINIO" type="date"/>
+<Field format="yyyyMMdd" name="HSS_DTFIMO" type="date"/>
+<Field name="HSS_LIVRE0" type="string"/>
+<Field name="HSS_LIVRE1" type="string"/>
+<Field name="HSS_LIVRE2" type="string"/>
+<Field name="HSS_LIVRE3" type="string"/>
+<Field name="HSS_LIVRE4" type="string"/>
+<Field name="HSS_LIVRE5" type="string"/>
+<Field name="HSS_LIVRE6" type="string"/>
+<Field name="HSS_LIVRE7" type="string"/>
+<Field name="HSS_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HSS_LIVRE9" type="string"/>
+</Record>

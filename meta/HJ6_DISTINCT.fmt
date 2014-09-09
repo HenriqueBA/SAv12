@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="|" name="HJ6_DISTINCT" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="ordem" type="string"/>
+<Field name="nome" type="string"/>
+</Record>

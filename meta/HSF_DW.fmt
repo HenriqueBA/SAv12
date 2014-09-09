@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HSF_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyyMMdd" name="HSF_DTAINI" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" format="yyyyMMdd" name="HSF_DTAFIM" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HSF_FILIAL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSF_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSF_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSF_STTATI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSF_TIPATI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSF_REPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSF_USUARI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSF_UNICOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSF_EQUVEN" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSF_HORAIN" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSF_HORAFI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HSF_QTATVI" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HSF_QTMINT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field default="0" length="15" name="QTATVICOMP" scale="5" type="decimal"/>
+</Record>

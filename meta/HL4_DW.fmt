@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HL4_DW" previewAttachment="./data/tmp/FATOHL4.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" skipSourceRows="1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HL4_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HL4_DTIMPL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_DTENTR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_TRANSP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_REPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_NATOPR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_CFOP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_ITEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_FAMCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_FAMMAT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_GRPEST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_PRDUTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_CONDPG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_PEDIDO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_GRPCLI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_CLIENT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_STCRED" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_CANALV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_REGCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_MICREG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_ROTA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_TABPCO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_REFER" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_NMITVD" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_NMPRIO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_TRARED" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_STPEDV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_STITPV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL4_TPCPIT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HL4_VVENDA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL4_QVENDA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL4_VIMPVD" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL4_VVMERC" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL4_VVNDLQ" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL4_QVENFC" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL4_QVENFM" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL4_VLDESV" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

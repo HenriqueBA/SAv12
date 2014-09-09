@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," label="HJM.csv" name="HJM" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HJM.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HJM_ISTCIA" type="string"/>
+<Field name="HJM_LINPRO" type="string"/>
+<Field name="HJM_GRPEMP" type="string"/>
+<Field name="HJM_CDUNEG" type="string"/>
+<Field name="HJM_CDEMPR" type="string"/>
+<Field name="HJM_FILIAL" type="string"/>
+<Field name="HJM_COLABR" type="string"/>
+<Field name="HJM_CODIGO" type="string"/>
+<Field name="HJM_PNECES" type="string"/>
+<Field name="HJM_GENERO" type="string"/>
+<Field name="HJM_DSGNRO" type="string"/>
+<Field name="HJM_RACA" type="string"/>
+<Field name="HJM_DSRACA" type="string"/>
+<Field name="HJM_DTNASC" type="string"/>
+<Field name="HJM_NOME" type="string"/>
+<Field name="HJM_DESLIG" type="string"/>
+<Field name="HJM_PRSERV" type="string"/>
+<Field name="HJM_EXTERN" type="string"/>
+<Field name="HJM_EXTEMP" type="string"/>
+<Field name="HJM_LIVRE0" type="string"/>
+<Field name="HJM_LIVRE1" type="string"/>
+<Field name="HJM_LIVRE2" type="string"/>
+<Field name="HJM_LIVRE3" type="string"/>
+<Field name="HJM_LIVRE4" type="string"/>
+<Field name="HJM_LIVRE5" type="string"/>
+<Field name="HJM_LIVRE6" type="string"/>
+<Field name="HJM_LIVRE7" type="string"/>
+<Field name="HJM_LIVRE8" type="string"/>
+<Field name="HJM_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

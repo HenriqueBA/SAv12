@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HKL" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HKL.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HKL_FILIAL" type="string"/>
+<Field name="HKL_FORNEC" type="string"/>
+<Field name="HKL_LINPRO" type="string"/>
+<Field name="HKL_EMPRES" type="string"/>
+<Field name="HKL_ESTABL" type="string"/>
+<Field name="HKL_TRANSP" type="string"/>
+<Field name="HKL_FAMMAT" type="string"/>
+<Field name="HKL_FAMCOM" type="string"/>
+<Field name="HKL_GRPEST" type="string"/>
+<Field name="HKL_ITEM" type="string"/>
+<Field name="HKL_CMPRDR" type="string"/>
+<Field name="HKL_ORDEM" type="string"/>
+<Field name="HKL_PEDIDO" type="string"/>
+<Field name="HKL_CONDPG" type="string"/>
+<Field name="HKL_REGIAO" type="string"/>
+<Field name="HKL_MOEDA" type="string"/>
+<Field name="HKL_CCUSTO" type="string"/>
+<Field name="HKL_UNDNEG" type="string"/>
+<Field name="HKL_DATA" type="string"/>
+<Field length="15" name="HKL_QDEVOL" scale="5" type="decimal"/>
+<Field length="15" name="HKL_QDVFMT" scale="5" type="decimal"/>
+<Field length="15" name="HKL_VDEVOL" scale="5" type="decimal"/>
+<Field name="HKL_ISTCIA" type="string"/>
+<Field name="HKL_SERNF" type="string"/>
+<Field name="HKL_NUMNF" type="string"/>
+<Field name="HKL_CFOP" type="string"/>
+<Field name="HKL_NATOPR" type="string"/>
+<Field length="15" name="HKL_NUMPRG" scale="5" type="decimal"/>
+<Field name="HKL_PLCCST" type="string"/>
+<Field name="HKL_EMERG" type="string"/>
+<Field name="HKL_SITCMP" type="string"/>
+<Field name="HKL_NATCMP" type="string"/>
+<Field name="HKL_GRPFOR" type="string"/>
+<Field name="HKL_REFER" type="string"/>
+<Field length="15" name="HKL_SEQCIA" scale="5" type="decimal"/>
+<Field length="15" name="HKL_QORDDV" scale="5" type="decimal"/>
+<Field name="HKL_LIVRE0" type="string"/>
+<Field name="HKL_LIVRE1" type="string"/>
+<Field name="HKL_LIVRE2" type="string"/>
+<Field name="HKL_LIVRE3" type="string"/>
+<Field name="HKL_LIVRE4" type="string"/>
+<Field name="HKL_LIVRE5" type="string"/>
+<Field name="HKL_LIVRE6" type="string"/>
+<Field name="HKL_LIVRE7" type="string"/>
+<Field name="HKL_LIVRE8" type="string"/>
+<Field name="HKL_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

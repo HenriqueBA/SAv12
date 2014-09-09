@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HGQ" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HGQ.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HGQ_ISTCIA" type="string"/>
+<Field name="HGQ_LINPRO" type="string"/>
+<Field name="HGQ_GRPEMP" type="string"/>
+<Field name="HGQ_CDUNEG" type="string"/>
+<Field name="HGQ_CDEMPR" type="string"/>
+<Field name="HGQ_FILIAL" type="string"/>
+<Field name="HGQ_ITINER" type="string"/>
+<Field name="HGQ_CODIGO" type="string"/>
+<Field name="HGQ_DESC" type="string"/>
+<Field name="HGQ_LIVRE0" type="string"/>
+<Field name="HGQ_LIVRE1" type="string"/>
+<Field name="HGQ_LIVRE2" type="string"/>
+<Field name="HGQ_LIVRE3" type="string"/>
+<Field name="HGQ_LIVRE4" type="string"/>
+<Field name="HGQ_LIVRE5" type="string"/>
+<Field name="HGQ_LIVRE6" type="string"/>
+<Field name="HGQ_LIVRE7" type="string"/>
+<Field name="HGQ_LIVRE8" type="string"/>
+<Field name="HGQ_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

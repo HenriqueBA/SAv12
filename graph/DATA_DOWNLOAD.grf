@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Graph author="michel" created="Mon Aug 26 09:15:38 BRT 2013" guiVersion="3.4.3.P" id="1377537595110" licenseType="Commercial" modified="Thu Jan 16 15:24:26 BRST 2014" modifiedBy="michel" name="Download_dimensoes" revision="1.36" showComponentDetails="true">
+<Global>
+<Property fileURL="parameters/parametros.prm" id="GraphParameter0"/>
+<Property fileURL="workspace.prm" id="GraphParameter5"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="182" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="12" title="FILES DOWNLOAD" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="14" width="464" x="45" y="41">
+<attr name="text"><![CDATA[Download de todos os arquivos de uma determinada pasta no GoodData Secure-DI do projeto.]]></attr>
+</Note>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node baseURL="https://${USER_PWD_SECURE_DI}@${STORAGE_HOST_WEBDAV}/${STORAGE_PATH_TODAY}/TOTVSSMARTANALYTICS.zip" destination="${DATA_TMP_DIR}" enabled="enabled" guiName="FILE DOWNLOAD" guiX="213" guiY="118" id="FILE_DOWNLOAD" makeDirs="true" maxRetryCount="2" overwriteExisting="true" retryDelay="15" type="FILE_DOWNLOAD">
+<attr name="guiDescription"><![CDATA[ARQUIVOS CARGA HOJE]]></attr>
+</Node>
+</Phase>
+</Graph>

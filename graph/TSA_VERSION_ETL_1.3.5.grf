@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="robson.bezerra" created="Tue Jul 15 09:07:09 BRT 2014" guiVersion="3.4.4.P" id="1405443786252" licenseType="Commercial" modified="Wed Jul 16 09:21:48 BRT 2014" modifiedBy="robson.bezerra" name="TSA_VERSION_1.1.1" revision="1.18" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata0" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="version_etl" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" type="delimited">
+<Field name="VERSION_ETL" type="string"/>
+<Field name="VERSION_COMPATIBLE_MODEL" type="string"/>
+<Field format="dd/MM/yyyy" name="DATE" type="date"/>
+<Field name="DESCRIPTION" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata1" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="version_model" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\r\n" type="delimited">
+<Field name="VERSION_MODEL" type="string"/>
+<Field format="dd/MM/yyyy" name="DATE" type="date"/>
+<Field name="DESCRIPTION" type="string"/>
+</Record>
+</Metadata>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="192" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="8" title="Versão ETL" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="10" width="568" x="72" y="315"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="196" id="Note1" textColorB="0" textColorG="0" textColorR="0" textFontSize="8" title="Versão ETL" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="10" width="568" x="72" y="56"/>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node enabled="enabled" fileURL="${DATA_TRANSFORM_DIR}/TSA_VERSION.xls" guiName="SpreadsheetDataReader" guiX="143" guiY="118" id="SPREADSHEET_DATA_READER" sheet="VERSION_ETL" type="SPREADSHEET_READER">
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mapping>
+    <globalAttributes>
+        <orientation>VERTICAL</orientation>
+        <step>1</step>
+        <writeHeader>true</writeHeader>
+    </globalAttributes>
+    <defaultSkip>1</defaultSkip>
+    <headerGroups>
+        <headerGroup skip="1">
+            <autoMappingType>NAME</autoMappingType>
+            <headerRanges>
+                <headerRange begin="A1"/>
+                <headerRange begin="B1"/>
+                <headerRange begin="C1"/>
+                <headerRange begin="D1"/>
+            </headerRanges>
+        </headerGroup>
+    </headerGroups>
+</mapping>
+]]></attr>
+</Node>
+<Node debugAppend="false" debugPrint="true" enabled="enabled" guiName="TSA" guiX="373" guiY="118" id="TSA_ETL" type="TRASH"/>
+<Edge debugMode="true" fromNode="SPREADSHEET_DATA_READER:0" guiBendpoints="" guiRouter="Manhattan" id="Edge0" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (output)" toNode="TSA_ETL:0"/>
+</Phase>
+<Phase number="1">
+<Node enabled="enabled" fileURL="${DATA_TRANSFORM_DIR}/TSA_VERSION.xls" guiName="SpreadsheetDataReader" guiX="143" guiY="374" id="SPREADSHEET_DATA_READER1" sheet="VERSION_MODEL" type="SPREADSHEET_READER">
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mapping>
+    <globalAttributes>
+        <orientation>VERTICAL</orientation>
+        <step>1</step>
+        <writeHeader>true</writeHeader>
+    </globalAttributes>
+    <defaultSkip>1</defaultSkip>
+    <headerGroups>
+        <headerGroup skip="1">
+            <autoMappingType>NAME</autoMappingType>
+            <headerRanges>
+                <headerRange begin="A1"/>
+                <headerRange begin="B1"/>
+                <headerRange begin="C1"/>
+            </headerRanges>
+        </headerGroup>
+    </headerGroups>
+</mapping>
+]]></attr>
+</Node>
+<Node debugAppend="false" debugPrint="true" enabled="enabled" guiName="TSA" guiX="373" guiY="374" id="TSA_MODEL" type="TRASH"/>
+<Edge debugMode="true" fromNode="SPREADSHEET_DATA_READER1:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata1" outPort="Port 0 (output)" toNode="TSA_MODEL:0"/>
+</Phase>
+</Graph>

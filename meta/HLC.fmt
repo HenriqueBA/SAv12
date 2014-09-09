@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLC" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HLC.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HLC_FILIAL" type="string"/>
+<Field name="HLC_LINPRO" type="string"/>
+<Field name="HLC_ISTCIA" type="string"/>
+<Field name="HLC_EMPRES" type="string"/>
+<Field name="HLC_ESTABL" type="string"/>
+<Field name="HLC_UNDNEG" type="string"/>
+<Field name="HLC_PLCONT" type="string"/>
+<Field name="HLC_CNTCTB" type="string"/>
+<Field name="HLC_CCUSTO" type="string"/>
+<Field name="HLC_MOEDA" type="string"/>
+<Field name="HLC_DATA" type="string"/>
+<Field length="15" name="HLC_VORCAD" scale="5" type="decimal"/>
+<Field length="15" name="HLC_VEMPEN" scale="5" type="decimal"/>
+<Field name="HLC_PLCCST" type="string"/>
+<Field name="HLC_CNORCA" type="string"/>
+<Field name="HLC_UNORCA" type="string"/>
+<Field name="HLC_SQORCA" type="string"/>
+<Field name="HLC_VSORCA" type="string"/>
+<Field name="HLC_UNIORG" type="string"/>
+<Field name="HLC_PROJET" type="string"/>
+<Field name="HLC_CNARIO" type="string"/>
+<Field length="15" name="HLC_VCTBRL" scale="5" type="decimal"/>
+<Field name="HLC_CLVL" type="string"/>
+<Field name="HLC_ITMCTB" type="string"/>
+<Field name="HLC_LIVRE0" type="string"/>
+<Field name="HLC_LIVRE1" type="string"/>
+<Field name="HLC_LIVRE2" type="string"/>
+<Field name="HLC_LIVRE3" type="string"/>
+<Field name="HLC_LIVRE4" type="string"/>
+<Field name="HLC_LIVRE5" type="string"/>
+<Field name="HLC_LIVRE6" type="string"/>
+<Field name="HLC_LIVRE7" type="string"/>
+<Field name="HLC_LIVRE8" type="string"/>
+<Field name="HLC_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

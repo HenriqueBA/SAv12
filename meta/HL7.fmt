@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HL7" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HL7.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HL7_LINPRO" type="string"/>
+<Field name="HL7_ISTCIA" type="string"/>
+<Field name="HL7_EMPRES" type="string"/>
+<Field name="HL7_FILIAL" type="string"/>
+<Field name="HL7_ESTABL" type="string"/>
+<Field name="HL7_ITEM" type="string"/>
+<Field name="HL7_FAMCOM" type="string"/>
+<Field name="HL7_FAMMAT" type="string"/>
+<Field name="HL7_GRPEST" type="string"/>
+<Field name="HL7_PRDUTO" type="string"/>
+<Field name="HL7_REPRES" type="string"/>
+<Field name="HL7_TRANSP" type="string"/>
+<Field name="HL7_NATOPR" type="string"/>
+<Field name="HL7_CFOP" type="string"/>
+<Field name="HL7_CONDPG" type="string"/>
+<Field name="HL7_GRPCLI" type="string"/>
+<Field name="HL7_CLIENT" type="string"/>
+<Field name="HL7_REGIAO" type="string"/>
+<Field name="HL7_UNDNEG" type="string"/>
+<Field name="HL7_MOEDA" type="string"/>
+<Field name="HL7_DATA" type="string"/>
+<Field name="HL7_DTIMPL" type="string"/>
+<Field name="HL7_DTVEND" type="string"/>
+<Field name="HL7_DTFATU" type="string"/>
+<Field length="15" name="HL7_QNRENT" scale="5" type="decimal"/>
+<Field length="15" name="HL7_QLEADT" scale="5" type="decimal"/>
+<Field length="15" name="HL7_QDSATR" scale="5" type="decimal"/>
+<Field length="15" name="HL7_QDSANT" scale="5" type="decimal"/>
+<Field length="15" name="HL7_QDEMIP" scale="5" type="decimal"/>
+<Field name="HL7_PEDIDO" type="string"/>
+<Field name="HL7_SERNF" type="string"/>
+<Field name="HL7_NUMNF" type="string"/>
+<Field name="HL7_CANALV" type="string"/>
+<Field name="HL7_REGCOM" type="string"/>
+<Field name="HL7_MICREG" type="string"/>
+<Field name="HL7_ROTA" type="string"/>
+<Field name="HL7_REFER" type="string"/>
+<Field name="HL7_NMITEN" type="string"/>
+<Field length="15" name="HL7_NMPRIO" scale="5" type="decimal"/>
+<Field name="HL7_TRARED" type="string"/>
+<Field name="HL7_STPEDV" type="string"/>
+<Field name="HL7_STITPV" type="string"/>
+<Field name="HL7_TPCPIT" type="string"/>
+<Field name="HL7_LIVRE0" type="string"/>
+<Field name="HL7_LIVRE1" type="string"/>
+<Field name="HL7_LIVRE2" type="string"/>
+<Field name="HL7_LIVRE3" type="string"/>
+<Field name="HL7_LIVRE4" type="string"/>
+<Field name="HL7_LIVRE5" type="string"/>
+<Field name="HL7_LIVRE6" type="string"/>
+<Field name="HL7_LIVRE7" type="string"/>
+<Field name="HL7_LIVRE8" type="string"/>
+<Field name="HL7_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

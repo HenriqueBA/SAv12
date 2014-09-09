@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLT" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HLT.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HLT_FILIAL" type="string"/>
+<Field name="HLT_LINPRO" type="string"/>
+<Field name="HLT_ISTCIA" type="string"/>
+<Field name="HLT_EMPRES" type="string"/>
+<Field name="HLT_ESTABL" type="string"/>
+<Field name="HLT_FAMMAT" type="string"/>
+<Field name="HLT_FAMCOM" type="string"/>
+<Field name="HLT_GRPEST" type="string"/>
+<Field name="HLT_ITEM" type="string"/>
+<Field name="HLT_PLANEJ" type="string"/>
+<Field name="HLT_GRPCLI" type="string"/>
+<Field name="HLT_CCUSTO" type="string"/>
+<Field name="HLT_GRPMAQ" type="string"/>
+<Field name="HLT_CLIENT" type="string"/>
+<Field name="HLT_REGIAO" type="string"/>
+<Field name="HLT_MOEDA" type="string"/>
+<Field name="HLT_UNDNEG" type="string"/>
+<Field name="HLT_DATA" type="string"/>
+<Field length="15" name="HLT_QHRGFP" scale="5" type="decimal"/>
+<Field length="15" name="HLT_VCSGFP" scale="5" type="decimal"/>
+<Field name="HLT_PLCCST" type="string"/>
+<Field name="HLT_TIPITM" type="string"/>
+<Field name="HLT_LINHAP" type="string"/>
+<Field name="HLT_REFER" type="string"/>
+<Field name="HLT_PEDIDO" type="string"/>
+<Field length="15" name="HLT_SEQCIA" scale="5" type="decimal"/>
+<Field name="HLT_ORDEM" type="string"/>
+<Field name="HLT_LIVRE0" type="string"/>
+<Field name="HLT_LIVRE1" type="string"/>
+<Field name="HLT_LIVRE2" type="string"/>
+<Field name="HLT_LIVRE3" type="string"/>
+<Field name="HLT_LIVRE4" type="string"/>
+<Field name="HLT_LIVRE5" type="string"/>
+<Field name="HLT_LIVRE6" type="string"/>
+<Field name="HLT_LIVRE7" type="string"/>
+<Field name="HLT_LIVRE8" type="string"/>
+<Field name="HLT_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

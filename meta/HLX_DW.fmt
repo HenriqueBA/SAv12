@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLX_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HLX_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HLX_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_FAMMAT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_FAMCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_GRPEST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_ITEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_PLANEJ" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_GRPCLI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_CCUSTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_GRPMAQ" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_CLIENT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_PLCCST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_TIPITM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_LINHAP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_REFER" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_MOBDIR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_ORDEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLX_PEDIDO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HLX_SEQCIA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLX_QHRMOP" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLX_VCSMOP" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLL" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HLL.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HLL_LINPRO" type="string"/>
+<Field name="HLL_ISTCIA" type="string"/>
+<Field name="HLL_EMPRES" type="string"/>
+<Field name="HLL_FILIAL" type="string"/>
+<Field name="HLL_ESTABL" type="string"/>
+<Field name="HLL_REPRES" type="string"/>
+<Field name="HLL_BANCO" type="string"/>
+<Field name="HLL_ESPDOC" type="string"/>
+<Field name="HLL_UNDNEG" type="string"/>
+<Field name="HLL_CLIENT" type="string"/>
+<Field name="HLL_REGIAO" type="string"/>
+<Field name="HLL_MOEDA" type="string"/>
+<Field name="HLL_MODALI" type="string"/>
+<Field name="HLL_DTEXTR" type="string"/>
+<Field name="HLL_DTEMIS" type="string"/>
+<Field name="HLL_DTVENC" type="string"/>
+<Field name="HLL_SERDOC" type="string"/>
+<Field name="HLL_NUMDOC" type="string"/>
+<Field name="HLL_PARCEL" type="string"/>
+<Field length="15" name="HLL_VRECEB" scale="5" type="decimal"/>
+<Field length="15" name="HLL_PRZREC" scale="5" type="decimal"/>
+<Field name="HLL_GRPCLI" type="string"/>
+<Field length="15" name="HLL_VSUBCT" scale="5" type="decimal"/>
+<Field name="HLL_LIVRE0" type="string"/>
+<Field name="HLL_LIVRE1" type="string"/>
+<Field name="HLL_LIVRE2" type="string"/>
+<Field name="HLL_LIVRE3" type="string"/>
+<Field name="HLL_LIVRE4" type="string"/>
+<Field name="HLL_LIVRE5" type="string"/>
+<Field name="HLL_LIVRE6" type="string"/>
+<Field name="HLL_LIVRE7" type="string"/>
+<Field name="HLL_LIVRE8" type="string"/>
+<Field name="HLL_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

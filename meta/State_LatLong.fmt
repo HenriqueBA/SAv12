@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="|" name="State_LatLong" previewAttachment="${DATA_TRANSFORM_DIR}/Regio_Lat_Long.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\r\n" skipSourceRows="1" type="delimited">
+<Field name="State" type="string"/>
+<Field name="StateLatLong" type="string"/>
+</Record>

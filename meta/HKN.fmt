@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HKN" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HKN.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HKN_LINPRO" type="string"/>
+<Field name="HKN_ISTCIA" type="string"/>
+<Field name="HKN_EMPRES" type="string"/>
+<Field name="HKN_FILIAL" type="string"/>
+<Field name="HKN_ESTABL" type="string"/>
+<Field name="HKN_FAMMAT" type="string"/>
+<Field name="HKN_FAMCOM" type="string"/>
+<Field name="HKN_GRPEST" type="string"/>
+<Field name="HKN_ITEM" type="string"/>
+<Field name="HKN_MOTREJ" type="string"/>
+<Field name="HKN_FORNEC" type="string"/>
+<Field name="HKN_REGIAO" type="string"/>
+<Field name="HKN_MOEDA" type="string"/>
+<Field name="HKN_UNDNEG" type="string"/>
+<Field name="HKN_DATA" type="string"/>
+<Field length="15" name="HKN_QAPROV" scale="5" type="decimal"/>
+<Field length="15" name="HKN_QCONSU" scale="5" type="decimal"/>
+<Field length="15" name="HKN_QORIGI" scale="5" type="decimal"/>
+<Field length="15" name="HKN_QREJEI" scale="5" type="decimal"/>
+<Field length="15" name="HKN_QCSFMT" scale="5" type="decimal"/>
+<Field length="15" name="HKN_QORFMT" scale="5" type="decimal"/>
+<Field length="15" name="HKN_QRJFMT" scale="5" type="decimal"/>
+<Field length="15" name="HKN_QCSFMC" scale="5" type="decimal"/>
+<Field length="15" name="HKN_QORFMC" scale="5" type="decimal"/>
+<Field length="15" name="HKN_QRJFMC" scale="5" type="decimal"/>
+<Field length="15" name="HKN_VAPROV" scale="5" type="decimal"/>
+<Field length="15" name="HKN_VCONSU" scale="5" type="decimal"/>
+<Field length="15" name="HKN_VREJEI" scale="5" type="decimal"/>
+<Field length="15" name="HKN_QLEADT" scale="5" type="decimal"/>
+<Field length="15" name="HKN_QAPFMT" scale="5" type="decimal"/>
+<Field length="15" name="HKN_QAPFMC" scale="5" type="decimal"/>
+<Field length="15" name="HKN_VORIGI" scale="5" type="decimal"/>
+<Field name="HKN_FICHA" type="string"/>
+<Field length="15" name="HKN_SEQCIA" scale="5" type="decimal"/>
+<Field name="HKN_REFER" type="string"/>
+<Field name="HKN_CRITIC" type="string"/>
+<Field name="HKN_GRPFOR" type="string"/>
+<Field length="15" name="HKN_QROTEI" scale="5" type="decimal"/>
+<Field length="15" name="HKN_QACFMT" scale="5" type="decimal"/>
+<Field length="15" name="HKN_QACFMC" scale="5" type="decimal"/>
+<Field length="15" name="HKN_VAPRCD" scale="5" type="decimal"/>
+<Field length="15" name="HKN_QAPRCD" scale="5" type="decimal"/>
+<Field name="HKN_LIVRE0" type="string"/>
+<Field name="HKN_LIVRE1" type="string"/>
+<Field name="HKN_LIVRE2" type="string"/>
+<Field name="HKN_LIVRE3" type="string"/>
+<Field name="HKN_LIVRE4" type="string"/>
+<Field name="HKN_LIVRE5" type="string"/>
+<Field name="HKN_LIVRE6" type="string"/>
+<Field name="HKN_LIVRE7" type="string"/>
+<Field name="HKN_LIVRE8" type="string"/>
+<Field name="HKN_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

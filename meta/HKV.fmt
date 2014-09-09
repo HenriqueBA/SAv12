@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HKV" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HKV.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HKV_LINPRO" type="string"/>
+<Field name="HKV_ISTCIA" type="string"/>
+<Field name="HKV_EMPRES" type="string"/>
+<Field name="HKV_FILIAL" type="string"/>
+<Field name="HKV_ESTABL" type="string"/>
+<Field name="HKV_ITEM" type="string"/>
+<Field name="HKV_FAMMAT" type="string"/>
+<Field name="HKV_FAMCOM" type="string"/>
+<Field name="HKV_GRPEST" type="string"/>
+<Field name="HKV_MOEDA" type="string"/>
+<Field name="HKV_UNDNEG" type="string"/>
+<Field name="HKV_DATA" type="string"/>
+<Field length="15" name="HKV_VCSREA" scale="5" type="decimal"/>
+<Field length="15" name="HKV_VCSRMT" scale="5" type="decimal"/>
+<Field length="15" name="HKV_VCSRMO" scale="5" type="decimal"/>
+<Field length="15" name="HKV_VCSRGF" scale="5" type="decimal"/>
+<Field name="HKV_DTEXTR" type="string"/>
+<Field name="HKV_REFER" type="string"/>
+<Field name="HKV_TIPITM" type="string"/>
+<Field name="HKV_LINHAP" type="string"/>
+<Field length="15" name="HKV_CNCUST" scale="5" type="decimal"/>
+<Field name="HKV_LIVRE0" type="string"/>
+<Field name="HKV_LIVRE1" type="string"/>
+<Field name="HKV_LIVRE2" type="string"/>
+<Field name="HKV_LIVRE3" type="string"/>
+<Field name="HKV_LIVRE4" type="string"/>
+<Field name="HKV_LIVRE5" type="string"/>
+<Field name="HKV_LIVRE6" type="string"/>
+<Field name="HKV_LIVRE7" type="string"/>
+<Field name="HKV_LIVRE8" type="string"/>
+<Field name="HKV_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

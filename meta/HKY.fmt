@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HKY" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HKY.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HKY_FILIAL" type="string"/>
+<Field name="HKY_LINPRO" type="string"/>
+<Field name="HKY_ISTCIA" type="string"/>
+<Field name="HKY_EMPRES" type="string"/>
+<Field name="HKY_ESTABL" type="string"/>
+<Field name="HKY_FAMMAT" type="string"/>
+<Field name="HKY_FAMCOM" type="string"/>
+<Field name="HKY_GRPEST" type="string"/>
+<Field name="HKY_ITEM" type="string"/>
+<Field name="HKY_PLANEJ" type="string"/>
+<Field name="HKY_GRPCLI" type="string"/>
+<Field name="HKY_CCUSTO" type="string"/>
+<Field name="HKY_GRPMAQ" type="string"/>
+<Field name="HKY_REGIAO" type="string"/>
+<Field name="HKY_CLIENT" type="string"/>
+<Field name="HKY_UNDNEG" type="string"/>
+<Field name="HKY_MOEDA" type="string"/>
+<Field name="HKY_DATA" type="string"/>
+<Field length="15" name="HKY_QHRGGF" scale="5" type="decimal"/>
+<Field length="15" name="HKY_VCSGGF" scale="5" type="decimal"/>
+<Field name="HKY_PLCCST" type="string"/>
+<Field name="HKY_TIPITM" type="string"/>
+<Field name="HKY_LINHAP" type="string"/>
+<Field name="HKY_REFER" type="string"/>
+<Field name="HKY_PEDIDO" type="string"/>
+<Field length="15" name="HKY_SEQCIA" scale="5" type="decimal"/>
+<Field name="HKY_ORDEM" type="string"/>
+<Field name="HKY_LIVRE0" type="string"/>
+<Field name="HKY_LIVRE1" type="string"/>
+<Field name="HKY_LIVRE2" type="string"/>
+<Field name="HKY_LIVRE3" type="string"/>
+<Field name="HKY_LIVRE4" type="string"/>
+<Field name="HKY_LIVRE5" type="string"/>
+<Field name="HKY_LIVRE6" type="string"/>
+<Field name="HKY_LIVRE7" type="string"/>
+<Field name="HKY_LIVRE8" type="string"/>
+<Field name="HKY_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

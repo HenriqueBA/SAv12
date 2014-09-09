@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HKQ" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HKQ.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HKQ_LINPRO" type="string"/>
+<Field name="HKQ_ISTCIA" type="string"/>
+<Field name="HKQ_EMPRES" type="string"/>
+<Field name="HKQ_FILIAL" type="string"/>
+<Field name="HKQ_ESTABL" type="string"/>
+<Field name="HKQ_FORNEC" type="string"/>
+<Field name="HKQ_TRANSP" type="string"/>
+<Field name="HKQ_FAMMAT" type="string"/>
+<Field name="HKQ_FAMCOM" type="string"/>
+<Field name="HKQ_GRPEST" type="string"/>
+<Field name="HKQ_ITEM" type="string"/>
+<Field name="HKQ_CMPRDR" type="string"/>
+<Field name="HKQ_ORDEM" type="string"/>
+<Field name="HKQ_PEDIDO" type="string"/>
+<Field name="HKQ_CONDPG" type="string"/>
+<Field name="HKQ_REGIAO" type="string"/>
+<Field name="HKQ_MOEDA" type="string"/>
+<Field name="HKQ_CCUSTO" type="string"/>
+<Field name="HKQ_UNDNEG" type="string"/>
+<Field name="HKQ_DTENTR" type="string"/>
+<Field name="HKQ_DTPEDC" type="string"/>
+<Field name="HKQ_DTEXTR" type="string"/>
+<Field length="15" name="HKQ_QCARTE" scale="5" type="decimal"/>
+<Field length="15" name="HKQ_VCARTE" scale="5" type="decimal"/>
+<Field length="15" name="HKQ_QDSATR" scale="5" type="decimal"/>
+<Field length="15" name="HKQ_QCTFMT" scale="5" type="decimal"/>
+<Field name="HKQ_DTEORD" type="string"/>
+<Field length="15" name="HKQ_NUMPRG" scale="5" type="decimal"/>
+<Field name="HKQ_PLCCST" type="string"/>
+<Field name="HKQ_GRPFOR" type="string"/>
+<Field name="HKQ_EMERG" type="string"/>
+<Field name="HKQ_SITCMP" type="string"/>
+<Field name="HKQ_NATCMP" type="string"/>
+<Field name="HKQ_REFER" type="string"/>
+<Field length="15" name="HKQ_QENTAT" scale="5" type="decimal"/>
+<Field length="15" name="HKQ_QENTAN" scale="5" type="decimal"/>
+<Field length="15" name="HKQ_QDSANT" scale="5" type="decimal"/>
+<Field name="HKQ_LIVRE0" type="string"/>
+<Field name="HKQ_LIVRE1" type="string"/>
+<Field name="HKQ_LIVRE2" type="string"/>
+<Field name="HKQ_LIVRE3" type="string"/>
+<Field name="HKQ_LIVRE4" type="string"/>
+<Field name="HKQ_LIVRE5" type="string"/>
+<Field name="HKQ_LIVRE6" type="string"/>
+<Field name="HKQ_LIVRE7" type="string"/>
+<Field name="HKQ_LIVRE8" type="string"/>
+<Field name="HKQ_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

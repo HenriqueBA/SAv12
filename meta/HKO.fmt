@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," label="HKO.csv" name="HKO" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HKO.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HKO_FILIAL" type="string"/>
+<Field name="HKO_FORNEC" type="string"/>
+<Field name="HKO_LINPRO" type="string"/>
+<Field name="HKO_EMPRES" type="string"/>
+<Field name="HKO_ESTABL" type="string"/>
+<Field name="HKO_TRANSP" type="string"/>
+<Field name="HKO_FAMMAT" type="string"/>
+<Field name="HKO_FAMCOM" type="string"/>
+<Field name="HKO_GRPEST" type="string"/>
+<Field name="HKO_ITEM" type="string"/>
+<Field name="HKO_ORDEM" type="string"/>
+<Field name="HKO_PEDIDO" type="string"/>
+<Field name="HKO_CMPRDR" type="string"/>
+<Field name="HKO_CONDPG" type="string"/>
+<Field name="HKO_REGIAO" type="string"/>
+<Field name="HKO_MOEDA" type="string"/>
+<Field name="HKO_CCUSTO" type="string"/>
+<Field name="HKO_UNDNEG" type="string"/>
+<Field name="HKO_DATA" type="string"/>
+<Field name="HKO_DTENTR" type="string"/>
+<Field length="15" name="HKO_QORDCP" scale="5" type="decimal"/>
+<Field length="15" name="HKO_QCOMPR" scale="5" type="decimal"/>
+<Field length="15" name="HKO_QCPMAT" scale="5" type="decimal"/>
+<Field length="15" name="HKO_VCOMPR" scale="5" type="decimal"/>
+<Field name="HKO_ISTCIA" type="string"/>
+<Field name="HKO_DTEORD" type="string"/>
+<Field length="15" name="HKO_NUMPRG" scale="5" type="decimal"/>
+<Field name="HKO_PLCCST" type="string"/>
+<Field name="HKO_SITCMP" type="string"/>
+<Field name="HKO_NATCMP" type="string"/>
+<Field name="HKO_GRPFOR" type="string"/>
+<Field name="HKO_EMERG" type="string"/>
+<Field name="HKO_REFER" type="string"/>
+<Field length="15" name="HKO_VIPICP" scale="5" type="decimal"/>
+<Field length="15" name="HKO_VICMCP" scale="5" type="decimal"/>
+<Field name="HKO_LIVRE0" type="string"/>
+<Field name="HKO_LIVRE1" type="string"/>
+<Field name="HKO_LIVRE2" type="string"/>
+<Field name="HKO_LIVRE3" type="string"/>
+<Field name="HKO_LIVRE4" type="string"/>
+<Field name="HKO_LIVRE5" type="string"/>
+<Field name="HKO_LIVRE6" type="string"/>
+<Field name="HKO_LIVRE7" type="string"/>
+<Field name="HKO_LIVRE8" type="string"/>
+<Field name="HKO_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

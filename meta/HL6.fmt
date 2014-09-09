@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HL6" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HL6.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HL6_LINPRO" type="string"/>
+<Field name="HL6_ISTCIA" type="string"/>
+<Field name="HL6_FILIAL" type="string"/>
+<Field name="HL6_EMPRES" type="string"/>
+<Field name="HL6_ESTABL" type="string"/>
+<Field name="HL6_NATOPR" type="string"/>
+<Field name="HL6_CFOP" type="string"/>
+<Field name="HL6_TRANSP" type="string"/>
+<Field name="HL6_CONDPG" type="string"/>
+<Field name="HL6_ITEM" type="string"/>
+<Field name="HL6_FAMCOM" type="string"/>
+<Field name="HL6_FAMMAT" type="string"/>
+<Field name="HL6_GRPEST" type="string"/>
+<Field name="HL6_PRDUTO" type="string"/>
+<Field name="HL6_REPRES" type="string"/>
+<Field name="HL6_GRPCLI" type="string"/>
+<Field name="HL6_CLIENT" type="string"/>
+<Field name="HL6_REGIAO" type="string"/>
+<Field name="HL6_MOEDA" type="string"/>
+<Field name="HL6_UNDNEG" type="string"/>
+<Field name="HL6_DATA" type="string"/>
+<Field length="15" name="HL6_QDEVIT" scale="5" type="decimal"/>
+<Field length="15" name="HL6_VDEVTO" scale="5" type="decimal"/>
+<Field length="15" name="HL6_VICMSD" scale="5" type="decimal"/>
+<Field length="15" name="HL6_VIPIDV" scale="5" type="decimal"/>
+<Field length="15" name="HL6_VDEVLQ" scale="5" type="decimal"/>
+<Field length="15" name="HL6_VDEVME" scale="5" type="decimal"/>
+<Field length="15" name="HL6_VPISDV" scale="5" type="decimal"/>
+<Field length="15" name="HL6_VCOFID" scale="5" type="decimal"/>
+<Field length="15" name="HL6_VCSTDV" scale="5" type="decimal"/>
+<Field name="HL6_SERDEV" type="string"/>
+<Field name="HL6_NUMDEV" type="string"/>
+<Field name="HL6_SERNF" type="string"/>
+<Field name="HL6_NUMNF" type="string"/>
+<Field length="15" name="HL6_QDEVFC" scale="5" type="decimal"/>
+<Field length="15" name="HL6_QDEVFM" scale="5" type="decimal"/>
+<Field name="HL6_ROTA" type="string"/>
+<Field name="HL6_CANALV" type="string"/>
+<Field name="HL6_REGCOM" type="string"/>
+<Field name="HL6_MICREG" type="string"/>
+<Field name="HL6_SEQDEV" type="string"/>
+<Field name="HL6_SEQNF" type="string"/>
+<Field name="HL6_REFER" type="string"/>
+<Field length="15" name="HL6_VICMSS" scale="5" type="decimal"/>
+<Field length="15" name="HL6_VDESDV" scale="5" type="decimal"/>
+<Field length="15" name="HL6_VINSSD" scale="5" type="decimal"/>
+<Field name="HL6_LIVRE0" type="string"/>
+<Field name="HL6_LIVRE1" type="string"/>
+<Field name="HL6_LIVRE2" type="string"/>
+<Field name="HL6_LIVRE3" type="string"/>
+<Field name="HL6_LIVRE4" type="string"/>
+<Field name="HL6_LIVRE5" type="string"/>
+<Field name="HL6_LIVRE6" type="string"/>
+<Field name="HL6_LIVRE7" type="string"/>
+<Field name="HL6_LIVRE8" type="string"/>
+<Field name="HL6_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

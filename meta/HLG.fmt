@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLG" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HLG.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HLG_LINPRO" type="string"/>
+<Field name="HLG_ISTCIA" type="string"/>
+<Field name="HLG_EMPRES" type="string"/>
+<Field name="HLG_FILIAL" type="string"/>
+<Field name="HLG_ESTABL" type="string"/>
+<Field name="HLG_COLABR" type="string"/>
+<Field name="HLG_GRAINS" type="string"/>
+<Field name="HLG_NIVHIE" type="string"/>
+<Field name="HLG_SINDIC" type="string"/>
+<Field name="HLG_SITCLB" type="string"/>
+<Field name="HLG_TPCASA" type="string"/>
+<Field name="HLG_TPCARG" type="string"/>
+<Field name="HLG_SECAO" type="string"/>
+<Field name="HLG_DATA" type="string"/>
+<Field name="HLG_DTABRQ" type="string"/>
+<Field name="HLG_DTPREV" type="string"/>
+<Field length="15" name="HLG_QTDIAC" scale="5" type="decimal"/>
+<Field length="15" name="HLG_VLSAL" scale="5" type="decimal"/>
+<Field name="HLG_STAREQ" type="string"/>
+<Field name="HLG_TIPREQ" type="string"/>
+<Field name="HLG_NUMREQ" type="string"/>
+<Field length="15" name="HLG_QPOTDV" scale="5" type="decimal"/>
+<Field name="HLG_LIVRE0" type="string"/>
+<Field name="HLG_LIVRE1" type="string"/>
+<Field name="HLG_LIVRE2" type="string"/>
+<Field name="HLG_LIVRE3" type="string"/>
+<Field name="HLG_LIVRE4" type="string"/>
+<Field name="HLG_LIVRE5" type="string"/>
+<Field name="HLG_LIVRE6" type="string"/>
+<Field name="HLG_LIVRE7" type="string"/>
+<Field name="HLG_LIVRE8" type="string"/>
+<Field name="HLG_LIVRE9" type="string"/>
+<Field name="HLG_MOEDA" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

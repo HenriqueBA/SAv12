@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HKX" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HKX.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HKX_FILIAL" type="string"/>
+<Field name="HKX_LINPRO" type="string"/>
+<Field name="HKX_ISTCIA" type="string"/>
+<Field name="HKX_EMPRES" type="string"/>
+<Field name="HKX_ESTABL" type="string"/>
+<Field name="HKX_FAMMAT" type="string"/>
+<Field name="HKX_FAMCOM" type="string"/>
+<Field name="HKX_GRPEST" type="string"/>
+<Field name="HKX_ITEM" type="string"/>
+<Field name="HKX_PLANEJ" type="string"/>
+<Field name="HKX_GRPCLI" type="string"/>
+<Field name="HKX_CCUSTO" type="string"/>
+<Field name="HKX_GRPMAQ" type="string"/>
+<Field name="HKX_CLIENT" type="string"/>
+<Field name="HKX_REGIAO" type="string"/>
+<Field name="HKX_MOEDA" type="string"/>
+<Field name="HKX_UNDNEG" type="string"/>
+<Field name="HKX_DATA" type="string"/>
+<Field length="15" name="HKX_QHRMOB" scale="5" type="decimal"/>
+<Field length="15" name="HKX_VCSMOB" scale="5" type="decimal"/>
+<Field name="HKX_PLCCST" type="string"/>
+<Field name="HKX_TIPITM" type="string"/>
+<Field name="HKX_LINHAP" type="string"/>
+<Field name="HKX_REFER" type="string"/>
+<Field name="HKX_MOBDIR" type="string"/>
+<Field name="HKX_PEDIDO" type="string"/>
+<Field length="15" name="HKX_SEQCIA" scale="5" type="decimal"/>
+<Field name="HKX_ORDEM" type="string"/>
+<Field name="HKX_LIVRE0" type="string"/>
+<Field name="HKX_LIVRE1" type="string"/>
+<Field name="HKX_LIVRE2" type="string"/>
+<Field name="HKX_LIVRE3" type="string"/>
+<Field name="HKX_LIVRE4" type="string"/>
+<Field name="HKX_LIVRE5" type="string"/>
+<Field name="HKX_LIVRE6" type="string"/>
+<Field name="HKX_LIVRE7" type="string"/>
+<Field name="HKX_LIVRE8" type="string"/>
+<Field name="HKX_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

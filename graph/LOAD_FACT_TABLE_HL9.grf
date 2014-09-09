@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="michel" created="Thu Aug 15 10:23:03 BRT 2013" guiVersion="3.4.4.P" id="1376591284372" licenseType="Commercial" modified="Sun Feb 23 16:06:07 BRT 2014" modifiedBy="ROBSON" name="DRE" revision="1.323" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata2" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="_2Dates" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="Min_Date" type="date"/>
+<Field name="Max_Date" type="date"/>
+</Record>
+</Metadata>
+<Metadata fileURL="${META_DIR}/DataStream.fmt" id="Metadata1"/>
+<Metadata fileURL="${META_DIR}/HL9_DW.fmt" id="Metadata6"/>
+<Metadata fileURL="${META_DIR}/HL9.fmt" id="Metadata5"/>
+<Metadata fileURL="${META_DIR}/OneString.fmt" id="Metadata3"/>
+<Metadata id="Metadata9" previewAttachment="${DATA_TRANSFORM_DIR}/contabilidade_contas.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="contabilidade_contas" previewAttachment="${DATA_TRANSFORM_DIR}/contabilidade_contas.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\r\n" skipSourceRows="1" type="delimited">
+<Field name="ATIVO" type="string"/>
+<Field name="PASSIVO" type="string"/>
+<Field eofAsDelimiter="false" name="RECEITA" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata0" previewAttachment="${DATA_TRANSFORM_DIR}/contabilidade_posicao.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" label="contabilidade_posicao" name="contabilidade_posicao_csv" previewAttachment="${DATA_TRANSFORM_DIR}/contabilidade_posicao.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\r\n" skipSourceRows="1" type="delimited">
+<Field name="Left" type="integer"/>
+<Field eofAsDelimiter="false" name="Right" type="integer"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata4" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="Date" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="Date" type="date"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata8" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," name="HL9_DW_JOIN" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HL9_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HL9_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_PLCONT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_CNTCTB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_PLCCST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_CCUSTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_UNIORG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_PROJET" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_CLVL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_CNARIO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_ITMCTB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Left" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="Right" nullable="true" shift="0" size="0" type="integer"/>
+<Field name="ATIVO" type="string"/>
+<Field name="PASSIVO" type="string"/>
+<Field name="RECEITA" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="CNTCTB_1" nullable="true" scale="5" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="JOIN" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VCTBRL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VSDINI" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VDREAL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VCREAL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VSDFIN" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VAPURA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata10" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," name="HL9_DW_PIVOT" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HL9_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HL9_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_PLCONT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_CNTCTB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_PLCCST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_CCUSTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_UNIORG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_PROJET" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_CLVL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_CNARIO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_ITMCTB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VCTBRL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VSDINI" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VDREAL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VCREAL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VSDFIN" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VAPURA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="CC1_1ATIVO" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="CC1_2PASSIVO" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="CC1_3RECEITA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="CC1_OUTROS" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata7" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," name="HL9_DW_REFORMAT" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HL9_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HL9_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_PLCONT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_CNTCTB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_PLCCST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_CCUSTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_UNIORG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_PROJET" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_CLVL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_CNARIO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_ITMCTB" nullable="true" shift="0" size="0" type="string"/>
+<Field name="CNTCTB_1" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VCTBRL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VSDINI" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VDREAL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VCREAL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VSDFIN" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VAPURA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>
+</Metadata>
+<Property fileURL="parameters/parametros.prm" id="GraphParameter0"/>
+<Property fileURL="workspace.prm" id="GraphParameter5"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="601" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="12" title="Prepara Fato HL9 para Carga" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="14" width="1331" x="112" y="31">
+<attr name="text"><![CDATA[Le a fato HL9, agrega, transforma os campos data e armazena em um CSV interno     
+]]></attr>
+</Note>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="226" id="Note1" textColorB="0" textColorG="0" textColorR="0" textFontSize="12" title="Gera variáveis para apagar dados da fato" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="14" width="655" x="705" y="675">
+<attr name="text"><![CDATA[Obtém as datas iniciais e finais disponíveis na Fato, gera o statement de delete com essas datas e executa o delete dos dados  na fato. 
+]]></attr>
+</Note>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="226" id="Note3" textColorB="0" textColorG="0" textColorR="0" textFontSize="12" title="Carga Fato" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="14" width="444" x="916" y="933">
+<attr name="text"><![CDATA[Carrega os dados preparados na fato que já teve as datas que irão entrar, apagadas.]]></attr>
+</Note>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node aggregateKey="HL9_DATA;HL9_EMPRES;HL9_ESTABL;HL9_UNDNEG;HL9_PLCONT;HL9_CNTCTB;HL9_MOEDA;HL9_PLCCST;HL9_CCUSTO;HL9_UNIORG;HL9_PROJET;HL9_CLVL;HL9_CNARIO;HL9_ITMCTB" charset="MacRoman" enabled="enabled" equalNULL="true" guiName="Aggregate (AGGREGATE)" guiX="999" guiY="112" id="AGGREGATE_FATO_HL9" mapping="$HL9_DATA:=$HL9_DATA;$HL9_EMPRES:=$HL9_EMPRES;$HL9_ESTABL:=$HL9_ESTABL;$HL9_UNDNEG:=$HL9_UNDNEG;$HL9_PLCONT:=$HL9_PLCONT;$HL9_CNTCTB:=$HL9_CNTCTB;$HL9_MOEDA:=$HL9_MOEDA;$HL9_PLCCST:=$HL9_PLCCST;$HL9_CCUSTO:=$HL9_CCUSTO;$HL9_UNIORG:=$HL9_UNIORG;$HL9_PROJET:=$HL9_PROJET;$HL9_CLVL:=$HL9_CLVL;$HL9_CNARIO:=$HL9_CNARIO;$HL9_ITMCTB:=$HL9_ITMCTB;$HL9_VCTBRL:=sum($HL9_VCTBRL);$HL9_VSDINI:=sum($HL9_VSDINI);$HL9_VDREAL:=sum($HL9_VDREAL);$HL9_VCREAL:=sum($HL9_VCREAL);$HL9_VSDFIN:=sum($HL9_VSDFIN);$HL9_VAPURA:=sum($HL9_VAPURA);" sorted="true" type="AGGREGATE"/>
+<Node enabled="enabled" guiName="Aggregate" guiX="784" guiY="768" id="AGGREGATE_MENOR_DATA" mapping="$Min_Date:=min($HL9_DATA);$Max_Date:=max($HL9_DATA);" type="AGGREGATE">
+<attr name="guiDescription"><![CDATA[OBTÉM MAIOR E MENOR DATA]]></attr>
+</Node>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="${DATA_TRANSFORM_DIR}/contabilidade_posicao.csv" guiName="" guiX="144" guiY="381" id="CSV_READER_CONT_POS" quotedStrings="true" skipLeadingBlanks="false" skipTrailingBlanks="false" trim="true" type="DATA_READER" verbose="false">
+<attr name="guiDescription"><![CDATA[Contabilidade - Posição do Plano Contabil]]></attr>
+</Node>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="${DATA_TRANSFORM_DIR}/contabilidade_contas.csv" guiName="" guiX="144" guiY="519" id="CSV_READER_CONT_POS1" quotedStrings="true" skipLeadingBlanks="false" skipTrailingBlanks="false" trim="true" type="DATA_READER" verbose="false">
+<attr name="guiDescription"><![CDATA[Contabilidade - Conta Contabil]]></attr>
+</Node>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="zip:(${DATA_TMP_DIR}/TOTVSSMARTANALYTICS.zip)#HL9.csv" guiName="" guiX="144" guiY="112" id="CSV_READER_FATO_HL9" quotedStrings="true" skipLeadingBlanks="false" skipTrailingBlanks="false" trim="false" type="DATA_READER" verbose="false">
+<attr name="guiDescription"><![CDATA[Lê Staging HL9]]></attr>
+</Node>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="${DATA_TMP_DIR}/FATOTMPHL9.csv" guiName="CSV Writer (DATA_WRITER)" guiX="1235" guiY="359" id="CSV_WRITER_FATO_TMP_HL9" makeDirs="true" outputFieldNames="true" type="DATA_WRITER">
+<attr name="guiDescription"><![CDATA[GRAVA FATO TMP HL9]]></attr>
+</Node>
+<Node enabled="enabled" guiName="ExtMergeJoin" guiX="578" guiY="365" id="EXT_MERGE_JOIN" joinKey="$JOIN(a)#$JOIN(a);#$JOIN(a);" joinType="inner" type="EXT_MERGE_JOIN">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.HL9_DATA = $in.0.HL9_DATA;
+	$out.0.HL9_EMPRES = $in.0.HL9_EMPRES;
+	$out.0.HL9_ESTABL = $in.0.HL9_ESTABL;
+	$out.0.HL9_UNDNEG = $in.0.HL9_UNDNEG;
+	$out.0.HL9_PLCONT = $in.0.HL9_PLCONT;
+	$out.0.HL9_CNTCTB = $in.0.HL9_CNTCTB;
+	$out.0.HL9_MOEDA = $in.0.HL9_MOEDA;
+	$out.0.HL9_PLCCST = $in.0.HL9_PLCCST;
+	$out.0.HL9_CCUSTO = $in.0.HL9_CCUSTO;
+	$out.0.HL9_UNIORG = $in.0.HL9_UNIORG;
+	$out.0.HL9_PROJET = $in.0.HL9_PROJET;
+	$out.0.HL9_CLVL = $in.0.HL9_CLVL;
+	$out.0.HL9_CNARIO = $in.0.HL9_CNARIO;
+	$out.0.HL9_ITMCTB = $in.0.HL9_ITMCTB;
+	$out.0.HL9_VCTBRL = $in.0.HL9_VCTBRL;
+	$out.0.HL9_VSDINI = $in.0.HL9_VSDINI;
+	$out.0.HL9_VDREAL = $in.0.HL9_VDREAL;
+	$out.0.HL9_VCREAL = $in.0.HL9_VCREAL;
+	$out.0.HL9_VSDFIN = $in.0.HL9_VSDFIN;
+	$out.0.HL9_VAPURA = $in.0.HL9_VAPURA;
+	$out.0.CNTCTB_1 = iif( right(left($in.0.HL9_CNTCTB,$in.1.Left),$in.1.Right) == $in.2.ATIVO, "CC1_1ATIVO", 
+	iif( right(left($in.0.HL9_CNTCTB,11),1) == $in.2.PASSIVO, "CC1_2PASSIVO",
+		iif( right(left($in.0.HL9_CNTCTB,11),1) == $in.2.RECEITA, "CC1_3RECEITA",
+		"CC1_OUTROS"
+		)
+	)
+ );
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="ExtSort" guiX="805" guiY="365" id="EXT_SORT" sortKey="CNTCTB_1(a)" type="EXT_SORT"/>
+<Node enabled="enabled" guiName="ExtSort" guiX="805" guiY="112" id="EXT_SORT_FATO_HL9" sortKey="HL9_DATA(a);HL9_EMPRES(a);HL9_ESTABL(a);HL9_UNDNEG(a);HL9_PLCONT(a);HL9_CNTCTB(a);HL9_MOEDA(a);HL9_PLCCST(a);HL9_CCUSTO(a);HL9_UNIORG(a);HL9_PROJET(a);HL9_CLVL(a);HL9_CNARIO(a);HL9_ITMCTB(a)" type="EXT_SORT">
+<attr name="guiDescription"><![CDATA[ORDENAÇÃO PELA ORDEM ORIGINAL DOS CAMPOS]]></attr>
+</Node>
+<Node enabled="enabled" guiName="MAQL DML Execute" guiX="1153" guiY="768" id="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HL9" maqlInputField="syntax_content" type="MAQL_DML_EXECUTE">
+<attr name="guiDescription"><![CDATA[APAGA DADOS FATO HL9]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Pivot" guiX="1014" guiY="365" id="PIVOT" key="HL9_DATA;HL9_EMPRES;HL9_ESTABL;HL9_UNDNEG;HL9_PLCONT;HL9_CNTCTB;HL9_MOEDA;HL9_PLCCST;HL9_CCUSTO;HL9_UNIORG;HL9_PROJET;HL9_CLVL;HL9_CNARIO;HL9_ITMCTB;HL9_VCTBRL;HL9_VSDINI;HL9_VDREAL;HL9_VCREAL;HL9_VSDFIN;HL9_VAPURA" nameField="CNTCTB_1" type="PIVOT" valueField="HL9_VSDFIN">
+<attr name="guiDescription"><![CDATA[PIVOT POR CONTA]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="339" guiY="388" id="REFORMAT1" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.Left = $in.0.Left;
+	$out.0.Right = $in.0.Right;
+	$out.0.JOIN = "";
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="339" guiY="279" id="REFORMAT2" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.HL9_DATA = $in.0.HL9_DATA;
+	$out.0.HL9_CCUSTO = $in.0.HL9_CCUSTO;
+	$out.0.HL9_EMPRES = $in.0.HL9_EMPRES;
+	$out.0.HL9_ESTABL = $in.0.HL9_ESTABL;
+	$out.0.HL9_UNDNEG = $in.0.HL9_UNDNEG;
+	$out.0.HL9_PLCONT = $in.0.HL9_PLCONT;
+	$out.0.HL9_CNTCTB = $in.0.HL9_CNTCTB;
+	$out.0.HL9_MOEDA = $in.0.HL9_MOEDA;
+	$out.0.HL9_PLCCST = $in.0.HL9_PLCCST;
+	$out.0.HL9_UNIORG = $in.0.HL9_UNIORG;
+	$out.0.HL9_PROJET = $in.0.HL9_PROJET;
+	$out.0.HL9_CLVL = $in.0.HL9_CLVL;
+	$out.0.HL9_CNARIO = $in.0.HL9_CNARIO;
+	$out.0.HL9_ITMCTB = $in.0.HL9_ITMCTB;
+	$out.0.HL9_VCTBRL = $in.0.HL9_VCTBRL;
+	$out.0.HL9_VSDINI = $in.0.HL9_VSDINI;
+	$out.0.HL9_VDREAL = $in.0.HL9_VDREAL;
+	$out.0.HL9_VCREAL = $in.0.HL9_VCREAL;
+	$out.0.HL9_VSDFIN = $in.0.HL9_VSDFIN;
+	$out.0.HL9_VAPURA = $in.0.HL9_VAPURA;
+	$out.0.JOIN = "";
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="345" guiY="519" id="REFORMAT3" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.ATIVO = $in.0.ATIVO;
+	$out.0.PASSIVO = $in.0.PASSIVO;
+	$out.0.RECEITA = $in.0.RECEITA;
+	$out.0.JOIN = "";
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node charset="ISO-8859-1" enabled="enabled" guiName="Reformat" guiX="339" guiY="112" id="REFORMAT_FATO_HL9" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.HL9_EMPRES = $in.0.HL9_EMPRES;
+	$out.0.HL9_ESTABL = $in.0.HL9_ESTABL;
+	$out.0.HL9_UNDNEG = $in.0.HL9_UNDNEG;
+	$out.0.HL9_PLCONT = $in.0.HL9_PLCONT;
+	$out.0.HL9_CNTCTB = $in.0.HL9_CNTCTB;
+	$out.0.HL9_MOEDA = $in.0.HL9_MOEDA;
+	$out.0.HL9_PLCCST = $in.0.HL9_PLCCST;
+	$out.0.HL9_CCUSTO = $in.0.HL9_CCUSTO;
+	$out.0.HL9_UNIORG = $in.0.HL9_UNIORG;
+	$out.0.HL9_PROJET = $in.0.HL9_PROJET;
+	$out.0.HL9_CLVL = $in.0.HL9_CLVL;
+	$out.0.HL9_CNARIO = $in.0.HL9_CNARIO;
+	$out.0.HL9_ITMCTB = $in.0.HL9_ITMCTB;
+	$out.0.HL9_DATA = str2date($in.0.HL9_DATA,"yyyyMMdd");
+	$out.0.HL9_VCTBRL = $in.0.HL9_VCTBRL;
+	$out.0.HL9_VSDINI = $in.0.HL9_VSDINI;
+	$out.0.HL9_VDREAL = $in.0.HL9_VDREAL;
+	$out.0.HL9_VCREAL = $in.0.HL9_VCREAL;
+	$out.0.HL9_VSDFIN = $in.0.HL9_VSDFIN;
+	$out.0.HL9_VAPURA = $in.0.HL9_VAPURA;
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[TRANSFORMA OS CAMPOS DATA / ELIMINA CAMPOS INDESEJADOS]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="964" guiY="768" id="REFORMAT_MENOR_DATA" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.syntax_content = 'DELETE FROM {attr.contabilidadehl9.factsof} WHERE {data.date.yyyymmdd} BETWEEN '+'"'+date2str($in.0.Min_Date, "yyyy-MM-dd")+'" AND "'+date2str($in.0.Max_Date, "yyyy-MM-dd")+'"';
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[GERA STATEMENT DE DELETE]]></attr>
+</Node>
+<Node enabled="enabled" guiName="SimpleCopy" guiX="512" guiY="115" id="SIMPLE_COPY_PARALELISMO_PARAMETROS_GERA_FATO_HL9" type="SIMPLE_COPY">
+<attr name="guiDescription"><![CDATA[DISTRIBUI OS DADOS PARA DUAS PORTAS]]></attr>
+</Node>
+<Edge debugMode="true" fromNode="AGGREGATE_FATO_HL9:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata6" outPort="Port 0 (out)" toNode="REFORMAT2:0"/>
+<Edge debugMode="true" fromNode="AGGREGATE_MENOR_DATA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge20" inPort="Port 0 (in)" metadata="Metadata2" outPort="Port 0 (out)" toNode="REFORMAT_MENOR_DATA:0"/>
+<Edge debugMode="true" fromNode="CSV_READER_CONT_POS:0" guiBendpoints="" guiRouter="Manhattan" id="Edge12" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (output)" toNode="REFORMAT1:0"/>
+<Edge fromNode="CSV_READER_CONT_POS1:0" guiBendpoints="" guiRouter="Manhattan" id="Edge16" inPort="Port 0 (in)" metadata="Metadata9" outPort="Port 0 (output)" toNode="REFORMAT3:0"/>
+<Edge debugMode="true" fromNode="CSV_READER_FATO_HL9:0" guiBendpoints="" guiRouter="Manhattan" id="Edge0" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (output)" toNode="REFORMAT_FATO_HL9:0"/>
+<Edge debugMode="true" fromNode="EXT_MERGE_JOIN:0" guiBendpoints="" guiRouter="Manhattan" id="Edge13" inPort="Port 0 (in)" metadata="Metadata7" outPort="Port 0 (out)" toNode="EXT_SORT:0"/>
+<Edge debugMode="true" fromNode="EXT_SORT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge6" inPort="Port 0 (in)" metadata="Metadata7" outPort="Port 0 (out)" toNode="PIVOT:0"/>
+<Edge fromNode="EXT_SORT_FATO_HL9:0" guiBendpoints="" guiRouter="Manhattan" id="Edge7" inPort="Port 0 (in)" metadata="Metadata6" outPort="Port 0 (out)" toNode="AGGREGATE_FATO_HL9:0"/>
+<Edge debugMode="true" fromNode="PIVOT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge8" inPort="Port 0 (in)" metadata="Metadata10" outPort="Port 0 (out)" toNode="CSV_WRITER_FATO_TMP_HL9:0"/>
+<Edge debugMode="true" fromNode="REFORMAT1:0" guiBendpoints="" guiRouter="Manhattan" id="Edge14" inPort="Port 1 (slave)" metadata="Metadata8" outPort="Port 0 (out)" toNode="EXT_MERGE_JOIN:1"/>
+<Edge debugMode="true" fromNode="REFORMAT2:0" guiBendpoints="" guiRouter="Manhattan" id="Edge5" inPort="Port 0 (driver)" metadata="Metadata8" outPort="Port 0 (out)" toNode="EXT_MERGE_JOIN:0"/>
+<Edge fromNode="REFORMAT3:0" guiBendpoints="" guiRouter="Manhattan" id="Edge18" inPort="Port 2 (slave)" metadata="Metadata8" outPort="Port 0 (out)" toNode="EXT_MERGE_JOIN:2"/>
+<Edge fromNode="REFORMAT_FATO_HL9:0" guiBendpoints="" guiRouter="Manhattan" id="Edge4" inPort="Port 0 (in)" metadata="Metadata6" outPort="Port 0 (out)" toNode="SIMPLE_COPY_PARALELISMO_PARAMETROS_GERA_FATO_HL9:0"/>
+<Edge debugMode="true" fromNode="REFORMAT_MENOR_DATA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge2" inPort="Port 0 (input)" metadata="Metadata3" outPort="Port 0 (out)" toNode="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HL9:0"/>
+<Edge fromNode="SIMPLE_COPY_PARALELISMO_PARAMETROS_GERA_FATO_HL9:0" guiBendpoints="" guiRouter="Manhattan" id="Edge19" inPort="Port 0 (in)" metadata="Metadata6" outPort="Port 0 (out)" toNode="EXT_SORT_FATO_HL9:0"/>
+<Edge fromNode="SIMPLE_COPY_PARALELISMO_PARAMETROS_GERA_FATO_HL9:1" guiBendpoints="" guiRouter="Manhattan" id="Edge15" inPort="Port 0 (in)" metadata="Metadata6" outPort="Port 1 (out)" toNode="AGGREGATE_MENOR_DATA:0"/>
+</Phase>
+<Phase number="1">
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="${DATA_TMP_DIR}/FATOTMPHL9.csv" guiName="(DATA_READER)" guiX="951" guiY="1025" id="CSV_READER_CARREGA_FATO_HL9" quotedStrings="true" skipSourceRows="1" skipTrailingBlanks="false" trim="false" type="DATA_READER" verbose="true">
+<attr name="guiDescription"><![CDATA[LE A FATO HL9 PARA CARREGAR]]></attr>
+</Node>
+<Node dataset="dataset.contabilidadehl9" datasetFieldMappings="{&quot;gd_dataset&quot;:{&quot;datasetId&quot;:&quot;dataset.contabilidadehl9&quot;,&quot;datasetTitle&quot;:&quot;CONTABILIDADE HL9&quot;,&quot;attributes&quot;:[],&quot;referencedAttributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.cenariocontabil.cenariocontabil&quot;,&quot;title&quot;:&quot;Cenário Contábil&quot;,&quot;prettyId&quot;:&quot;attr_cenariocontabil_cenariocontabil&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cenariocontabil.cenariocontabil&quot;,&quot;title&quot;:&quot;Cenário Contábil&quot;,&quot;prettyId&quot;:&quot;cenariocontabil__cenariocontabil&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cenariocontabil.cenariocontabil.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;cenariocontabil__cenariocontabil_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cenariocontabil.cenariocontabil.descricao&quot;,&quot;title&quot;:&quot;Descrição&quot;,&quot;prettyId&quot;:&quot;cenariocontabil__cenariocontabil_descricao&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HL9_CNARIO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.cenariocontabil.cenariocontabil&quot;,&quot;title&quot;:&quot;Cenário Contábil&quot;,&quot;prettyId&quot;:&quot;cenariocontabil__cenariocontabil&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.centrodecustohj5.centrodecusto&quot;,&quot;title&quot;:&quot;Centro de Custo 11&quot;,&quot;prettyId&quot;:&quot;attr_centrodecustohj5_centrodecusto&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.centrodecustohj5.centrodecusto&quot;,&quot;title&quot;:&quot;Centro de Custo 11&quot;,&quot;prettyId&quot;:&quot;centrodecustohj5__centrodecusto&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.centrodecustohj5.centrodecusto.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;centrodecustohj5__centrodecusto_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.centrodecustohj5.centrodecusto.descricao&quot;,&quot;title&quot;:&quot;Descrição&quot;,&quot;prettyId&quot;:&quot;centrodecustohj5__centrodecusto_descricao&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HL9_CCUSTO&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.centrodecustohj5.centrodecusto&quot;,&quot;title&quot;:&quot;Centro de Custo 11&quot;,&quot;prettyId&quot;:&quot;centrodecustohj5__centrodecusto&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.classevalorhg8.classevalor&quot;,&quot;title&quot;:&quot;Classe Valor&quot;,&quot;prettyId&quot;:&quot;attr_classevalorhg8_classevalor&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.classevalorhg8.classevalor&quot;,&quot;title&quot;:&quot;Classe Valor&quot;,&quot;prettyId&quot;:&quot;classevalorhg8__classevalor&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.classevalorhg8.classevalor.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;classevalorhg8__classevalor_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.classevalorhg8.classevalor.descricao&quot;,&quot;title&quot;:&quot;Descrição&quot;,&quot;prettyId&quot;:&quot;classevalorhg8__classevalor_descricao&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HL9_CLVL&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.classevalorhg8.classevalor&quot;,&quot;title&quot;:&quot;Classe Valor&quot;,&quot;prettyId&quot;:&quot;classevalorhg8__classevalor&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.contacontabilhje.contacontabil&quot;,&quot;title&quot;:&quot;Conta Contábil 11&quot;,&quot;prettyId&quot;:&quot;attr_contacontabilhje_contacontabil&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.contacontabilhje.contacontabil&quot;,&quot;title&quot;:&quot;Conta Contábil 11&quot;,&quot;prettyId&quot;:&quot;contacontabilhje__contacontabil&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.contacontabilhje.contacontabil.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;contacontabilhje__contacontabil_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.contacontabilhje.contacontabil.descricao&quot;,&quot;title&quot;:&quot;Descrição&quot;,&quot;prettyId&quot;:&quot;contacontabilhje__contacontabil_descricao&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HL9_CNTCTB&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.contacontabilhje.contacontabil&quot;,&quot;title&quot;:&quot;Conta Contábil 11&quot;,&quot;prettyId&quot;:&quot;contacontabilhje__contacontabil&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.empresa.empresabk&quot;,&quot;title&quot;:&quot;Empresa&quot;,&quot;prettyId&quot;:&quot;attr_empresa_empresabk&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.empresa.empresabk.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;empresa__empresabk_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.empresa.empresabk&quot;,&quot;title&quot;:&quot;Empresa&quot;,&quot;prettyId&quot;:&quot;empresa__empresabk&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.empresa.empresabk.nome&quot;,&quot;title&quot;:&quot;Nome&quot;,&quot;prettyId&quot;:&quot;empresa__empresabk_nome&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HL9_EMPRES&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.empresa.empresabk&quot;,&quot;title&quot;:&quot;Empresa&quot;,&quot;prettyId&quot;:&quot;empresa__empresabk&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.estabelecimento.estabelecimento&quot;,&quot;title&quot;:&quot;Estabelecimento&quot;,&quot;prettyId&quot;:&quot;attr_estabelecimento_estabelecimento&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.estabelecimento.estabelecimento.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;estabelecimento__estabelecimento_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.estabelecimento.estabelecimento&quot;,&quot;title&quot;:&quot;Estabelecimento&quot;,&quot;prettyId&quot;:&quot;estabelecimento__estabelecimento&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.estabelecimento.estabelecimento.nome&quot;,&quot;title&quot;:&quot;Nome&quot;,&quot;prettyId&quot;:&quot;estabelecimento__estabelecimento_nome&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HL9_ESTABL&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.estabelecimento.estabelecimento&quot;,&quot;title&quot;:&quot;Estabelecimento&quot;,&quot;prettyId&quot;:&quot;estabelecimento__estabelecimento&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.hq9.projeto&quot;,&quot;title&quot;:&quot;Projeto&quot;,&quot;prettyId&quot;:&quot;attr_hq9_projeto&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.hq9.projeto.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;hq9__projeto_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.hq9.projeto.descricao&quot;,&quot;title&quot;:&quot;Descrição&quot;,&quot;prettyId&quot;:&quot;hq9__projeto_descricao&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.hq9.projeto&quot;,&quot;title&quot;:&quot;Projeto&quot;,&quot;prettyId&quot;:&quot;hq9__projeto&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HL9_PROJET&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.hq9.projeto&quot;,&quot;title&quot;:&quot;Projeto&quot;,&quot;prettyId&quot;:&quot;hq9__projeto&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.itemcontabilhg9.itemcontabil&quot;,&quot;title&quot;:&quot;Item Contábil&quot;,&quot;prettyId&quot;:&quot;attr_itemcontabilhg9_itemcontabil&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.itemcontabilhg9.itemcontabil.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;itemcontabilhg9__itemcontabil_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.itemcontabilhg9.itemcontabil.descricao&quot;,&quot;title&quot;:&quot;Descrição&quot;,&quot;prettyId&quot;:&quot;itemcontabilhg9__itemcontabil_descricao&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.itemcontabilhg9.itemcontabil&quot;,&quot;title&quot;:&quot;Item Contábil&quot;,&quot;prettyId&quot;:&quot;itemcontabilhg9__itemcontabil&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HL9_ITMCTB&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.itemcontabilhg9.itemcontabil&quot;,&quot;title&quot;:&quot;Item Contábil&quot;,&quot;prettyId&quot;:&quot;itemcontabilhg9__itemcontabil&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.moeda.moeda&quot;,&quot;title&quot;:&quot;Moeda&quot;,&quot;prettyId&quot;:&quot;attr_moeda_moeda&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.moeda.moeda.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;moeda__moeda_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.moeda.moeda&quot;,&quot;title&quot;:&quot;Moeda&quot;,&quot;prettyId&quot;:&quot;moeda__moeda&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.moeda.moeda.nome&quot;,&quot;title&quot;:&quot;Nome&quot;,&quot;prettyId&quot;:&quot;moeda__moeda_nome&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HL9_MOEDA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.moeda.moeda&quot;,&quot;title&quot;:&quot;Moeda&quot;,&quot;prettyId&quot;:&quot;moeda__moeda&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.planocentrodecustohkf.planocentrocusto&quot;,&quot;title&quot;:&quot;Plano Centro Custo&quot;,&quot;prettyId&quot;:&quot;attr_planocentrodecustohkf_planocentrocusto&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.planocentrodecustohkf.planocentrocusto.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;planocentrodecustohkf__planocentrocusto_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.planocentrodecustohkf.planocentrocusto.descricao&quot;,&quot;title&quot;:&quot;Descrição&quot;,&quot;prettyId&quot;:&quot;planocentrodecustohkf__planocentrocusto_descricao&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.planocentrodecustohkf.planocentrocusto&quot;,&quot;title&quot;:&quot;Plano Centro Custo&quot;,&quot;prettyId&quot;:&quot;planocentrodecustohkf__planocentrocusto&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HL9_PLCCST&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.planocentrodecustohkf.planocentrocusto&quot;,&quot;title&quot;:&quot;Plano Centro Custo&quot;,&quot;prettyId&quot;:&quot;planocentrodecustohkf__planocentrocusto&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.planodecontas.planodecontas&quot;,&quot;title&quot;:&quot;Plano de Contas&quot;,&quot;prettyId&quot;:&quot;attr_planodecontas_planodecontas&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.planodecontas.planodecontas.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;planodecontas__planodecontas_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.planodecontas.planodecontas.descricao&quot;,&quot;title&quot;:&quot;Descrição&quot;,&quot;prettyId&quot;:&quot;planodecontas__planodecontas_descricao&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.planodecontas.planodecontas&quot;,&quot;title&quot;:&quot;Plano de Contas&quot;,&quot;prettyId&quot;:&quot;planodecontas__planodecontas&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HL9_PLCONT&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.planodecontas.planodecontas&quot;,&quot;title&quot;:&quot;Plano de Contas&quot;,&quot;prettyId&quot;:&quot;planodecontas__planodecontas&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.unidadenegocio.unidadedenegocio&quot;,&quot;title&quot;:&quot;Unidade de Negócio&quot;,&quot;prettyId&quot;:&quot;attr_unidadenegocio_unidadedenegocio&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.unidadenegocio.unidadedenegocio.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;unidadenegocio__unidadedenegocio_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.unidadenegocio.unidadedenegocio.nome&quot;,&quot;title&quot;:&quot;Nome&quot;,&quot;prettyId&quot;:&quot;unidadenegocio__unidadedenegocio_nome&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.unidadenegocio.unidadedenegocio&quot;,&quot;title&quot;:&quot;Unidade de Negócio&quot;,&quot;prettyId&quot;:&quot;unidadenegocio__unidadedenegocio&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HL9_UNDNEG&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.unidadenegocio.unidadedenegocio&quot;,&quot;title&quot;:&quot;Unidade de Negócio&quot;,&quot;prettyId&quot;:&quot;unidadenegocio__unidadedenegocio&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.unidadeorganizacional.unidadeorganizacional&quot;,&quot;title&quot;:&quot;Unidade Organizacional&quot;,&quot;prettyId&quot;:&quot;attr_unidadeorganizacional_unidadeorganizacional&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.unidadeorganizacional.unidadeorganizacional.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;unidadeorganizacional__unidadeorganizacional_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.unidadeorganizacional.unidadeorganizacional.descricao&quot;,&quot;title&quot;:&quot;Descrição&quot;,&quot;prettyId&quot;:&quot;unidadeorganizacional__unidadeorganizacional_descricao&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.unidadeorganizacional.unidadeorganizacional&quot;,&quot;title&quot;:&quot;Unidade Organizacional&quot;,&quot;prettyId&quot;:&quot;unidadeorganizacional__unidadeorganizacional&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HL9_UNIORG&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.unidadeorganizacional.unidadeorganizacional&quot;,&quot;title&quot;:&quot;Unidade Organizacional&quot;,&quot;prettyId&quot;:&quot;unidadeorganizacional__unidadeorganizacional&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}}],&quot;dateAttributes&quot;:[{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;data.date&quot;,&quot;title&quot;:&quot;Date (DATA)&quot;,&quot;prettyId&quot;:&quot;data&quot;,&quot;assignedMetadataField&quot;:&quot;HL9_DATA&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;data.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (DATA)&quot;,&quot;prettyId&quot;:&quot;data_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;data.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (DATA)&quot;,&quot;prettyId&quot;:&quot;data_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}}],&quot;simpleFacts&quot;:[{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.contabilidadehl9.ativo&quot;,&quot;title&quot;:&quot;Ativo&quot;,&quot;prettyId&quot;:&quot;ativo&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;CC1_1ATIVO&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.contabilidadehl9.passivo&quot;,&quot;title&quot;:&quot;Passivo&quot;,&quot;prettyId&quot;:&quot;passivo&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;CC1_2PASSIVO&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.contabilidadehl9.receita&quot;,&quot;title&quot;:&quot;Receita&quot;,&quot;prettyId&quot;:&quot;receita&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;CC1_3RECEITA&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.contabilidadehl9.vlapuracaoresultado&quot;,&quot;title&quot;:&quot;Vl Apuração Resultado&quot;,&quot;prettyId&quot;:&quot;vlapuracaoresultado&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;HL9_VAPURA&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.contabilidadehl9.vlcreditoreal&quot;,&quot;title&quot;:&quot;Vl Crédito Real&quot;,&quot;prettyId&quot;:&quot;vlcreditoreal&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;HL9_VCREAL&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.contabilidadehl9.vldebitoreal&quot;,&quot;title&quot;:&quot;Vl Débito Real&quot;,&quot;prettyId&quot;:&quot;vldebitoreal&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;HL9_VDREAL&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.contabilidadehl9.vlmovimentocontabilreal&quot;,&quot;title&quot;:&quot;Vl Movimento Contábil Real&quot;,&quot;prettyId&quot;:&quot;vlmovimentocontabilreal&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;HL9_VCTBRL&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.contabilidadehl9.vlsaldofinalreal&quot;,&quot;title&quot;:&quot;Vl Saldo Final Real&quot;,&quot;prettyId&quot;:&quot;vlsaldofinalreal&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;HL9_VSDFIN&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.contabilidadehl9.vlsaldoinicialreal&quot;,&quot;title&quot;:&quot;Vl Saldo Inicial Real&quot;,&quot;prettyId&quot;:&quot;vlsaldoinicialreal&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;HL9_VSDINI&quot;}}],&quot;dateFacts&quot;:[],&quot;datesWithFactConflict&quot;:[],&quot;entitiesWithoutMetadata&quot;:[],&quot;fieldsWithMetadataConflict&quot;:[],&quot;entitiesWithoutValue&quot;:[],&quot;unassigneddateFacts&quot;:[]}}" enabled="enabled" guiName="GD Dataset Writer" guiX="1212" guiY="1025" id="GD_DATASET_WRITER_FATO_HL9" mode="INCREMENTAL" retriesInterval="60" retriesNumber="5" type="GD_DATASET_WRITER">
+<attr name="guiDescription"><![CDATA[Carrega HL9 - FATO CONTABILIDADE]]></attr>
+</Node>
+<Edge debugMode="true" fromNode="CSV_READER_CARREGA_FATO_HL9:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 0 (in)" metadata="Metadata10" outPort="Port 0 (output)" toNode="GD_DATASET_WRITER_FATO_HL9:0"/>
+</Phase>
+</Graph>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HOD" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HOD.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HOD_ISTCIA" type="string"/>
+<Field name="HOD_LINPRO" type="string"/>
+<Field name="HOD_FILIAL" type="string"/>
+<Field name="HOD_EMPRES" type="string"/>
+<Field name="HOD_ESTABL" type="string"/>
+<Field name="HOD_UNDNEG" type="string"/>
+<Field name="HOD_SERTRA" type="string"/>
+<Field name="HOD_TIPTRA" type="string"/>
+<Field name="HOD_ROTA" type="string"/>
+<Field name="HOD_VIAGEM" type="string"/>
+<Field length="15" name="HOD_PESO" scale="5" type="decimal"/>
+<Field length="15" name="HOD_PESOM3" scale="5" type="decimal"/>
+<Field length="15" name="HOD_CPDADE" scale="5" type="decimal"/>
+<Field length="15" name="HOD_CPDAM3" scale="5" type="decimal"/>
+<Field format="yyyyMMdd" name="HOD_DATA" type="date"/>
+<Field name="HOD_LIVRE0" type="string"/>
+<Field name="HOD_LIVRE1" type="string"/>
+<Field name="HOD_LIVRE2" type="string"/>
+<Field name="HOD_LIVRE3" type="string"/>
+<Field name="HOD_LIVRE4" type="string"/>
+<Field name="HOD_LIVRE5" type="string"/>
+<Field name="HOD_LIVRE6" type="string"/>
+<Field name="HOD_LIVRE7" type="string"/>
+<Field name="HOD_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HOD_LIVRE9" type="string"/>
+</Record>

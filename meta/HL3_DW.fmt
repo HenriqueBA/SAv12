@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HL3_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HL3_DTEXTR" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HL3_DTENTR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_STCRED" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_REPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_TRANSP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_FAMCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_FAMMAT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_GRPEST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_ITEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_NATOPR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_CFOP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_PRDUTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_CONDPG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_GRPCLI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_CLIENT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_PEDIDO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_ROTA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_CANALV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_REGCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_MICREG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_TABPCO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_REFER" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_NMITVD" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_NMPRIO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_TRARED" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_STPEDV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_STITPV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL3_TPCPIT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HL3_QCARTE" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL3_VCARTE" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL3_QCARFC" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL3_QCARFM" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL3_DATEDIFF" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

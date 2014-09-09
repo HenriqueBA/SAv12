@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HQ4" previewAttachment="${DATA_TMP_DIR}/HQ4.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HQ4_LINPRO" type="string"/>
+<Field name="HQ4_ISTCIA" type="string"/>
+<Field name="HQ4_EMPRES" type="string"/>
+<Field name="HQ4_FILIAL" type="string"/>
+<Field name="HQ4_ESTABL" type="string"/>
+<Field name="HQ4_CLIENT" type="string"/>
+<Field name="HQ4_GRPCLI" type="string"/>
+<Field name="HQ4_REGIAO" type="string"/>
+<Field name="HQ4_TRCHCT" type="string"/>
+<Field name="HQ4_SITEXP" type="string"/>
+<Field name="HQ4_NPREXP" type="string"/>
+<Field name="HQ4_FORNTI" type="string"/>
+<Field name="HQ4_FORNAC" type="string"/>
+<Field name="HQ4_FORNDP" type="string"/>
+<Field name="HQ4_FORNSG" type="string"/>
+<Field name="HQ4_INCOTR" type="string"/>
+<Field name="HQ4_NATEXP" type="string"/>
+<Field name="HQ4_ITINER" type="string"/>
+<Field name="HQ4_VIATRA" type="string"/>
+<Field name="HQ4_DATA" type="string"/>
+<Field name="HQ4_DTEMBA" type="string"/>
+<Field name="HQ4_DTPRIN" type="string"/>
+<Field name="HQ4_DTPRFI" type="string"/>
+<Field name="HQ4_DTUPIN" type="string"/>
+<Field name="HQ4_DTUPFI" type="string"/>
+<Field name="HQ4_DTEFIN" type="string"/>
+<Field name="HQ4_DTEFFI" type="string"/>
+<Field length="15" name="HQ4_QLTPRV" scale="5" type="decimal"/>
+<Field length="15" name="HQ4_QLTUPV" scale="5" type="decimal"/>
+<Field length="15" name="HQ4_QLDEFT" scale="5" type="decimal"/>
+<Field name="HQ4_LIVRE0" type="string"/>
+<Field name="HQ4_LIVRE1" type="string"/>
+<Field name="HQ4_LIVRE2" type="string"/>
+<Field name="HQ4_LIVRE3" type="string"/>
+<Field name="HQ4_LIVRE4" type="string"/>
+<Field name="HQ4_LIVRE5" type="string"/>
+<Field name="HQ4_LIVRE6" type="string"/>
+<Field name="HQ4_LIVRE7" type="string"/>
+<Field name="HQ4_LIVRE8" type="string"/>
+<Field name="HQ4_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

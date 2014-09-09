@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HQV" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HQV.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HQV_LINPRO" type="string"/>
+<Field name="HQV_ISTCIA" type="string"/>
+<Field name="HQV_EMPRES" type="string"/>
+<Field name="HQV_FILIAL" type="string"/>
+<Field name="HQV_ESTABL" type="string"/>
+<Field name="HQV_FXASAL" type="string"/>
+<Field name="HQV_MOEDA" type="string"/>
+<Field name="HQV_CATSAL" type="string"/>
+<Field name="HQV_LOCALI" type="string"/>
+<Field name="HQV_SINDIC" type="string"/>
+<Field name="HQV_TURNO" type="string"/>
+<Field name="HQV_TIPMOB" type="string"/>
+<Field name="HQV_COLABR" type="string"/>
+<Field name="HQV_PLCCST" type="string"/>
+<Field name="HQV_CCUSTO" type="string"/>
+<Field name="HQV_PLOTAC" type="string"/>
+<Field name="HQV_ULOTAC" type="string"/>
+<Field name="HQV_UNDNEG" type="string"/>
+<Field name="HQV_INSTIT" type="string"/>
+<Field name="HQV_INSTRU" type="string"/>
+<Field name="HQV_CURSO" type="string"/>
+<Field name="HQV_TIPCUR" type="string"/>
+<Field name="HQV_REGIAO" type="string"/>
+<Field name="HQV_ESTCIV" type="string"/>
+<Field name="HQV_FXAETA" type="string"/>
+<Field name="HQV_GRAINS" type="string"/>
+<Field name="HQV_NIVHIE" type="string"/>
+<Field name="HQV_RELTRB" type="string"/>
+<Field name="HQV_TPCASA" type="string"/>
+<Field name="HQV_TPCARG" type="string"/>
+<Field name="HQV_CARGO" type="string"/>
+<Field name="HQV_SECAO" type="string"/>
+<Field name="HQV_BOLSA" type="string"/>
+<Field name="HQV_TIPCST" type="string"/>
+<Field name="HQV_MOTTRE" type="string"/>
+<Field name="HQV_STTREI" type="string"/>
+<Field name="HQV_DATA" type="string"/>
+<Field length="15" name="HQV_VTREIN" scale="5" type="decimal"/>
+<Field name="HQV_LIVRE0" type="string"/>
+<Field name="HQV_LIVRE1" type="string"/>
+<Field name="HQV_LIVRE2" type="string"/>
+<Field name="HQV_LIVRE3" type="string"/>
+<Field name="HQV_LIVRE4" type="string"/>
+<Field name="HQV_LIVRE5" type="string"/>
+<Field name="HQV_LIVRE6" type="string"/>
+<Field name="HQV_LIVRE7" type="string"/>
+<Field name="HQV_LIVRE8" type="string"/>
+<Field name="HQV_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

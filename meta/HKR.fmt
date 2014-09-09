@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HKR" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HKR.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HKR_LINPRO" type="string"/>
+<Field name="HKR_ISTCIA" type="string"/>
+<Field name="HKR_EMPRES" type="string"/>
+<Field name="HKR_FILIAL" type="string"/>
+<Field name="HKR_ESTABL" type="string"/>
+<Field name="HKR_FAMMAT" type="string"/>
+<Field name="HKR_FAMCOM" type="string"/>
+<Field name="HKR_GRPEST" type="string"/>
+<Field name="HKR_ITEM" type="string"/>
+<Field name="HKR_MOEDA" type="string"/>
+<Field name="HKR_UNDNEG" type="string"/>
+<Field name="HKR_DATA" type="string"/>
+<Field length="15" name="HKR_QINISD" scale="5" type="decimal"/>
+<Field length="15" name="HKR_QFINSD" scale="5" type="decimal"/>
+<Field length="15" name="HKR_VINISD" scale="5" type="decimal"/>
+<Field length="15" name="HKR_VFINSD" scale="5" type="decimal"/>
+<Field length="15" name="HKR_QSDMED" scale="5" type="decimal"/>
+<Field length="15" name="HKR_VSDMED" scale="5" type="decimal"/>
+<Field length="15" name="HKR_QEREAL" scale="5" type="decimal"/>
+<Field length="15" name="HKR_VEPREV" scale="5" type="decimal"/>
+<Field length="15" name="HKR_VEREAL" scale="5" type="decimal"/>
+<Field length="15" name="HKR_VESEGU" scale="5" type="decimal"/>
+<Field length="15" name="HKR_QEPREV" scale="5" type="decimal"/>
+<Field name="HKR_LIVRE0" type="string"/>
+<Field name="HKR_LIVRE1" type="string"/>
+<Field name="HKR_LIVRE2" type="string"/>
+<Field name="HKR_LIVRE3" type="string"/>
+<Field name="HKR_LIVRE4" type="string"/>
+<Field name="HKR_LIVRE5" type="string"/>
+<Field name="HKR_LIVRE6" type="string"/>
+<Field name="HKR_LIVRE7" type="string"/>
+<Field name="HKR_LIVRE8" type="string"/>
+<Field name="HKR_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

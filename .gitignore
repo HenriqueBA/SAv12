@@ -1,0 +1,6 @@
+.classpath
+workspace.prm
+devel.prm
+.project
+.deploy-ignore
+.DS_Store

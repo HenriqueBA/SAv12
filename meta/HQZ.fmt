@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HQZ" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HQZ.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HQZ_LINPRO" type="string"/>
+<Field name="HQZ_ISTCIA" type="string"/>
+<Field name="HQZ_EMPRES" type="string"/>
+<Field name="HQZ_FILIAL" type="string"/>
+<Field name="HQZ_ESTABL" type="string"/>
+<Field name="HQZ_MOEDA" type="string"/>
+<Field name="HQZ_UNDNEG" type="string"/>
+<Field name="HQZ_DEPOSI" type="string"/>
+<Field name="HQZ_TIPITM" type="string"/>
+<Field name="HQZ_ITEM" type="string"/>
+<Field name="HQZ_GRPEST" type="string"/>
+<Field name="HQZ_FAMCOM" type="string"/>
+<Field name="HQZ_FAMMAT" type="string"/>
+<Field name="HQZ_TPODER" type="string"/>
+<Field name="HQZ_GRPCLI" type="string"/>
+<Field name="HQZ_CLIENT" type="string"/>
+<Field name="HQZ_GRPFOR" type="string"/>
+<Field name="HQZ_FORNEC" type="string"/>
+<Field name="HQZ_TIPMOV" type="string"/>
+<Field name="HQZ_NUMDOC" type="string"/>
+<Field name="HQZ_SERDOC" type="string"/>
+<Field name="HQZ_DATA" type="string"/>
+<Field length="15" name="HQZ_QTPODE" scale="5" type="decimal"/>
+<Field length="15" name="HQZ_QDPODE" scale="5" type="decimal"/>
+<Field length="15" name="HQZ_VLPODE" scale="5" type="decimal"/>
+<Field name="HQZ_LIVRE0" type="string"/>
+<Field name="HQZ_LIVRE1" type="string"/>
+<Field name="HQZ_LIVRE2" type="string"/>
+<Field name="HQZ_LIVRE3" type="string"/>
+<Field name="HQZ_LIVRE4" type="string"/>
+<Field name="HQZ_LIVRE5" type="string"/>
+<Field name="HQZ_LIVRE6" type="string"/>
+<Field name="HQZ_LIVRE7" type="string"/>
+<Field name="HQZ_LIVRE8" type="string"/>
+<Field name="HQZ_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

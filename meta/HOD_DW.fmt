@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HOD_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyyMMdd" name="HOD_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HOD_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOD_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOD_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOD_SERTRA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOD_TIPTRA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOD_ROTA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOD_VIAGEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HOD_PESO" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HOD_PESOM3" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HOD_CPDADE" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HOD_CPDAM3" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field default="0" length="15" name="PESO_ENTR" scale="5" type="decimal"/>
+<Field default="0" length="15" name="PESO_TRANSP" scale="5" type="decimal"/>
+<Field default="0" length="15" name="PESOM3_ENTR" scale="5" type="decimal"/>
+<Field default="0" length="15" name="PESOM3_TRANSP" scale="5" type="decimal"/>
+<Field default="0" length="15" name="CPDA_ENTR" scale="5" type="decimal"/>
+<Field default="0" length="15" name="CPDA_TRANS" scale="5" type="decimal"/>
+<Field default="0" length="15" name="CPDAM3_ENTR" scale="5" type="decimal"/>
+<Field default="0" length="15" name="CPDAM3_TRANS" scale="5" type="decimal"/>
+</Record>

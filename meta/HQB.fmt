@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HQB" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HQB.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HQB_LINPRO" type="string"/>
+<Field name="HQB_ISTCIA" type="string"/>
+<Field name="HQB_EMPRES" type="string"/>
+<Field name="HQB_FILIAL" type="string"/>
+<Field name="HQB_ESTABL" type="string"/>
+<Field name="HQB_ITEM" type="string"/>
+<Field name="HQB_FAMMAT" type="string"/>
+<Field name="HQB_FAMCOM" type="string"/>
+<Field name="HQB_GRPEST" type="string"/>
+<Field name="HQB_MOEDA" type="string"/>
+<Field name="HQB_UNDNEG" type="string"/>
+<Field name="HQB_DATA" type="string"/>
+<Field name="HQB_DTEXTR" type="string"/>
+<Field name="HQB_OPERA" type="string"/>
+<Field length="15" name="HQB_VCUSTP" scale="5" type="decimal"/>
+<Field name="HQB_LINHAP" type="string"/>
+<Field name="HQB_PLCCST" type="string"/>
+<Field name="HQB_CCUSTO" type="string"/>
+<Field name="HQB_LIVRE0" type="string"/>
+<Field name="HQB_LIVRE1" type="string"/>
+<Field name="HQB_LIVRE2" type="string"/>
+<Field name="HQB_LIVRE3" type="string"/>
+<Field name="HQB_LIVRE4" type="string"/>
+<Field name="HQB_LIVRE5" type="string"/>
+<Field name="HQB_LIVRE6" type="string"/>
+<Field name="HQB_LIVRE7" type="string"/>
+<Field name="HQB_LIVRE8" type="string"/>
+<Field name="HQB_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HSP" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HSP.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HSP_ISTCIA" type="string"/>
+<Field name="HSP_LINPRO" type="string"/>
+<Field name="HSP_FILIAL" type="string"/>
+<Field name="HSP_GRPEMP" type="string"/>
+<Field name="HSP_CDUNEG" type="string"/>
+<Field name="HSP_CDEMPR" type="string"/>
+<Field name="HSP_UNICOM" type="string"/>
+<Field name="HSP_CODIGO" type="string"/>
+<Field name="HSP_NOME" type="string"/>
+<Field name="HSP_LIVRE0" type="string"/>
+<Field name="HSP_LIVRE1" type="string"/>
+<Field name="HSP_LIVRE2" type="string"/>
+<Field name="HSP_LIVRE3" type="string"/>
+<Field name="HSP_LIVRE4" type="string"/>
+<Field name="HSP_LIVRE5" type="string"/>
+<Field name="HSP_LIVRE6" type="string"/>
+<Field name="HSP_LIVRE7" type="string"/>
+<Field name="HSP_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HSP_LIVRE9" type="string"/>
+</Record>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HKU" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HKU.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HKU_LINPRO" type="string"/>
+<Field name="HKU_ISTCIA" type="string"/>
+<Field name="HKU_EMPRES" type="string"/>
+<Field name="HKU_FILIAL" type="string"/>
+<Field name="HKU_ESTABL" type="string"/>
+<Field name="HKU_ITEM" type="string"/>
+<Field name="HKU_FAMMAT" type="string"/>
+<Field name="HKU_FAMCOM" type="string"/>
+<Field name="HKU_GRPEST" type="string"/>
+<Field name="HKU_MOEDA" type="string"/>
+<Field name="HKU_UNDNEG" type="string"/>
+<Field name="HKU_DATA" type="string"/>
+<Field length="15" name="HKU_VCSPDR" scale="5" type="decimal"/>
+<Field length="15" name="HKU_VCSPDM" scale="5" type="decimal"/>
+<Field length="15" name="HKU_VCSPMO" scale="5" type="decimal"/>
+<Field length="15" name="HKU_VCSPGF" scale="5" type="decimal"/>
+<Field name="HKU_DTEXTR" type="string"/>
+<Field name="HKU_REFER" type="string"/>
+<Field name="HKU_TIPITM" type="string"/>
+<Field name="HKU_LINHAP" type="string"/>
+<Field length="15" name="HKU_CNCUST" scale="5" type="decimal"/>
+<Field name="HKU_LIVRE0" type="string"/>
+<Field name="HKU_LIVRE1" type="string"/>
+<Field name="HKU_LIVRE2" type="string"/>
+<Field name="HKU_LIVRE3" type="string"/>
+<Field name="HKU_LIVRE4" type="string"/>
+<Field name="HKU_LIVRE5" type="string"/>
+<Field name="HKU_LIVRE6" type="string"/>
+<Field name="HKU_LIVRE7" type="string"/>
+<Field name="HKU_LIVRE8" type="string"/>
+<Field name="HKU_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

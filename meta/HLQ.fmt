@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLQ" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HLQ.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HLQ_LINPRO" type="string"/>
+<Field name="HLQ_ISTCIA" type="string"/>
+<Field name="HLQ_EMPRES" type="string"/>
+<Field name="HLQ_FILIAL" type="string"/>
+<Field name="HLQ_ESTABL" type="string"/>
+<Field name="HLQ_TIPMOB" type="string"/>
+<Field name="HLQ_MOTMOV" type="string"/>
+<Field name="HLQ_TIPMOT" type="string"/>
+<Field name="HLQ_MOEDA" type="string"/>
+<Field name="HLQ_CATSAL" type="string"/>
+<Field name="HLQ_CCUSTO" type="string"/>
+<Field name="HLQ_TURNO" type="string"/>
+<Field name="HLQ_FXASAL" type="string"/>
+<Field name="HLQ_SINDIC" type="string"/>
+<Field name="HLQ_SITCLB" type="string"/>
+<Field name="HLQ_UNDNEG" type="string"/>
+<Field name="HLQ_COLABR" type="string"/>
+<Field name="HLQ_REGIAO" type="string"/>
+<Field name="HLQ_CARGO" type="string"/>
+<Field name="HLQ_NIVHIE" type="string"/>
+<Field name="HLQ_ESTCIV" type="string"/>
+<Field name="HLQ_FXAETA" type="string"/>
+<Field name="HLQ_GRAINS" type="string"/>
+<Field name="HLQ_TPCASA" type="string"/>
+<Field name="HLQ_TPCARG" type="string"/>
+<Field name="HLQ_RELTRB" type="string"/>
+<Field name="HLQ_DATA" type="string"/>
+<Field length="15" name="HLQ_QCOLAB" scale="5" type="decimal"/>
+<Field length="15" name="HLQ_QCBDEM" scale="5" type="decimal"/>
+<Field length="15" name="HLQ_QCBADM" scale="5" type="decimal"/>
+<Field length="15" name="HLQ_VCBDEM" scale="5" type="decimal"/>
+<Field length="15" name="HLQ_VCLDEM" scale="5" type="decimal"/>
+<Field length="15" name="HLQ_QPROMO" scale="5" type="decimal"/>
+<Field length="15" name="HLQ_QRELOQ" scale="5" type="decimal"/>
+<Field length="15" name="HLQ_QTRANS" scale="5" type="decimal"/>
+<Field length="15" name="HLQ_QHRPRV" scale="5" type="decimal"/>
+<Field length="15" name="HLQ_QDEPEN" scale="5" type="decimal"/>
+<Field length="15" name="HLQ_QDFAVC" scale="5" type="decimal"/>
+<Field length="15" name="HLQ_QDFVCD" scale="5" type="decimal"/>
+<Field length="15" name="HLQ_QDFERI" scale="5" type="decimal"/>
+<Field length="15" name="HLQ_QHRAFT" scale="5" type="decimal"/>
+<Field length="15" name="HLQ_VAMSAL" scale="5" type="decimal"/>
+<Field length="15" name="HLQ_QAMSAL" scale="5" type="decimal"/>
+<Field name="HLQ_PLCCST" type="string"/>
+<Field name="HLQ_SECAO" type="string"/>
+<Field length="15" name="HLQ_ABSENT" scale="5" type="decimal"/>
+<Field length="15" name="HLQ_VLABST" scale="5" type="decimal"/>
+<Field name="HLQ_PRESRV" type="string"/>
+<Field name="HLQ_PLOTAC" type="string"/>
+<Field name="HLQ_ULOTAC" type="string"/>
+<Field name="HLQ_LOCALI" type="string"/>
+<Field length="15" name="HLQ_QTRANL" scale="5" type="decimal"/>
+<Field name="HLQ_LIVRE0" type="string"/>
+<Field name="HLQ_LIVRE1" type="string"/>
+<Field name="HLQ_LIVRE2" type="string"/>
+<Field name="HLQ_LIVRE3" type="string"/>
+<Field name="HLQ_LIVRE4" type="string"/>
+<Field name="HLQ_LIVRE5" type="string"/>
+<Field name="HLQ_LIVRE6" type="string"/>
+<Field name="HLQ_LIVRE7" type="string"/>
+<Field name="HLQ_LIVRE8" type="string"/>
+<Field name="HLQ_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

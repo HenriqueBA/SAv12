@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLY" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HLY.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HLY_FILIAL" type="string"/>
+<Field name="HLY_LINPRO" type="string"/>
+<Field name="HLY_ISTCIA" type="string"/>
+<Field name="HLY_EMPRES" type="string"/>
+<Field name="HLY_ESTABL" type="string"/>
+<Field name="HLY_FAMMAT" type="string"/>
+<Field name="HLY_FAMCOM" type="string"/>
+<Field name="HLY_GRPEST" type="string"/>
+<Field name="HLY_ITEM" type="string"/>
+<Field name="HLY_GRPCLI" type="string"/>
+<Field name="HLY_PLANEJ" type="string"/>
+<Field name="HLY_DEPOSI" type="string"/>
+<Field name="HLY_CLIENT" type="string"/>
+<Field name="HLY_REGIAO" type="string"/>
+<Field name="HLY_MOEDA" type="string"/>
+<Field name="HLY_UNDNEG" type="string"/>
+<Field name="HLY_DTEXTR" type="string"/>
+<Field name="HLY_DTEMIS" type="string"/>
+<Field name="HLY_DTTERM" type="string"/>
+<Field length="15" name="HLY_QCARTE" scale="5" type="decimal"/>
+<Field length="15" name="HLY_VCTPRD" scale="5" type="decimal"/>
+<Field length="15" name="HLY_QCTFCM" scale="5" type="decimal"/>
+<Field length="15" name="HLY_QCTFMT" scale="5" type="decimal"/>
+<Field length="15" name="HLY_VCTMOB" scale="5" type="decimal"/>
+<Field length="15" name="HLY_VCTGGF" scale="5" type="decimal"/>
+<Field length="15" name="HLY_QCTODP" scale="5" type="decimal"/>
+<Field name="HLY_ORDEM" type="string"/>
+<Field name="HLY_TIPITM" type="string"/>
+<Field name="HLY_LINHAP" type="string"/>
+<Field name="HLY_TIPPRD" type="string"/>
+<Field name="HLY_REFER" type="string"/>
+<Field name="HLY_PEDIDO" type="string"/>
+<Field length="15" name="HLY_SEQCIA" scale="5" type="decimal"/>
+<Field length="15" name="HLY_PRIORI" scale="5" type="decimal"/>
+<Field name="HLY_LIVRE0" type="string"/>
+<Field name="HLY_LIVRE1" type="string"/>
+<Field name="HLY_LIVRE2" type="string"/>
+<Field name="HLY_LIVRE3" type="string"/>
+<Field name="HLY_LIVRE4" type="string"/>
+<Field name="HLY_LIVRE5" type="string"/>
+<Field name="HLY_LIVRE6" type="string"/>
+<Field name="HLY_LIVRE7" type="string"/>
+<Field name="HLY_LIVRE8" type="string"/>
+<Field name="HLY_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HJ4" previewAttachment="zip:(./data/tmp/TOTVSBA.zip)#HJ4.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" skipSourceRows="1" type="delimited">
+<Field eofAsDelimiter="false" name="HJ4_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJ4_ISTCIA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJ4_LINPRO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJ4_FILIAL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJ4_GRPEMP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJ4_CODIGO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJ4_NOME" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJ4_DESCGR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJ4_LIVRE0" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJ4_LIVRE1" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJ4_LIVRE2" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJ4_LIVRE3" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJ4_LIVRE4" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJ4_LIVRE5" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJ4_LIVRE6" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJ4_LIVRE7" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJ4_LIVRE8" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJ4_LIVRE9" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJ4_FLUIG" nullable="true" shift="0" size="0" type="string"/>
+</Record>

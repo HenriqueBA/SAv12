@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HSN" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HSN.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HSN_ISTCIA" type="string"/>
+<Field name="HSN_LINPRO" type="string"/>
+<Field name="HSN_FILIAL" type="string"/>
+<Field name="HSN_GRPEMP" type="string"/>
+<Field name="HSN_CDUNEG" type="string"/>
+<Field name="HSN_CDEMPR" type="string"/>
+<Field name="HSN_PROVEN" type="string"/>
+<Field name="HSN_CODIGO" type="string"/>
+<Field name="HSN_DESC" type="string"/>
+<Field name="HSN_CODEST" type="string"/>
+<Field name="HSN_DESEST" type="string"/>
+<Field name="HSN_LIVRE0" type="string"/>
+<Field name="HSN_LIVRE1" type="string"/>
+<Field name="HSN_LIVRE2" type="string"/>
+<Field name="HSN_LIVRE3" type="string"/>
+<Field name="HSN_LIVRE4" type="string"/>
+<Field name="HSN_LIVRE5" type="string"/>
+<Field name="HSN_LIVRE6" type="string"/>
+<Field name="HSN_LIVRE7" type="string"/>
+<Field name="HSN_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HSN_LIVRE9" type="string"/>
+</Record>

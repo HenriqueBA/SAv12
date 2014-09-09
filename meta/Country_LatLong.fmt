@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="|" label="DadoExemplo" name="Country_LatLong" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\r\n" skipSourceRows="1" type="delimited">
+<Field name="Country" type="string"/>
+<Field name="CountryLatLong" type="string"/>
+</Record>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HOE" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HOE.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HOE_ISTCIA" type="string"/>
+<Field name="HOE_LINPRO" type="string"/>
+<Field name="HOE_FILIAL" type="string"/>
+<Field name="HOE_EMPRES" type="string"/>
+<Field name="HOE_ESTABL" type="string"/>
+<Field name="HOE_UNDNEG" type="string"/>
+<Field name="HOE_FILATV" type="string"/>
+<Field name="HOE_TIPTRA" type="string"/>
+<Field name="HOE_SERTRA" type="string"/>
+<Field name="HOE_SEROPE" type="string"/>
+<Field name="HOE_TAREFA" type="string"/>
+<Field name="HOE_ATIVID" type="string"/>
+<Field name="HOE_TIPOPE" type="string"/>
+<Field name="HOE_VIAGEM" type="string"/>
+<Field format="yyyyMMdd" name="HOE_DATA" type="date"/>
+<Field length="15" name="HOE_PERFOR" scale="5" type="decimal"/>
+<Field name="HOE_LIVRE0" type="string"/>
+<Field name="HOE_LIVRE1" type="string"/>
+<Field name="HOE_LIVRE2" type="string"/>
+<Field name="HOE_LIVRE3" type="string"/>
+<Field name="HOE_LIVRE4" type="string"/>
+<Field name="HOE_LIVRE5" type="string"/>
+<Field name="HOE_LIVRE6" type="string"/>
+<Field name="HOE_LIVRE7" type="string"/>
+<Field name="HOE_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HOE_LIVRE9" type="string"/>
+</Record>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HOC_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyyMMdd" name="HOC_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HOC_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOC_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOC_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOC_TIPTRA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOC_SERTRA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOC_TIPOCO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOC_TIPPEN" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOC_VEICLO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOC_ROTA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOC_REGTRA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOC_REGDES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOC_VIAGEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HOC_VOLUME" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HOC_PESO" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HOC_QTDOCO" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field default="0" length="15" name="QTDE_PEND_FALTA" scale="5" type="decimal"/>
+<Field default="0" length="15" name="QTDE_PEND_AVARIA" scale="5" type="decimal"/>
+<Field default="0" length="15" name="QTDE_PEND_SOBRA" scale="5" type="decimal"/>
+</Record>

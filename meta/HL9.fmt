@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HL9" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HL9.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HL9_FILIAL" type="string"/>
+<Field name="HL9_LINPRO" type="string"/>
+<Field name="HL9_ISTCIA" type="string"/>
+<Field name="HL9_EMPRES" type="string"/>
+<Field name="HL9_ESTABL" type="string"/>
+<Field name="HL9_UNDNEG" type="string"/>
+<Field name="HL9_PLCONT" type="string"/>
+<Field name="HL9_CNTCTB" type="string"/>
+<Field name="HL9_CCUSTO" type="string"/>
+<Field name="HL9_MOEDA" type="string"/>
+<Field name="HL9_DATA" type="string"/>
+<Field length="15" name="HL9_VCTBRL" scale="5" type="decimal"/>
+<Field length="15" name="HL9_VSDINI" scale="5" type="decimal"/>
+<Field length="15" name="HL9_VDREAL" scale="5" type="decimal"/>
+<Field length="15" name="HL9_VCREAL" scale="5" type="decimal"/>
+<Field length="15" name="HL9_VSDFIN" scale="5" type="decimal"/>
+<Field name="HL9_PLCCST" type="string"/>
+<Field name="HL9_CNARIO" type="string"/>
+<Field name="HL9_UNIORG" type="string"/>
+<Field name="HL9_PROJET" type="string"/>
+<Field length="15" name="HL9_VAPURA" scale="5" type="decimal"/>
+<Field name="HL9_ITMCTB" type="string"/>
+<Field name="HL9_CLVL" type="string"/>
+<Field name="HL9_LIVRE0" type="string"/>
+<Field name="HL9_LIVRE1" type="string"/>
+<Field name="HL9_LIVRE2" type="string"/>
+<Field name="HL9_LIVRE3" type="string"/>
+<Field name="HL9_LIVRE4" type="string"/>
+<Field name="HL9_LIVRE5" type="string"/>
+<Field name="HL9_LIVRE6" type="string"/>
+<Field name="HL9_LIVRE7" type="string"/>
+<Field name="HL9_LIVRE8" type="string"/>
+<Field name="HL9_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

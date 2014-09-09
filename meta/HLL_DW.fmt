@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLL_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HLL_DTEXTR" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HLL_DTVENC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLL_DTEMIS" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLL_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLL_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLL_REPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLL_BANCO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLL_ESPDOC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLL_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLL_CLIENT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLL_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLL_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLL_MODALI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLL_GRPCLI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLL_SERDOC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLL_NUMDOC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLL_PARCEL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HLL_VRECEB" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLL_PRZREC" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLL_VSUBCT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

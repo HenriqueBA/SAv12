@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," label="HQM.csv" name="HQM_csv" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HQM.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HQM_ISTCIA" type="string"/>
+<Field name="HQM_LINPRO" type="string"/>
+<Field name="HQM_GRPEMP" type="string"/>
+<Field name="HQM_CDUNEG" type="string"/>
+<Field name="HQM_CDEMPR" type="string"/>
+<Field name="HQM_FILIAL" type="string"/>
+<Field name="HQM_SITIMP" type="string"/>
+<Field name="HQM_CODIGO" type="string"/>
+<Field name="HQM_DESC" type="string"/>
+<Field name="HQM_LIVRE0" type="string"/>
+<Field name="HQM_LIVRE1" type="string"/>
+<Field name="HQM_LIVRE2" type="string"/>
+<Field name="HQM_LIVRE3" type="string"/>
+<Field name="HQM_LIVRE4" type="string"/>
+<Field name="HQM_LIVRE5" type="string"/>
+<Field name="HQM_LIVRE6" type="string"/>
+<Field name="HQM_LIVRE7" type="string"/>
+<Field name="HQM_LIVRE8" type="string"/>
+<Field name="HQM_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

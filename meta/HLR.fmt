@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLR" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HLR.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HLR_FILIAL" type="string"/>
+<Field name="HLR_LINPRO" type="string"/>
+<Field name="HLR_ISTCIA" type="string"/>
+<Field name="HLR_EMPRES" type="string"/>
+<Field name="HLR_ESTABL" type="string"/>
+<Field name="HLR_FAMMAT" type="string"/>
+<Field name="HLR_FAMCOM" type="string"/>
+<Field name="HLR_GRPEST" type="string"/>
+<Field name="HLR_ITEM" type="string"/>
+<Field name="HLR_PLANEJ" type="string"/>
+<Field name="HLR_GRPCLI" type="string"/>
+<Field name="HLR_DEPOSI" type="string"/>
+<Field name="HLR_CLIENT" type="string"/>
+<Field name="HLR_REGIAO" type="string"/>
+<Field name="HLR_MOEDA" type="string"/>
+<Field name="HLR_ITMPAI" type="string"/>
+<Field name="HLR_UNDNEG" type="string"/>
+<Field name="HLR_DATA" type="string"/>
+<Field length="15" name="HLR_QCONSU" scale="5" type="decimal"/>
+<Field length="15" name="HLR_VCONMP" scale="5" type="decimal"/>
+<Field length="15" name="HLR_QCSFMT" scale="5" type="decimal"/>
+<Field length="15" name="HLR_QCSFCM" scale="5" type="decimal"/>
+<Field name="HLR_PEDIDO" type="string"/>
+<Field length="15" name="HLR_SEQCIA" scale="5" type="decimal"/>
+<Field name="HLR_ORDEM" type="string"/>
+<Field name="HLR_TIPSOB" type="string"/>
+<Field name="HLR_TIPITM" type="string"/>
+<Field name="HLR_LINHAP" type="string"/>
+<Field name="HLR_REFER" type="string"/>
+<Field name="HLR_LIVRE0" type="string"/>
+<Field name="HLR_LIVRE1" type="string"/>
+<Field name="HLR_LIVRE2" type="string"/>
+<Field name="HLR_LIVRE3" type="string"/>
+<Field name="HLR_LIVRE4" type="string"/>
+<Field name="HLR_LIVRE5" type="string"/>
+<Field name="HLR_LIVRE6" type="string"/>
+<Field name="HLR_LIVRE7" type="string"/>
+<Field name="HLR_LIVRE8" type="string"/>
+<Field name="HLR_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

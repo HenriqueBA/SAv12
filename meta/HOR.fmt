@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HOR" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HOR.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HOR_ISTCIA" type="string"/>
+<Field name="HOR_LINPRO" type="string"/>
+<Field name="HOR_FILIAL" type="string"/>
+<Field name="HOR_EMPRES" type="string"/>
+<Field name="HOR_ESTABL" type="string"/>
+<Field name="HOR_ATENDE" type="string"/>
+<Field name="HOR_CCUSTO" type="string"/>
+<Field name="HOR_TURNO" type="string"/>
+<Field name="HOR_CARGO" type="string"/>
+<Field name="HOR_SITATE" type="string"/>
+<Field format="yyyyMMdd" name="HOR_DATA" type="date"/>
+<Field name="HOR_DTEXTR" type="string"/>
+<Field length="15" name="HOR_QTDAGE" scale="5" type="decimal"/>
+<Field name="HOR_LIVRE0" type="string"/>
+<Field name="HOR_LIVRE1" type="string"/>
+<Field name="HOR_LIVRE2" type="string"/>
+<Field name="HOR_LIVRE3" type="string"/>
+<Field name="HOR_LIVRE4" type="string"/>
+<Field name="HOR_LIVRE5" type="string"/>
+<Field name="HOR_LIVRE6" type="string"/>
+<Field name="HOR_LIVRE7" type="string"/>
+<Field name="HOR_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HOR_LIVRE9" type="string"/>
+</Record>

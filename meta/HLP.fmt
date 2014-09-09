@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLP" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HLP.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HLP_LINPRO" type="string"/>
+<Field name="HLP_ISTCIA" type="string"/>
+<Field name="HLP_EMPRES" type="string"/>
+<Field name="HLP_FILIAL" type="string"/>
+<Field name="HLP_ESTABL" type="string"/>
+<Field name="HLP_SINDIC" type="string"/>
+<Field name="HLP_TURNO" type="string"/>
+<Field name="HLP_EVENTO" type="string"/>
+<Field name="HLP_TIPMOB" type="string"/>
+<Field name="HLP_CCUSTO" type="string"/>
+<Field name="HLP_COLABR" type="string"/>
+<Field name="HLP_UNDNEG" type="string"/>
+<Field name="HLP_CARGO" type="string"/>
+<Field name="HLP_NIVHIE" type="string"/>
+<Field name="HLP_FXASAL" type="string"/>
+<Field name="HLP_MOEDA" type="string"/>
+<Field name="HLP_CATSAL" type="string"/>
+<Field name="HLP_REGIAO" type="string"/>
+<Field name="HLP_ESTCIV" type="string"/>
+<Field name="HLP_FXAETA" type="string"/>
+<Field name="HLP_GRAINS" type="string"/>
+<Field name="HLP_TPCASA" type="string"/>
+<Field name="HLP_TPCARG" type="string"/>
+<Field name="HLP_RELTRB" type="string"/>
+<Field name="HLP_SITCLB" type="string"/>
+<Field name="HLP_DATA" type="string"/>
+<Field length="15" name="HLP_QDEPEN" scale="5" type="decimal"/>
+<Field length="15" name="HLP_QHRPRV" scale="5" type="decimal"/>
+<Field length="15" name="HLP_QHREXT" scale="5" type="decimal"/>
+<Field length="15" name="HLP_VHREXT" scale="5" type="decimal"/>
+<Field length="15" name="HLP_QHRTRB" scale="5" type="decimal"/>
+<Field length="15" name="HLP_VHRTRB" scale="5" type="decimal"/>
+<Field length="15" name="HLP_VENCEM" scale="5" type="decimal"/>
+<Field length="15" name="HLP_VENCCB" scale="5" type="decimal"/>
+<Field length="15" name="HLP_VBENEM" scale="5" type="decimal"/>
+<Field length="15" name="HLP_VBENCB" scale="5" type="decimal"/>
+<Field length="15" name="HLP_VFLHPG" scale="5" type="decimal"/>
+<Field length="15" name="HLP_VEVESP" scale="5" type="decimal"/>
+<Field length="15" name="HLP_QCBCAL" scale="5" type="decimal"/>
+<Field length="15" name="HLP_VDESFP" scale="5" type="decimal"/>
+<Field length="15" name="HLP_QCBNCA" scale="5" type="decimal"/>
+<Field name="HLP_PLCCST" type="string"/>
+<Field name="HLP_SECAO" type="string"/>
+<Field name="HLP_LOCALI" type="string"/>
+<Field name="HLP_PRESRV" type="string"/>
+<Field name="HLP_PLOTAC" type="string"/>
+<Field name="HLP_ULOTAC" type="string"/>
+<Field name="HLP_LIVRE0" type="string"/>
+<Field name="HLP_LIVRE1" type="string"/>
+<Field name="HLP_LIVRE2" type="string"/>
+<Field name="HLP_LIVRE3" type="string"/>
+<Field name="HLP_LIVRE4" type="string"/>
+<Field name="HLP_LIVRE5" type="string"/>
+<Field name="HLP_LIVRE6" type="string"/>
+<Field name="HLP_LIVRE7" type="string"/>
+<Field name="HLP_LIVRE8" type="string"/>
+<Field name="HLP_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," label="HJY.csv" name="HJY" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HJY.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HJY_GRPMAQ" type="string"/>
+<Field name="HJY_ISTCIA" type="string"/>
+<Field name="HJY_LINPRO" type="string"/>
+<Field name="HJY_GRPEMP" type="string"/>
+<Field name="HJY_CDUNEG" type="string"/>
+<Field name="HJY_CDEMPR" type="string"/>
+<Field name="HJY_FILIAL" type="string"/>
+<Field name="HJY_CODIGO" type="string"/>
+<Field name="HJY_DESC" type="string"/>
+<Field name="HJY_LIVRE0" type="string"/>
+<Field name="HJY_LIVRE1" type="string"/>
+<Field name="HJY_LIVRE2" type="string"/>
+<Field name="HJY_LIVRE3" type="string"/>
+<Field name="HJY_LIVRE4" type="string"/>
+<Field name="HJY_LIVRE5" type="string"/>
+<Field name="HJY_LIVRE6" type="string"/>
+<Field name="HJY_LIVRE7" type="string"/>
+<Field name="HJY_LIVRE8" type="string"/>
+<Field name="HJY_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

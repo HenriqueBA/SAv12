@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HL3" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HL3.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HL3_LINPRO" type="string"/>
+<Field name="HL3_ISTCIA" type="string"/>
+<Field name="HL3_FILIAL" type="string"/>
+<Field name="HL3_EMPRES" type="string"/>
+<Field name="HL3_ESTABL" type="string"/>
+<Field name="HL3_STCRED" type="string"/>
+<Field name="HL3_REPRES" type="string"/>
+<Field name="HL3_TRANSP" type="string"/>
+<Field name="HL3_FAMCOM" type="string"/>
+<Field name="HL3_FAMMAT" type="string"/>
+<Field name="HL3_GRPEST" type="string"/>
+<Field name="HL3_ITEM" type="string"/>
+<Field name="HL3_NATOPR" type="string"/>
+<Field name="HL3_CFOP" type="string"/>
+<Field name="HL3_PRDUTO" type="string"/>
+<Field name="HL3_CONDPG" type="string"/>
+<Field name="HL3_REGIAO" type="string"/>
+<Field name="HL3_MOEDA" type="string"/>
+<Field name="HL3_GRPCLI" type="string"/>
+<Field name="HL3_CLIENT" type="string"/>
+<Field name="HL3_UNDNEG" type="string"/>
+<Field name="HL3_DTEXTR" type="string"/>
+<Field name="HL3_DTENTR" type="string"/>
+<Field length="15" name="HL3_QCARTE" scale="5" type="decimal"/>
+<Field length="15" name="HL3_VCARTE" scale="5" type="decimal"/>
+<Field name="HL3_PEDIDO" type="string"/>
+<Field length="15" name="HL3_QCARFC" scale="5" type="decimal"/>
+<Field length="15" name="HL3_QCARFM" scale="5" type="decimal"/>
+<Field name="HL3_ROTA" type="string"/>
+<Field name="HL3_CANALV" type="string"/>
+<Field name="HL3_REGCOM" type="string"/>
+<Field name="HL3_MICREG" type="string"/>
+<Field name="HL3_TABPCO" type="string"/>
+<Field name="HL3_REFER" type="string"/>
+<Field name="HL3_NMITVD" type="string"/>
+<Field name="HL3_NMPRIO" type="string"/>
+<Field name="HL3_TRARED" type="string"/>
+<Field name="HL3_STPEDV" type="string"/>
+<Field name="HL3_STITPV" type="string"/>
+<Field name="HL3_TPCPIT" type="string"/>
+<Field name="HL3_LIVRE0" type="string"/>
+<Field name="HL3_LIVRE1" type="string"/>
+<Field name="HL3_LIVRE2" type="string"/>
+<Field name="HL3_LIVRE3" type="string"/>
+<Field name="HL3_LIVRE4" type="string"/>
+<Field name="HL3_LIVRE5" type="string"/>
+<Field name="HL3_LIVRE6" type="string"/>
+<Field name="HL3_LIVRE7" type="string"/>
+<Field name="HL3_LIVRE8" type="string"/>
+<Field name="HL3_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

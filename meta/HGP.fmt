@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," label="HGP.csv" name="HGP" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HGP.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HGP_ISTCIA" type="string"/>
+<Field name="HGP_LINPRO" type="string"/>
+<Field name="HGP_GRPEMP" type="string"/>
+<Field name="HGP_CDUNEG" type="string"/>
+<Field name="HGP_CDEMPR" type="string"/>
+<Field name="HGP_FILIAL" type="string"/>
+<Field name="HGP_NATEXP" type="string"/>
+<Field name="HGP_CODIGO" type="string"/>
+<Field name="HGP_DESC" type="string"/>
+<Field name="HGP_LIVRE0" type="string"/>
+<Field name="HGP_LIVRE1" type="string"/>
+<Field name="HGP_LIVRE2" type="string"/>
+<Field name="HGP_LIVRE3" type="string"/>
+<Field name="HGP_LIVRE4" type="string"/>
+<Field name="HGP_LIVRE5" type="string"/>
+<Field name="HGP_LIVRE6" type="string"/>
+<Field name="HGP_LIVRE7" type="string"/>
+<Field name="HGP_LIVRE8" type="string"/>
+<Field name="HGP_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

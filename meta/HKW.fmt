@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HKW" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HKW.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HKW_FILIAL" type="string"/>
+<Field name="HKW_PLANEJ" type="string"/>
+<Field name="HKW_ISTCIA" type="string"/>
+<Field name="HKW_EMPRES" type="string"/>
+<Field name="HKW_ESTABL" type="string"/>
+<Field name="HKW_FAMMAT" type="string"/>
+<Field name="HKW_FAMCOM" type="string"/>
+<Field name="HKW_GRPEST" type="string"/>
+<Field name="HKW_ITEM" type="string"/>
+<Field name="HKW_GRPCLI" type="string"/>
+<Field name="HKW_DEPOSI" type="string"/>
+<Field name="HKW_CLIENT" type="string"/>
+<Field name="HKW_REGIAO" type="string"/>
+<Field name="HKW_MOEDA" type="string"/>
+<Field name="HKW_UNDNEG" type="string"/>
+<Field name="HKW_DATA" type="string"/>
+<Field length="15" name="HKW_QPRODU" scale="5" type="decimal"/>
+<Field length="15" name="HKW_QREFUG" scale="5" type="decimal"/>
+<Field length="15" name="HKW_QPRFMT" scale="5" type="decimal"/>
+<Field length="15" name="HKW_QREFMT" scale="5" type="decimal"/>
+<Field length="15" name="HKW_QPRFCM" scale="5" type="decimal"/>
+<Field length="15" name="HKW_QREFCM" scale="5" type="decimal"/>
+<Field length="15" name="HKW_VCSPRD" scale="5" type="decimal"/>
+<Field length="15" name="HKW_VCSMAT" scale="5" type="decimal"/>
+<Field length="15" name="HKW_VCSMOB" scale="5" type="decimal"/>
+<Field length="15" name="HKW_VCSGGF" scale="5" type="decimal"/>
+<Field length="15" name="HKW_QORDPD" scale="5" type="decimal"/>
+<Field length="15" name="HKW_VCSRFG" scale="5" type="decimal"/>
+<Field name="HKW_LINPRO" type="string"/>
+<Field name="HKW_ORDEM" type="string"/>
+<Field name="HKW_TIPITM" type="string"/>
+<Field name="HKW_PEDIDO" type="string"/>
+<Field length="15" name="HKW_SEQCIA" scale="5" type="decimal"/>
+<Field name="HKW_LINHAP" type="string"/>
+<Field name="HKW_TIPPRD" type="string"/>
+<Field name="HKW_REFER" type="string"/>
+<Field length="15" name="HKW_PRIORI" scale="5" type="decimal"/>
+<Field length="15" name="HKW_QRELET" scale="5" type="decimal"/>
+<Field name="HKW_LIVRE0" type="string"/>
+<Field name="HKW_LIVRE1" type="string"/>
+<Field name="HKW_LIVRE2" type="string"/>
+<Field name="HKW_LIVRE3" type="string"/>
+<Field name="HKW_LIVRE4" type="string"/>
+<Field name="HKW_LIVRE5" type="string"/>
+<Field name="HKW_LIVRE6" type="string"/>
+<Field name="HKW_LIVRE7" type="string"/>
+<Field name="HKW_LIVRE8" type="string"/>
+<Field name="HKW_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

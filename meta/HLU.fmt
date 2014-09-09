@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLU" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HLU.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HLU_FILIAL" type="string"/>
+<Field name="HLU_ISTCIA" type="string"/>
+<Field name="HLU_ITEM" type="string"/>
+<Field name="HLU_EMPRES" type="string"/>
+<Field name="HLU_ESTABL" type="string"/>
+<Field name="HLU_FAMMAT" type="string"/>
+<Field name="HLU_FAMCOM" type="string"/>
+<Field name="HLU_GRPEST" type="string"/>
+<Field name="HLU_PLANEJ" type="string"/>
+<Field name="HLU_GRPCLI" type="string"/>
+<Field name="HLU_DEPOSI" type="string"/>
+<Field name="HLU_CLIENT" type="string"/>
+<Field name="HLU_REGIAO" type="string"/>
+<Field name="HLU_MOEDA" type="string"/>
+<Field name="HLU_UNDNEG" type="string"/>
+<Field name="HLU_DATA" type="string"/>
+<Field length="15" name="HLU_QPROGR" scale="5" type="decimal"/>
+<Field name="HLU_LINPRO" type="string"/>
+<Field length="15" name="HLU_QPGFMT" scale="5" type="decimal"/>
+<Field length="15" name="HLU_QPGFCM" scale="5" type="decimal"/>
+<Field length="15" name="HLU_VMOBPG" scale="5" type="decimal"/>
+<Field length="15" name="HLU_QORDPG" scale="5" type="decimal"/>
+<Field length="15" name="HLU_VPROGR" scale="5" type="decimal"/>
+<Field length="15" name="HLU_VMATPG" scale="5" type="decimal"/>
+<Field length="15" name="HLU_VGGFPG" scale="5" type="decimal"/>
+<Field name="HLU_ORDEM" type="string"/>
+<Field name="HLU_TIPITM" type="string"/>
+<Field name="HLU_LINHAP" type="string"/>
+<Field name="HLU_TIPPRD" type="string"/>
+<Field name="HLU_REFER" type="string"/>
+<Field name="HLU_PEDIDO" type="string"/>
+<Field length="15" name="HLU_PRIORI" scale="5" type="decimal"/>
+<Field length="15" name="HLU_SEQCIA" scale="5" type="decimal"/>
+<Field name="HLU_LIVRE0" type="string"/>
+<Field name="HLU_LIVRE1" type="string"/>
+<Field name="HLU_LIVRE2" type="string"/>
+<Field name="HLU_LIVRE3" type="string"/>
+<Field name="HLU_LIVRE4" type="string"/>
+<Field name="HLU_LIVRE5" type="string"/>
+<Field name="HLU_LIVRE6" type="string"/>
+<Field name="HLU_LIVRE7" type="string"/>
+<Field name="HLU_LIVRE8" type="string"/>
+<Field name="HLU_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

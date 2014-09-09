@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HKM_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HKM_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HKM_DTPREV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_DTEPED" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_DTEORD" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_DATANF" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_FORNEC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_TRANSP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_GRPFOR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_FAMMAT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_FAMCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_GRPEST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_ITEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_CMPRDR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_SITCMP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_NATCMP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_CONDPG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_REFER" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_CFOP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_PLCCST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_CCUSTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_NATOPR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_EMERG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_PEDIDO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_NUMNF" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_SERNF" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HKM_ORDEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HKM_SEQCIA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HKM_NUMPRG" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HKM_QDIAAN" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HKM_QDIAAT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HKM_QRECEB" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HKM_QRECFM" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HKM_QRECAN" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HKM_QRECAT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HKM_QRECDT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" name="HKM_QRECUN" nullable="true" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" name="HKM_VRECEB" nullable="true" shift="0" size="0" type="decimal"/>
+</Record>

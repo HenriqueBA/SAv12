@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HOO" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HOO.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HOO_ISTCIA" type="string"/>
+<Field name="HOO_LINPRO" type="string"/>
+<Field name="HOO_FILIAL" type="string"/>
+<Field name="HOO_GRPEMP" type="string"/>
+<Field name="HOO_CDUNEG" type="string"/>
+<Field name="HOO_CDEMPR" type="string"/>
+<Field name="HOO_STTPOS" type="string"/>
+<Field name="HOO_CODIGO" type="string"/>
+<Field name="HOO_DESC" type="string"/>
+<Field name="HOO_LIVRE0" type="string"/>
+<Field name="HOO_LIVRE1" type="string"/>
+<Field name="HOO_LIVRE2" type="string"/>
+<Field name="HOO_LIVRE3" type="string"/>
+<Field name="HOO_LIVRE4" type="string"/>
+<Field name="HOO_LIVRE5" type="string"/>
+<Field name="HOO_LIVRE6" type="string"/>
+<Field name="HOO_LIVRE7" type="string"/>
+<Field name="HOO_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HOO_LIVRE9" type="string"/>
+</Record>

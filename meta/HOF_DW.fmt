@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HOF_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyyMMdd" name="HOF_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HOF_DTPREV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOF_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOF_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOF_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOF_TIPTRA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOF_CLIREM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOF_CLIDES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOF_CLIDEV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOF_REGTRA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOF_REGDES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOF_ROTA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOF_FILORI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOF_VIAGEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOF_STAENT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HOF_QTDENT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field default="0" length="15" name="QTDE_PRAZO" scale="5" type="decimal"/>
+<Field default="0" length="15" name="QTDE_FORAPRAZO" scale="5" type="decimal"/>
+</Record>

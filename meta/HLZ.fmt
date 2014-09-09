@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLZ" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HLZ.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HLZ_FILIAL" type="string"/>
+<Field name="HLZ_ITEM" type="string"/>
+<Field name="HLZ_LINPRO" type="string"/>
+<Field name="HLZ_ISTCIA" type="string"/>
+<Field name="HLZ_EMPRES" type="string"/>
+<Field name="HLZ_ESTABL" type="string"/>
+<Field name="HLZ_ITMPAI" type="string"/>
+<Field name="HLZ_FAMMAT" type="string"/>
+<Field name="HLZ_FAMCOM" type="string"/>
+<Field name="HLZ_GRPEST" type="string"/>
+<Field name="HLZ_PLANEJ" type="string"/>
+<Field name="HLZ_DEPOSI" type="string"/>
+<Field name="HLZ_CLIENT" type="string"/>
+<Field name="HLZ_REGIAO" type="string"/>
+<Field name="HLZ_MOEDA" type="string"/>
+<Field name="HLZ_GRPCLI" type="string"/>
+<Field name="HLZ_UNDNEG" type="string"/>
+<Field name="HLZ_DTEXTR" type="string"/>
+<Field name="HLZ_DTEMIS" type="string"/>
+<Field name="HLZ_DTTERM" type="string"/>
+<Field length="15" name="HLZ_QCARTE" scale="5" type="decimal"/>
+<Field length="15" name="HLZ_VCRTMP" scale="5" type="decimal"/>
+<Field length="15" name="HLZ_QCRFMT" scale="5" type="decimal"/>
+<Field length="15" name="HLZ_QCRFCM" scale="5" type="decimal"/>
+<Field name="HLZ_PEDIDO" type="string"/>
+<Field length="15" name="HLZ_SEQCIA" scale="5" type="decimal"/>
+<Field name="HLZ_ORDEM" type="string"/>
+<Field name="HLZ_OPERA" type="string"/>
+<Field name="HLZ_REFER" type="string"/>
+<Field name="HLZ_TIPSOB" type="string"/>
+<Field name="HLZ_TIPITM" type="string"/>
+<Field name="HLZ_LINHAP" type="string"/>
+<Field name="HLZ_LIVRE0" type="string"/>
+<Field name="HLZ_LIVRE1" type="string"/>
+<Field name="HLZ_LIVRE2" type="string"/>
+<Field name="HLZ_LIVRE3" type="string"/>
+<Field name="HLZ_LIVRE4" type="string"/>
+<Field name="HLZ_LIVRE5" type="string"/>
+<Field name="HLZ_LIVRE6" type="string"/>
+<Field name="HLZ_LIVRE7" type="string"/>
+<Field name="HLZ_LIVRE8" type="string"/>
+<Field name="HLZ_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

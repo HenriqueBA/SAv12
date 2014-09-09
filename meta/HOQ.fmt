@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HOQ" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HOQ.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HOQ_ISTCIA" type="string"/>
+<Field name="HOQ_LINPRO" type="string"/>
+<Field name="HOQ_FILIAL" type="string"/>
+<Field name="HOQ_EMPRES" type="string"/>
+<Field name="HOQ_ESTABL" type="string"/>
+<Field name="HOQ_POSTO" type="string"/>
+<Field name="HOQ_CONTRA" type="string"/>
+<Field name="HOQ_TIPCON" type="string"/>
+<Field name="HOQ_CLIENT" type="string"/>
+<Field name="HOQ_SITCON" type="string"/>
+<Field name="HOQ_STTPOS" type="string"/>
+<Field name="HOQ_MOEDA" type="string"/>
+<Field name="HOQ_ITEM" type="string"/>
+<Field name="HOQ_UNITEM" type="string"/>
+<Field name="HOQ_CARGO" type="string"/>
+<Field name="HOQ_TURNO" type="string"/>
+<Field name="HOQ_TIPREC" type="string"/>
+<Field format="yyyyMMdd" name="HOQ_DATA" type="date"/>
+<Field name="HOQ_DTEXTR" type="string"/>
+<Field length="15" name="HOQ_SALDO" scale="5" type="decimal"/>
+<Field length="15" name="HOQ_QTDCON" scale="5" type="decimal"/>
+<Field length="15" name="HOQ_QTDALO" scale="5" type="decimal"/>
+<Field length="15" name="HOQ_QUANTI" scale="5" type="decimal"/>
+<Field name="HOQ_LIVRE0" type="string"/>
+<Field name="HOQ_LIVRE1" type="string"/>
+<Field name="HOQ_LIVRE2" type="string"/>
+<Field name="HOQ_LIVRE3" type="string"/>
+<Field name="HOQ_LIVRE4" type="string"/>
+<Field name="HOQ_LIVRE5" type="string"/>
+<Field name="HOQ_LIVRE6" type="string"/>
+<Field name="HOQ_LIVRE7" type="string"/>
+<Field name="HOQ_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HOQ_LIVRE9" type="string"/>
+</Record>

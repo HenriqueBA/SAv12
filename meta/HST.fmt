@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HST" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HST.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HST_ISTCIA" type="string"/>
+<Field name="HST_LINPRO" type="string"/>
+<Field name="HST_FILIAL" type="string"/>
+<Field name="HST_EMPRES" type="string"/>
+<Field name="HST_ESTABL" type="string"/>
+<Field name="HST_STTPRO" type="string"/>
+<Field name="HST_STTOPO" type="string"/>
+<Field name="HST_PROBAB" type="string"/>
+<Field name="HST_MOEDA" type="string"/>
+<Field name="HST_AREA" type="string"/>
+<Field name="HST_REGIAO" type="string"/>
+<Field name="HST_ITEM" type="string"/>
+<Field name="HST_FAMCOM" type="string"/>
+<Field name="HST_GRPEST" type="string"/>
+<Field name="HST_OPOVEN" type="string"/>
+<Field name="HST_REPRES" type="string"/>
+<Field name="HST_PROVEN" type="string"/>
+<Field name="HST_UNICOM" type="string"/>
+<Field name="HST_EQUVEN" type="string"/>
+<Field name="HST_CLIENT" type="string"/>
+<Field name="HST_PROSPE" type="string"/>
+<Field name="HST_UNITEM" type="string"/>
+<Field name="HST_PROCOM" type="string"/>
+<Field name="HST_REVPRO" type="string"/>
+<Field length="15" name="HST_QTITEM" scale="5" type="decimal"/>
+<Field length="15" name="HST_QTPROD" scale="5" type="decimal"/>
+<Field length="15" name="HST_VLVEND" scale="5" type="decimal"/>
+<Field length="15" name="HST_VLTABE" scale="5" type="decimal"/>
+<Field length="15" name="HST_VLRTOT" scale="5" type="decimal"/>
+<Field length="15" name="HST_VLPDES" scale="5" type="decimal"/>
+<Field length="15" name="HST_VLDESC" scale="5" type="decimal"/>
+<Field format="yyyyMMdd" name="HST_DTAINI" type="date"/>
+<Field format="yyyyMMdd" name="HST_DTAFIM" type="date"/>
+<Field name="HST_LIVRE0" type="string"/>
+<Field name="HST_LIVRE1" type="string"/>
+<Field name="HST_LIVRE2" type="string"/>
+<Field name="HST_LIVRE3" type="string"/>
+<Field name="HST_LIVRE4" type="string"/>
+<Field name="HST_LIVRE5" type="string"/>
+<Field name="HST_LIVRE6" type="string"/>
+<Field name="HST_LIVRE7" type="string"/>
+<Field name="HST_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HST_LIVRE9" type="string"/>
+</Record>

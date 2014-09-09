@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLA_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HLA_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HLA_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLA_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLA_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLA_PLCONT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLA_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLA_UNIORG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLA_PROJET" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLA_INDICA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLA_CNARIO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HLA_VRLMES" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLA_VRLMSA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLA_MESREF" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

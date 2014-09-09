@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HGB" previewAttachment="zip:(${DATA_TMP_DIR}/TOTVSBA.zip)#HGB.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HGB_ISTCIA" type="string"/>
+<Field name="HGB_LINPRO" type="string"/>
+<Field name="HGB_GRPEMP" type="string"/>
+<Field name="HGB_CDUNEG" type="string"/>
+<Field name="HGB_CDEMPR" type="string"/>
+<Field name="HGB_FILIAL" type="string"/>
+<Field name="HGB_MICREG" type="string"/>
+<Field name="HGB_CODIGO" type="string"/>
+<Field name="HGB_DESC" type="string"/>
+<Field name="HGB_LIVRE0" type="string"/>
+<Field name="HGB_LIVRE1" type="string"/>
+<Field name="HGB_LIVRE2" type="string"/>
+<Field name="HGB_LIVRE3" type="string"/>
+<Field name="HGB_LIVRE4" type="string"/>
+<Field name="HGB_LIVRE5" type="string"/>
+<Field name="HGB_LIVRE6" type="string"/>
+<Field name="HGB_LIVRE7" type="string"/>
+<Field name="HGB_LIVRE8" type="string"/>
+<Field name="HGB_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

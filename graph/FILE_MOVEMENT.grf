@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Graph author="michel" created="Mon Aug 26 09:15:38 BRT 2013" description="O objetivo desse gráfico é realizar a movimentação de arquivos no ambiente do cliente de forma a criar versões de arquivos em diferentes datas de processamento que poderão ser recuperados para eventuais reprocessamentos. Nesse mapa iremos manter os arquivos dos últimos 7 dias, que serão armazenados em pastas equivalentes. A cada processamento de um novo arquivo cada arquivo é movido para a pasta do dia anterior deixando a pasta do dia atual já processado vazia e sobrescrevendo o arquivo mais antigo." guiVersion="3.4.2.P" id="1377536522374" licenseType="Commercial" modified="Wed Sep 25 15:02:39 BRT 2013" modifiedBy="michel" name="FileMovementStaging" revision="1.35" showComponentDetails="true">
+<Global>
+<Property fileURL="parameters/parametros.prm" id="GraphParameter0"/>
+<Property fileURL="workspace.prm" id="GraphParameter4"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="194" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="12" title="FILE MOVE" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="14" width="1103" x="82" y="73">
+<attr name="text"><![CDATA[Movimenta os arquivos já carregados para pastas históricas, eliminando automaticamente o conjunto mais antigo de arquivos.]]></attr>
+</Note>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node baseURL="https://${USER_PWD_SECURE_DI}@${STORAGE_HOST_WEBDAV}/${STORAGE_PATH}" enabled="enabled" guiName="File Copy/Move" guiX="102" guiY="161" id="FILE_COPY_MOVE_TODAY_6_TO_TODAY_7" makeDirs="false" maxRetryCount="10" overwriteExisting="true" sourcePath="today-6/" targetPath="today-7/" type="FILE_COPY_MOVE">
+<attr name="guiDescription"><![CDATA[TODAY -6 > TODAY -7]]></attr>
+</Node>
+</Phase>
+<Phase number="1">
+<Node baseURL="https://${USER_PWD_SECURE_DI}@${STORAGE_HOST_WEBDAV}/${STORAGE_PATH}" enabled="enabled" guiName="File Copy/Move" guiX="256" guiY="161" id="FILE_COPY_MOVE_TODAY_5_TO_TODAY_6" makeDirs="false" maxRetryCount="10" overwriteExisting="true" sourcePath="today-5/" targetPath="today-6/" type="FILE_COPY_MOVE">
+<attr name="guiDescription"><![CDATA[TODAY -5 > TODAY -6]]></attr>
+</Node>
+</Phase>
+<Phase number="2">
+<Node baseURL="https://${USER_PWD_SECURE_DI}@${STORAGE_HOST_WEBDAV}/${STORAGE_PATH}" enabled="enabled" guiName="File Copy/Move" guiX="410" guiY="161" id="FILE_COPY_MOVE_PASTA_HOJE_2_PARA_HOJE_3" makeDirs="false" maxRetryCount="10" overwriteExisting="true" sourcePath="today-4/" targetPath="today-5/" type="FILE_COPY_MOVE">
+<attr name="guiDescription"><![CDATA[TODAY -4 > TODAY -5]]></attr>
+</Node>
+</Phase>
+<Phase number="3">
+<Node baseURL="https://${USER_PWD_SECURE_DI}@${STORAGE_HOST_WEBDAV}/${STORAGE_PATH}" enabled="enabled" guiName="File Copy/Move" guiX="562" guiY="161" id="FILE_COPY_MOVE_TODAY_3_TO_TODAY_4" makeDirs="false" maxRetryCount="10" overwriteExisting="true" sourcePath="today-3/" targetPath="today-4/" type="FILE_COPY_MOVE">
+<attr name="guiDescription"><![CDATA[TODAY -3 > TODAY -4]]></attr>
+</Node>
+</Phase>
+<Phase number="4">
+<Node baseURL="https://${USER_PWD_SECURE_DI}@${STORAGE_HOST_WEBDAV}/${STORAGE_PATH}" enabled="enabled" guiName="File Copy/Move" guiX="719" guiY="161" id="FILE_COPY_MOVE_TODAY_2_TO_TODAY_3" makeDirs="false" maxRetryCount="10" overwriteExisting="true" sourcePath="today-2/" targetPath="today-3/" type="FILE_COPY_MOVE">
+<attr name="guiDescription"><![CDATA[TODAY -2 > TODAY -3]]></attr>
+</Node>
+</Phase>
+<Phase number="5">
+<Node baseURL="https://${USER_PWD_SECURE_DI}@${STORAGE_HOST_WEBDAV}/${STORAGE_PATH}" enabled="enabled" guiName="File Copy/Move" guiX="872" guiY="161" id="FILE_COPY_MOVE_TODAY_1_TO_TODAY_2" makeDirs="false" maxRetryCount="10" overwriteExisting="false" sourcePath="today-1/" targetPath="today-2/" type="FILE_COPY_MOVE">
+<attr name="guiDescription"><![CDATA[TODAY -1 > TODAY -2]]></attr>
+</Node>
+</Phase>
+<Phase number="6">
+<Node baseURL="https://${USER_PWD_SECURE_DI}@${STORAGE_HOST_WEBDAV}/${STORAGE_PATH}" enabled="enabled" guiName="File Copy/Move" guiX="1034" guiY="161" id="FILE_COPY_MOVE_TODAY_TO_TODAY_1" makeDirs="false" maxRetryCount="10" overwriteExisting="false" sourcePath="today/" targetPath="today-1/" type="FILE_COPY_MOVE">
+<attr name="guiDescription"><![CDATA[TODAY > TODAY-1]]></attr>
+</Node>
+</Phase>
+</Graph>

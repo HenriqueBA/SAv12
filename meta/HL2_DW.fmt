@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HL2_DW" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HL2_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HL2_DTSANF" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_FILIAL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_UNITEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_ITEREM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_SERREM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_REMITO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_ITEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_FAMCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_FAMMAT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_GRPEST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_PRDUTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_REPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_TRANSP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_NATOPR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_CFOP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_GRPCLI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_CLIENT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_CONDPG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_SERNF" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_NUMNF" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_PEDIDO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_TABPCO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_CANALV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_ROTA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_REGCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_MICREG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_REFER" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_NMITNF" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_FGERDP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_TPFRET" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_TPNOTA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_TRARED" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_FBXEST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_TPCPIT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_TIPDOC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_CANMID" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_CLIREM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_CLIDES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_CLIDEV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_FORNEC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_FXHORA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_FORPAG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_ORILAN" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_REGTRA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_REGDES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_SERTRA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_TIPTRA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_FILORI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL2_VIAGEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VISSFT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_QTPESL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_QTPESB" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VFATOT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VCMFAT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VLCSFT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VICMSF" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VIPIFT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VRECFI" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VFRTNF" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VDESPE" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VFATME" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VFATLQ" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VPISFT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="12" name="HL2_VCOFIN" nullable="true" scale="2" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_QFATIT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_QFATFC" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_QFATFM" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_QPRZDP" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VICMSS" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VLDESF" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VLIRFF" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VINSSF" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VIPINC" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VIPNIN" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VALCMV" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_QTDVEN" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL2_VLUNIT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field default="0" eofAsDelimiter="false" length="15" name="VLTOTFATEXTRA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field default="0" eofAsDelimiter="false" length="15" name="VLTOTFATEXTRA_DEV" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field default="0" eofAsDelimiter="false" length="15" name="VLTOTFATEXTRA_REENT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

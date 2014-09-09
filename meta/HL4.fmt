@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HL4" previewAttachment="zip:(${DATA_TMP_DIR}/TOTVSBA.zip)#HL4.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HL4_LINPRO" type="string"/>
+<Field name="HL4_ISTCIA" type="string"/>
+<Field name="HL4_EMPRES" type="string"/>
+<Field name="HL4_FILIAL" type="string"/>
+<Field name="HL4_ESTABL" type="string"/>
+<Field name="HL4_TRANSP" type="string"/>
+<Field name="HL4_REPRES" type="string"/>
+<Field name="HL4_NATOPR" type="string"/>
+<Field name="HL4_CFOP" type="string"/>
+<Field name="HL4_ITEM" type="string"/>
+<Field name="HL4_FAMCOM" type="string"/>
+<Field name="HL4_FAMMAT" type="string"/>
+<Field name="HL4_GRPEST" type="string"/>
+<Field name="HL4_PRDUTO" type="string"/>
+<Field name="HL4_CONDPG" type="string"/>
+<Field name="HL4_PEDIDO" type="string"/>
+<Field name="HL4_GRPCLI" type="string"/>
+<Field name="HL4_CLIENT" type="string"/>
+<Field name="HL4_REGIAO" type="string"/>
+<Field name="HL4_MOEDA" type="string"/>
+<Field name="HL4_STCRED" type="string"/>
+<Field name="HL4_UNDNEG" type="string"/>
+<Field name="HL4_DATA" type="string"/>
+<Field name="HL4_DTENTR" type="string"/>
+<Field name="HL4_DTIMPL" type="string"/>
+<Field length="15" name="HL4_VVENDA" scale="5" type="decimal"/>
+<Field length="15" name="HL4_QVENDA" scale="5" type="decimal"/>
+<Field length="15" name="HL4_VIMPVD" scale="5" type="decimal"/>
+<Field length="15" name="HL4_VVMERC" scale="5" type="decimal"/>
+<Field length="15" name="HL4_VVNDLQ" scale="5" type="decimal"/>
+<Field length="15" name="HL4_QVENFC" scale="5" type="decimal"/>
+<Field length="15" name="HL4_QVENFM" scale="5" type="decimal"/>
+<Field name="HL4_CANALV" type="string"/>
+<Field name="HL4_REGCOM" type="string"/>
+<Field name="HL4_MICREG" type="string"/>
+<Field name="HL4_ROTA" type="string"/>
+<Field name="HL4_TABPCO" type="string"/>
+<Field name="HL4_REFER" type="string"/>
+<Field name="HL4_NMITVD" type="string"/>
+<Field length="15" name="HL4_VLDESV" scale="5" type="decimal"/>
+<Field name="HL4_NMPRIO" type="string"/>
+<Field name="HL4_TRARED" type="string"/>
+<Field name="HL4_STPEDV" type="string"/>
+<Field name="HL4_STITPV" type="string"/>
+<Field name="HL4_TPCPIT" type="string"/>
+<Field name="HL4_LIVRE0" type="string"/>
+<Field name="HL4_LIVRE1" type="string"/>
+<Field name="HL4_LIVRE2" type="string"/>
+<Field name="HL4_LIVRE3" type="string"/>
+<Field name="HL4_LIVRE4" type="string"/>
+<Field name="HL4_LIVRE5" type="string"/>
+<Field name="HL4_LIVRE6" type="string"/>
+<Field name="HL4_LIVRE7" type="string"/>
+<Field name="HL4_LIVRE8" type="string"/>
+<Field name="HL4_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLM_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HLM_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HLM_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_FXASAL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_CATSAL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_SINDIC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_TURNO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_TIPMOB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_COLABR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_CCUSTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_PLCCST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_INSTIT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_INSTRU" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_CURSO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_TIPCUR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_ESTCIV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_FXAETA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_GRAINS" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_NIVHIE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_RELTRB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_TPCASA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_CARGO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_SECAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_LOCALI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_PLOTAC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_ULOTAC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_BOLSA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_MOTTRE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_STTREI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLM_TPCARG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HLM_QHTREI" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLM_VTREIN" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLM_QCTREI" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLM_VINVEP" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLM_VINVCL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLM_DBOLSA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLM_QBOLSA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HS8" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HS8.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HS8_ISTCIA" type="string"/>
+<Field name="HS8_LINPRO" type="string"/>
+<Field name="HS8_FILIAL" type="string"/>
+<Field name="HS8_GRPEMP" type="string"/>
+<Field name="HS8_CDUNEG" type="string"/>
+<Field name="HS8_CDEMPR" type="string"/>
+<Field name="HS8_FXHORA" type="string"/>
+<Field name="HS8_CODIGO" type="string"/>
+<Field name="HS8_DESC" type="string"/>
+<Field name="HS8_LIVRE0" type="string"/>
+<Field name="HS8_LIVRE1" type="string"/>
+<Field name="HS8_LIVRE2" type="string"/>
+<Field name="HS8_LIVRE3" type="string"/>
+<Field name="HS8_LIVRE4" type="string"/>
+<Field name="HS8_LIVRE5" type="string"/>
+<Field name="HS8_LIVRE6" type="string"/>
+<Field name="HS8_LIVRE7" type="string"/>
+<Field name="HS8_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HS8_LIVRE9" type="string"/>
+</Record>

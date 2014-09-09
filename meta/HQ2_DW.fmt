@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HQ2_DW" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HQ2_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HQ2_DTEMBA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_DTEXPP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_CANALV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_REGCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_MICREG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_TRANSP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_REPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_NATOPR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_CFOP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_ITEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_FAMCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_FAMMAT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_GRPEST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_PRDUTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_REFER" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_CONDPG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_SEQINF" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_GRPCLI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_CLIENT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_SERNF" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_NUMNF" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_NPREXP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_FORNTI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_FORNAC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_FORNDP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_FORNSG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_SITEXP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_VIATRA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_PEDIDO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_INCOTR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_NATEXP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_SEQIPE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_ITINER" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HQ2_QTPESL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HQ2_QTPESB" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HQ2_VLULIQ" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HQ2_VLUORI" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HQ2_QFATIT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HQ2_VLTOTP" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HQ2_VDESEX" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HQ2_VDESPD" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HQ2_VDESPI" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HQ2_VLLIQP" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HQ2_VDSEXT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

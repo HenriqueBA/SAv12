@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLQ_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HLQ_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HLQ_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_TIPMOB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_MOTMOV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_TIPMOT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_CATSAL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_CCUSTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_TURNO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_FXASAL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_SINDIC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_SITCLB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_COLABR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_CARGO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_NIVHIE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_ESTCIV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_FXAETA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_GRAINS" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_TPCASA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_TPCARG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_RELTRB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_PLCCST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_SECAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_PRESRV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_PLOTAC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_ULOTAC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLQ_LOCALI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HLQ_QCOLAB" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLQ_QCBDEM" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLQ_QCBADM" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLQ_VCBDEM" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLQ_VCLDEM" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLQ_QPROMO" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLQ_QRELOQ" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLQ_QTRANS" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLQ_QHRPRV" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLQ_QDEPEN" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLQ_QDFAVC" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLQ_QDFVCD" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLQ_QDFERI" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLQ_QHRAFT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLQ_VAMSAL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLQ_QAMSAL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLQ_ABSENT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLQ_VLABST" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLQ_QTRANL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HOI" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HOI.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HOI_ISTCIA" type="string"/>
+<Field name="HOI_LINPRO" type="string"/>
+<Field name="HOI_FILIAL" type="string"/>
+<Field name="HOI_GRPEMP" type="string"/>
+<Field name="HOI_CDUNEG" type="string"/>
+<Field name="HOI_CDEMPR" type="string"/>
+<Field name="HOI_POSTO" type="string"/>
+<Field name="HOI_CODIGO" type="string"/>
+<Field name="HOI_DESC" type="string"/>
+<Field name="HOI_LIVRE0" type="string"/>
+<Field name="HOI_LIVRE1" type="string"/>
+<Field name="HOI_LIVRE2" type="string"/>
+<Field name="HOI_LIVRE3" type="string"/>
+<Field name="HOI_LIVRE4" type="string"/>
+<Field name="HOI_LIVRE5" type="string"/>
+<Field name="HOI_LIVRE6" type="string"/>
+<Field name="HOI_LIVRE7" type="string"/>
+<Field name="HOI_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HOI_LIVRE9" type="string"/>
+</Record>

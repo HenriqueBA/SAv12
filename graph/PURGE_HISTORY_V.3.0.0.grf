@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="michel" created="Mon Oct 07 10:25:51 BRT 2013" guiVersion="3.4.4.P" id="1381156359747" licenseType="Commercial" modified="Mon Feb 17 15:14:05 BRT 2014" modifiedBy="robson.bezerra" name="Expurgo histórico" revision="1.220" showComponentDetails="true">
+<Global>
+<Metadata fileURL="${META_DIR}/Date.fmt" id="Metadata0"/>
+<Metadata fileURL="${META_DIR}/OneString.fmt" id="Metadata1"/>
+<Metadata id="Metadata7" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="DeleteFacts" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="Fact_Table" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Date_Attribute" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DeleteDateReference" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="DeleteYear" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="DeleteMonth" nullable="true" shift="0" size="0" type="integer"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata4">
+<Record fieldDelimiter="|" name="MAQL_RUN" recordDelimiter="\n" type="delimited">
+<Field name="Project_ID" type="string"/>
+<Field name="MAQL_Statement" type="string"/>
+<Field name="MAQL_Execution" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata2" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="OneInteger" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="OneInteger" type="integer"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata3" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="OneNumber" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field length="12" name="OneNumber" scale="4" type="number"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata9" previewAttachment="${DATA_TRANSFORM_DIR}/purge_parameters.txt" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" label="purge_parameters.txt" name="Purge_parameters_txt" previewAttachment="${DATA_TRANSFORM_DIR}/purge_parameters.txt" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="0" type="delimited">
+<Field name="Fact_Table" type="string"/>
+<Field name="Date_Attribute" type="string"/>
+<Field name="History_Level" type="string"/>
+<Field eofAsDelimiter="false" name="History_Amount" type="integer"/>
+<Field name="Fact_Name" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata5" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="PurgeData_A" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="JoinKey" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="PurgeYear" nullable="true" shift="0" size="0" type="integer"/>
+<Field eofAsDelimiter="false" name="PurgeMonth" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="PurgeDate" nullable="true" shift="0" size="0" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata6" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="PurgeData_B" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="JoinKey" type="string"/>
+<Field name="PurgeYear" type="integer"/>
+<Field name="PurgeMonth" type="string"/>
+<Field name="PurgeDate" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata8" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="PurgeData_C" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="JoinKey" type="string"/>
+<Field name="PurgeDateString" type="string"/>
+</Record>
+</Metadata>
+<Property fileURL="parameters/parametros.prm" id="GraphParameter0"/>
+<Property fileURL="workspace.prm" id="GraphParameter5"/>
+<LookupTable charset="ISO-8859-1" fileURL="${DATA_TRANSFORM_DIR}/purge_parameters.txt" id="LookupTable1" initialSize="512" key="Fact_Table" metadata="Metadata9" name="PurgeParameters" type="simpleLookup"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="345" id="Note1" textColorB="0" textColorG="0" textColorR="0" textFontSize="12" title="PARAMETROS EXPURGO" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="14" width="894" x="26" y="48">
+<attr name="text"><![CDATA[Um arquivo de parâmetros existe no sistema indicando para cada tabela se o histórico é em Anos ou em Meses e o montante de histórico, como 2 anos ou 5 meses. A partir das variáveis e da data de processamento, a data referência para apagar os dados é gerada.
+]]></attr>
+</Note>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="345" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="12" title="Apaga Histórico Fatos" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="14" width="289" x="953" y="48">
+<attr name="text"><![CDATA[Apaga dados de histórico das tabelas definidas e da data de referência gerada.]]></attr>
+</Note>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="173" id="Note2" textColorB="0" textColorG="0" textColorR="0" textFontSize="12" title="Instruções manutenção" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="14" width="622" x="26" y="413">
+<attr name="text"><![CDATA[Para incluir novas tabelas fato no expurgo, edite o arquivo purge_parameters.txt no diretório data/transform informando o nome do dataset que está no modelo do LDM e o nome do atributo data utilizado como referência para expurgo dos dados, bem como se o histórico deve ser mantido em anos fechados (YEARS) ou em meses fechados (MONTHS) e qual é o valor referencia em um número inteiro, exemplo: 2. O gráfico irá gerar uma sintaxe de delete para cada tabela, todas baseadas nos parametros de cada dataset. Essa funcionalidade pode ser extendida caso o arquivo de parâmetros seja gerado e enviado a partir do extrator.]]></attr>
+</Note>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node enabled="enabled" freeLookupTable="false" guiName="LookupTableReaderWriter" guiX="58" guiY="161" id="LOOKUP_TABLE_READER_WRITER" lookupTable="LookupTable1" type="LOOKUP_TABLE_READER_WRITER">
+<attr name="guiDescription"><![CDATA[PURGE PARAMETERS]]></attr>
+</Node>
+<Node enabled="enabled" guiName="MAQL DML Execute" guiX="1030" guiY="149" id="MAQL_DML_EXECUTE_EXPURGO_HISTORICO" maqlInputField="syntax_content" type="MAQL_DML_EXECUTE">
+<attr name="guiDescription"><![CDATA[APAGA DADOS FATOS CADASTRADAS]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="260" guiY="267" id="REFORMAT" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.Fact_Table = $in.0.Fact_Table;
+	$out.0.Date_Attribute = $in.0.Date_Attribute;
+	$out.0.DeleteYear = iif($in.0.History_Level=="years",date2num(today(),year,"YYYY")-$in.0.History_Amount,(date2num(today(),year,"YYYY")*12+date2num(today(),month,"mm")-$in.0.History_Amount)/12);
+	$out.0.DeleteMonth = iif($in.0.History_Level=="years",1,(date2num(today(),year,"YYYY")*12+date2num(today(),month,"mm")-$in.0.History_Amount)%12);
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[DETERMINA VARIÁVEIS PARA STATEMENT DE PURGE]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="578" guiY="286" id="REFORMAT1" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.DeleteDateReference = num2str($in.0.DeleteYear)+"-"+iif($in.0.DeleteMonth>9,num2str($in.0.DeleteMonth),"0"+num2str($in.0.DeleteMonth))+"-01";
+	$out.0.Fact_Table = $in.0.Fact_Table;
+	$out.0.Date_Attribute = $in.0.Date_Attribute;
+	$out.0.DeleteYear = $in.0.DeleteYear;
+	$out.0.DeleteMonth = $in.0.DeleteMonth;
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[MONTA DATA REFERENCIA DE EXPURGO]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="739" guiY="149" id="REFORMAT2" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.syntax_content = 'DELETE FROM {attr.'+$in.0.Fact_Table+'.factsof} WHERE {'+$in.0.Date_Attribute+'.date.yyyymmdd} < '+'"'+$in.0.DeleteDateReference+'"';
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[MONTA STRING DE DELETE COM A DATA REFERENCIA DE EXPURGO]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="427" guiY="155" id="REFORMAT3" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.Fact_Table = $in.0.Fact_Table;
+	$out.0.Date_Attribute = $in.0.Date_Attribute;
+	$out.0.DeleteDateReference = $in.0.DeleteDateReference;
+	$out.0.DeleteYear = $in.0.DeleteYear;
+	$out.0.DeleteMonth = iif($in.0.DeleteMonth>9,$in.0.DeleteMonth,iif($in.0.DeleteMonth==0,1,$in.0.DeleteMonth));
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[AJUSTA MÊS]]></attr>
+</Node>
+<Edge debugMode="true" fromNode="LOOKUP_TABLE_READER_WRITER:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata9" outPort="Port 0 (out)" toNode="REFORMAT:0"/>
+<Edge debugMode="true" fromNode="REFORMAT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge2" inPort="Port 0 (in)" metadata="Metadata7" outPort="Port 0 (out)" toNode="REFORMAT3:0"/>
+<Edge debugMode="true" fromNode="REFORMAT1:0" guiBendpoints="" guiRouter="Manhattan" id="Edge0" inPort="Port 0 (in)" metadata="Metadata7" outPort="Port 0 (out)" toNode="REFORMAT2:0"/>
+<Edge debugMode="true" fromNode="REFORMAT2:0" guiBendpoints="" guiRouter="Manhattan" id="Edge4" inPort="Port 0 (input)" metadata="Metadata1" outPort="Port 0 (out)" toNode="MAQL_DML_EXECUTE_EXPURGO_HISTORICO:0"/>
+<Edge debugMode="true" fromNode="REFORMAT3:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 0 (in)" metadata="Metadata7" outPort="Port 0 (out)" toNode="REFORMAT1:0"/>
+</Phase>
+</Graph>

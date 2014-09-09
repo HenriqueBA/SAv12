@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HKS" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HKS.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HKS_LINPRO" type="string"/>
+<Field name="HKS_ISTCIA" type="string"/>
+<Field name="HKS_EMPRES" type="string"/>
+<Field name="HKS_FILIAL" type="string"/>
+<Field name="HKS_ESTABL" type="string"/>
+<Field name="HKS_FAMMAT" type="string"/>
+<Field name="HKS_FAMCOM" type="string"/>
+<Field name="HKS_GRPEST" type="string"/>
+<Field name="HKS_ITEM" type="string"/>
+<Field name="HKS_MOEDA" type="string"/>
+<Field name="HKS_CCUSTO" type="string"/>
+<Field name="HKS_DEPOSI" type="string"/>
+<Field name="HKS_UNDNEG" type="string"/>
+<Field name="HKS_DATA" type="string"/>
+<Field length="15" name="HKS_QENTRA" scale="5" type="decimal"/>
+<Field length="15" name="HKS_QSAIDA" scale="5" type="decimal"/>
+<Field length="15" name="HKS_VENTRA" scale="5" type="decimal"/>
+<Field length="15" name="HKS_VSAIDA" scale="5" type="decimal"/>
+<Field length="15" name="HKS_QSDMED" scale="5" type="decimal"/>
+<Field length="15" name="HKS_QSAIAC" scale="5" type="decimal"/>
+<Field length="15" name="HKS_VSDMED" scale="5" type="decimal"/>
+<Field name="HKS_PLCCST" type="string"/>
+<Field length="15" name="HKS_NMTRAN" scale="5" type="decimal"/>
+<Field name="HKS_NUMDOC" type="string"/>
+<Field name="HKS_SERDOC" type="string"/>
+<Field name="HKS_CFOP" type="string"/>
+<Field name="HKS_NATOPR" type="string"/>
+<Field name="HKS_CODLOC" type="string"/>
+<Field name="HKS_REFER" type="string"/>
+<Field name="HKS_NMLOTE" type="string"/>
+<Field length="15" name="HKS_VMATES" scale="5" type="decimal"/>
+<Field length="15" name="HKS_VMOBES" scale="5" type="decimal"/>
+<Field length="15" name="HKS_VGGFES" scale="5" type="decimal"/>
+<Field length="15" name="HKS_QGIRO" scale="5" type="decimal"/>
+<Field name="HKS_LIVRE0" type="string"/>
+<Field name="HKS_LIVRE1" type="string"/>
+<Field name="HKS_LIVRE2" type="string"/>
+<Field name="HKS_LIVRE3" type="string"/>
+<Field name="HKS_LIVRE4" type="string"/>
+<Field name="HKS_LIVRE5" type="string"/>
+<Field name="HKS_LIVRE6" type="string"/>
+<Field name="HKS_LIVRE7" type="string"/>
+<Field name="HKS_LIVRE8" type="string"/>
+<Field name="HKS_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+</Record>

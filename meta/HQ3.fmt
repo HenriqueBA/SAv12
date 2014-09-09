@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HQ3" previewAttachment="${DATA_TMP_DIR}/HQ3.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HQ3_LINPRO" type="string"/>
+<Field name="HQ3_ISTCIA" type="string"/>
+<Field name="HQ3_EMPRES" type="string"/>
+<Field name="HQ3_FILIAL" type="string"/>
+<Field name="HQ3_ESTABL" type="string"/>
+<Field name="HQ3_GRPCLI" type="string"/>
+<Field name="HQ3_CLIENT" type="string"/>
+<Field name="HQ3_REGIAO" type="string"/>
+<Field name="HQ3_MOEDA" type="string"/>
+<Field name="HQ3_NPREXP" type="string"/>
+<Field name="HQ3_SITEXP" type="string"/>
+<Field name="HQ3_FORNTI" type="string"/>
+<Field name="HQ3_FORNAC" type="string"/>
+<Field name="HQ3_FORNDP" type="string"/>
+<Field name="HQ3_FORNSG" type="string"/>
+<Field name="HQ3_INCOTR" type="string"/>
+<Field name="HQ3_NATEXP" type="string"/>
+<Field name="HQ3_DESPES" type="string"/>
+<Field name="HQ3_ITINER" type="string"/>
+<Field name="HQ3_PTOCTR" type="string"/>
+<Field name="HQ3_SEQPTO" type="string"/>
+<Field name="HQ3_FORNDS" type="string"/>
+<Field name="HQ3_CLDESP" type="string"/>
+<Field name="HQ3_CONDPG" type="string"/>
+<Field name="HQ3_VIATRA" type="string"/>
+<Field name="HQ3_DATA" type="string"/>
+<Field name="HQ3_DTEMBA" type="string"/>
+<Field name="HQ3_DTPPTC" type="string"/>
+<Field name="HQ3_DTULPV" type="string"/>
+<Field name="HQ3_DTEPTC" type="string"/>
+<Field name="HQ3_DTCBDP" type="string"/>
+<Field length="15" name="HQ3_VDESPD" scale="5" type="decimal"/>
+<Field length="15" name="HQ3_VDESPI" scale="5" type="decimal"/>
+<Field length="15" name="HQ3_VTXFIN" scale="5" type="decimal"/>
+<Field length="15" name="HQ3_VDESDX" scale="5" type="decimal"/>
+<Field name="HQ3_LIVRE0" type="string"/>
+<Field name="HQ3_LIVRE1" type="string"/>
+<Field name="HQ3_LIVRE2" type="string"/>
+<Field name="HQ3_LIVRE3" type="string"/>
+<Field name="HQ3_LIVRE4" type="string"/>
+<Field name="HQ3_LIVRE5" type="string"/>
+<Field name="HQ3_LIVRE6" type="string"/>
+<Field name="HQ3_LIVRE7" type="string"/>
+<Field name="HQ3_LIVRE8" type="string"/>
+<Field name="HQ3_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

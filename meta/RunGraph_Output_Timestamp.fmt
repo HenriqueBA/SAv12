@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record fieldDelimiter="|" name="RunGraph_Output_Timestamp" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="graphURL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="result" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="description" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="message" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="duration" nullable="true" shift="0" size="0" type="long"/>
+<Field eofAsDelimiter="false" name="runId" nullable="true" shift="0" size="0" type="long"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="TimestampRun" nullable="true" shift="0" size="0" type="string"/>
+</Record>

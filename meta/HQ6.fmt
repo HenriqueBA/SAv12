@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HQ6" previewAttachment="${DATA_TMP_DIR}/HQ6.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HQ6_ISTCIA" type="string"/>
+<Field name="HQ6_LINPRO" type="string"/>
+<Field name="HQ6_GRPEMP" type="string"/>
+<Field name="HQ6_CDUNEG" type="string"/>
+<Field name="HQ6_CDEMPR" type="string"/>
+<Field name="HQ6_FILIAL" type="string"/>
+<Field name="HQ6_SQORCA" type="string"/>
+<Field name="HQ6_CODCEN" type="string"/>
+<Field name="HQ6_CODUNI" type="string"/>
+<Field name="HQ6_CODIGO" type="string"/>
+<Field name="HQ6_DESC" type="string"/>
+<Field name="HQ6_LIVRE0" type="string"/>
+<Field name="HQ6_LIVRE1" type="string"/>
+<Field name="HQ6_LIVRE2" type="string"/>
+<Field name="HQ6_LIVRE3" type="string"/>
+<Field name="HQ6_LIVRE4" type="string"/>
+<Field name="HQ6_LIVRE5" type="string"/>
+<Field name="HQ6_LIVRE6" type="string"/>
+<Field name="HQ6_LIVRE7" type="string"/>
+<Field name="HQ6_LIVRE8" type="string"/>
+<Field name="HQ6_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

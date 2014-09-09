@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HSI" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HSI.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HSI_ISTCIA" type="string"/>
+<Field name="HSI_LINPRO" type="string"/>
+<Field name="HSI_FILIAL" type="string"/>
+<Field name="HSI_GRPEMP" type="string"/>
+<Field name="HSI_CDUNEG" type="string"/>
+<Field name="HSI_CDEMPR" type="string"/>
+<Field name="HSI_STTPRO" type="string"/>
+<Field name="HSI_CODIGO" type="string"/>
+<Field name="HSI_DESC" type="string"/>
+<Field name="HSI_LIVRE0" type="string"/>
+<Field name="HSI_LIVRE1" type="string"/>
+<Field name="HSI_LIVRE2" type="string"/>
+<Field name="HSI_LIVRE3" type="string"/>
+<Field name="HSI_LIVRE4" type="string"/>
+<Field name="HSI_LIVRE5" type="string"/>
+<Field name="HSI_LIVRE6" type="string"/>
+<Field name="HSI_LIVRE7" type="string"/>
+<Field name="HSI_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HSI_LIVRE9" type="string"/>
+</Record>

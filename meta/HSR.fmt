@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HSR" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HSR.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HSR_ISTCIA" type="string"/>
+<Field name="HSR_LINPRO" type="string"/>
+<Field name="HSR_FILIAL" type="string"/>
+<Field name="HSR_GRPEMP" type="string"/>
+<Field name="HSR_CDUNEG" type="string"/>
+<Field name="HSR_CDEMPR" type="string"/>
+<Field name="HSR_PROSPE" type="string"/>
+<Field name="HSR_CODIGO" type="string"/>
+<Field name="HSR_LOJA" type="string"/>
+<Field name="HSR_RAZAO" type="string"/>
+<Field name="HSR_NOME" type="string"/>
+<Field name="HSR_LIVRE0" type="string"/>
+<Field name="HSR_LIVRE1" type="string"/>
+<Field name="HSR_LIVRE2" type="string"/>
+<Field name="HSR_LIVRE3" type="string"/>
+<Field name="HSR_LIVRE4" type="string"/>
+<Field name="HSR_LIVRE5" type="string"/>
+<Field name="HSR_LIVRE6" type="string"/>
+<Field name="HSR_LIVRE7" type="string"/>
+<Field name="HSR_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HSR_LIVRE9" type="string"/>
+</Record>

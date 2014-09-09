@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HL9_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HL9_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HL9_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_PLCONT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_CNTCTB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_PLCCST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_CCUSTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_UNIORG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_PROJET" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_CLVL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_CNARIO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HL9_ITMCTB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VCTBRL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VSDINI" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VDREAL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VCREAL" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VSDFIN" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HL9_VAPURA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

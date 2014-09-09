@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HQ4_DW" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HQ4_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HQ4_DTEFFI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_DTEFIN" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_DTUPFI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_DTUPIN" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_DTPRFI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_DTPRIN" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_DTEMBA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_CLIENT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_GRPCLI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_TRCHCT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_SITEXP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_NPREXP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_FORNTI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_FORNAC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_FORNDP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_FORNSG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_INCOTR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_NATEXP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_ITINER" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQ4_VIATRA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HQ4_QLTPRV" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HQ4_QLTUPV" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HQ4_QLDEFT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

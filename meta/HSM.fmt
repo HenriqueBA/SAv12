@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HSM" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HSM.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HSM_ISTCIA" type="string"/>
+<Field name="HSM_LINPRO" type="string"/>
+<Field name="HSM_FILIAL" type="string"/>
+<Field name="HSM_GRPEMP" type="string"/>
+<Field name="HSM_CDUNEG" type="string"/>
+<Field name="HSM_CDEMPR" type="string"/>
+<Field name="HSM_OPOVEN" type="string"/>
+<Field name="HSM_CODIGO" type="string"/>
+<Field name="HSM_DESC" type="string"/>
+<Field name="HSM_REVISA" type="string"/>
+<Field name="HSM_LIVRE0" type="string"/>
+<Field name="HSM_LIVRE1" type="string"/>
+<Field name="HSM_LIVRE2" type="string"/>
+<Field name="HSM_LIVRE3" type="string"/>
+<Field name="HSM_LIVRE4" type="string"/>
+<Field name="HSM_LIVRE5" type="string"/>
+<Field name="HSM_LIVRE6" type="string"/>
+<Field name="HSM_LIVRE7" type="string"/>
+<Field name="HSM_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HSM_LIVRE9" type="string"/>
+</Record>

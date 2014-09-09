@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="michel" created="Thu Aug 15 10:23:03 BRT 2013" guiVersion="3.4.4.P" id="1376591284372" licenseType="Commercial" modified="Wed Feb 05 17:32:43 BRST 2014" modifiedBy="robson.bezerra" name="DRE" revision="1.265" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata2" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="_2Dates" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="Min_Date" type="date"/>
+<Field name="Max_Date" type="date"/>
+</Record>
+</Metadata>
+<Metadata fileURL="${META_DIR}/DataStream.fmt" id="Metadata1"/>
+<Metadata fileURL="${META_DIR}/HKR_DW.fmt" id="Metadata5" previewAttachmentCharset="ISO-8859-1"/>
+<Metadata fileURL="${META_DIR}/HKR.fmt" id="Metadata0" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HKR.csv" previewAttachmentCharset="ISO-8859-1"/>
+<Metadata fileURL="${META_DIR}/OneString.fmt" id="Metadata3"/>
+<Metadata id="Metadata4" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="Date" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="Date" type="date"/>
+</Record>
+</Metadata>
+<Property fileURL="parameters/parametros.prm" id="GraphParameter0"/>
+<Property fileURL="workspace.prm" id="GraphParameter5"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="307" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="12" title="Prepara Fato HKR para Carga" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="14" width="1331" x="16" y="16">
+<attr name="text"><![CDATA[Le a fato HKR, agrega, transforma os campos data e armazena em um CSV interno     
+]]></attr>
+</Note>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="226" id="Note1" textColorB="0" textColorG="0" textColorR="0" textFontSize="12" title="Gera variáveis para apagar dados da fato" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="14" width="655" x="692" y="361">
+<attr name="text"><![CDATA[Obtém as datas iniciais e finais disponíveis na Fato, gera o statement de delete com essas datas e executa o delete dos dados  na fato. 
+]]></attr>
+</Note>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="226" id="Note3" textColorB="0" textColorG="0" textColorR="0" textFontSize="12" title="Carga Fato" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="14" width="444" x="903" y="628">
+<attr name="text"><![CDATA[Carrega os dados preparados na fato que já teve as datas que irão entrar, apagadas.]]></attr>
+</Note>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node aggregateKey="HKR_DATA;HKR_EMPRES;HKR_ESTABL;HKR_MOEDA;HKR_UNDNEG;HKR_FAMMAT;HKR_FAMCOM;HKR_GRPEST;HKR_ITEM" charset="MacRoman" enabled="enabled" equalNULL="true" guiName="Aggregate (AGGREGATE)" guiX="903" guiY="97" id="AGGREGATE_FATO_HKR" mapping="$HKR_DATA:=$HKR_DATA;$HKR_EMPRES:=$HKR_EMPRES;$HKR_ESTABL:=$HKR_ESTABL;$HKR_MOEDA:=$HKR_MOEDA;$HKR_UNDNEG:=$HKR_UNDNEG;$HKR_FAMMAT:=$HKR_FAMMAT;$HKR_FAMCOM:=$HKR_FAMCOM;$HKR_GRPEST:=$HKR_GRPEST;$HKR_ITEM:=$HKR_ITEM;$HKR_QINISD:=sum($HKR_QINISD);$HKR_QFINSD:=sum($HKR_QFINSD);$HKR_VINISD:=sum($HKR_VINISD);$HKR_VFINSD:=sum($HKR_VFINSD);$HKR_QSDMED:=avg($HKR_QSDMED);$HKR_VSDMED:=avg($HKR_VSDMED);$HKR_QEREAL:=sum($HKR_QEREAL);$HKR_VEPREV:=sum($HKR_VEPREV);$HKR_VEREAL:=sum($HKR_VEREAL);$HKR_VESEGU:=sum($HKR_VESEGU);$HKR_QEPREV:=sum($HKR_QEPREV);" sorted="true" type="AGGREGATE"/>
+<Node enabled="enabled" guiName="Aggregate" guiX="771" guiY="454" id="AGGREGATE_MENOR_DATA" mapping="$Min_Date:=min($HKR_DATA);$Max_Date:=max($HKR_DATA);" type="AGGREGATE">
+<attr name="guiDescription"><![CDATA[OBTÉM MAIOR E MENOR DATA]]></attr>
+</Node>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="zip:(${DATA_TMP_DIR}/TOTVSSMARTANALYTICS.zip)#HKR.csv" guiName="" guiX="48" guiY="97" id="CSV_READER_FATO_HKR" quotedStrings="true" skipLeadingBlanks="false" skipTrailingBlanks="false" trim="false" type="DATA_READER" verbose="false">
+<attr name="guiDescription"><![CDATA[Lê Staging HKR]]></attr>
+</Node>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="${DATA_TMP_DIR}/FATOTMPHKR.csv" guiName="CSV Writer (DATA_WRITER)" guiX="1148" guiY="97" id="CSV_WRITER_FATO_TMP_HKR" makeDirs="true" outputFieldNames="true" type="DATA_WRITER">
+<attr name="guiDescription"><![CDATA[GRAVA FATO TMP HKR]]></attr>
+</Node>
+<Node enabled="enabled" guiName="ExtSort" guiX="709" guiY="97" id="EXT_SORT_FATO_HKR" sortKey="HKR_DATA(a);HKR_EMPRES(a);HKR_ESTABL(a);HKR_MOEDA(a);HKR_UNDNEG(a);HKR_FAMMAT(a);HKR_FAMCOM(a);HKR_GRPEST(a);HKR_ITEM(a)" type="EXT_SORT">
+<attr name="guiDescription"><![CDATA[ORDENAÇÃO PELA ORDEM ORIGINAL DOS CAMPOS]]></attr>
+</Node>
+<Node enabled="enabled" guiName="MAQL DML Execute" guiX="1140" guiY="454" id="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKR" maqlInputField="syntax_content" type="MAQL_DML_EXECUTE">
+<attr name="guiDescription"><![CDATA[APAGA DADOS FATO HKR]]></attr>
+</Node>
+<Node charset="ISO-8859-1" enabled="enabled" guiName="Reformat" guiX="229" guiY="97" id="REFORMAT_FATO_HKR" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.HKR_DATA = str2date($in.0.HKR_DATA,"yyyyMMdd");
+	$out.0.HKR_EMPRES = $in.0.HKR_EMPRES;
+	$out.0.HKR_ESTABL = $in.0.HKR_ESTABL;
+	$out.0.HKR_MOEDA = $in.0.HKR_MOEDA;
+	$out.0.HKR_UNDNEG = $in.0.HKR_UNDNEG;
+	$out.0.HKR_FAMMAT = $in.0.HKR_FAMMAT;
+	$out.0.HKR_FAMCOM = $in.0.HKR_FAMCOM;
+	$out.0.HKR_GRPEST = $in.0.HKR_GRPEST;
+	$out.0.HKR_ITEM = $in.0.HKR_ITEM;
+	$out.0.HKR_QINISD = $in.0.HKR_QINISD;
+	$out.0.HKR_QFINSD = $in.0.HKR_QFINSD;
+	$out.0.HKR_VINISD = $in.0.HKR_VINISD;
+	$out.0.HKR_VFINSD = $in.0.HKR_VFINSD;
+	$out.0.HKR_QSDMED = $in.0.HKR_QSDMED;
+	$out.0.HKR_VSDMED = $in.0.HKR_VSDMED;
+	$out.0.HKR_QEREAL = $in.0.HKR_QEREAL;
+	$out.0.HKR_VEPREV = $in.0.HKR_VEPREV;
+	$out.0.HKR_VEREAL = $in.0.HKR_VEREAL;
+	$out.0.HKR_VESEGU = $in.0.HKR_VESEGU;
+	$out.0.HKR_QEPREV = $in.0.HKR_QEPREV;
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[TRANSFORMA OS CAMPOS DATA / ELIMINA CAMPOS INDESEJADOS]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="951" guiY="454" id="REFORMAT_MENOR_DATA" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.syntax_content = 'DELETE FROM {attr.estoquemensahkr.factsof} WHERE {data.date.yyyymmdd} BETWEEN '+'"'+date2str($in.0.Min_Date, "yyyy-MM-dd")+'" AND "'+date2str($in.0.Max_Date, "yyyy-MM-dd")+'"';
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[GERA STATEMENT DE DELETE]]></attr>
+</Node>
+<Node enabled="enabled" guiName="SimpleCopy" guiX="416" guiY="100" id="SIMPLE_COPY_PARALELISMO_PARAMETROS_GERA_FATO_HKR" type="SIMPLE_COPY">
+<attr name="guiDescription"><![CDATA[DISTRIBUI OS DADOS PARA DUAS PORTAS]]></attr>
+</Node>
+<Edge fromNode="AGGREGATE_FATO_HKR:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="CSV_WRITER_FATO_TMP_HKR:0"/>
+<Edge debugMode="true" fromNode="AGGREGATE_MENOR_DATA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge20" inPort="Port 0 (in)" metadata="Metadata2" outPort="Port 0 (out)" toNode="REFORMAT_MENOR_DATA:0"/>
+<Edge fromNode="CSV_READER_FATO_HKR:0" guiBendpoints="" guiRouter="Manhattan" id="Edge0" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (output)" toNode="REFORMAT_FATO_HKR:0"/>
+<Edge fromNode="EXT_SORT_FATO_HKR:0" guiBendpoints="" guiRouter="Manhattan" id="Edge7" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="AGGREGATE_FATO_HKR:0"/>
+<Edge fromNode="REFORMAT_FATO_HKR:0" guiBendpoints="" guiRouter="Manhattan" id="Edge4" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="SIMPLE_COPY_PARALELISMO_PARAMETROS_GERA_FATO_HKR:0"/>
+<Edge debugMode="true" fromNode="REFORMAT_MENOR_DATA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge2" inPort="Port 0 (input)" metadata="Metadata3" outPort="Port 0 (out)" toNode="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HKR:0"/>
+<Edge fromNode="SIMPLE_COPY_PARALELISMO_PARAMETROS_GERA_FATO_HKR:0" guiBendpoints="" guiRouter="Manhattan" id="Edge19" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="EXT_SORT_FATO_HKR:0"/>
+<Edge fromNode="SIMPLE_COPY_PARALELISMO_PARAMETROS_GERA_FATO_HKR:1" guiBendpoints="" guiRouter="Manhattan" id="Edge15" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 1 (out)" toNode="AGGREGATE_MENOR_DATA:0"/>
+</Phase>
+<Phase number="1">
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="${DATA_TMP_DIR}/FATOTMPHKR.csv" guiName="(DATA_READER)" guiX="938" guiY="720" id="CSV_READER_CARREGA_FATO_HKR" quotedStrings="true" skipSourceRows="1" skipTrailingBlanks="false" trim="false" type="DATA_READER" verbose="true">
+<attr name="guiDescription"><![CDATA[LE A FATO HKR PARA CARREGAR]]></attr>
+</Node>
+<Node dataset="dataset.estoquemensahkr" datasetFieldMappings="{&quot;gd_dataset&quot;:{&quot;datasetId&quot;:&quot;dataset.estoquemensahkr&quot;,&quot;datasetTitle&quot;:&quot;ESTOQUE MENSAL HKR&quot;,&quot;attributes&quot;:[],&quot;referencedAttributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.empresa.empresabk&quot;,&quot;title&quot;:&quot;Empresa&quot;,&quot;prettyId&quot;:&quot;attr_empresa_empresabk&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.empresa.empresabk.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;empresa__empresabk_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.empresa.empresabk&quot;,&quot;title&quot;:&quot;Empresa&quot;,&quot;prettyId&quot;:&quot;empresa__empresabk&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.empresa.empresabk.nome&quot;,&quot;title&quot;:&quot;Nome&quot;,&quot;prettyId&quot;:&quot;empresa__empresabk_nome&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HKR_EMPRES&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.empresa.empresabk&quot;,&quot;title&quot;:&quot;Empresa&quot;,&quot;prettyId&quot;:&quot;empresa__empresabk&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.estabelecimento.estabelecimento&quot;,&quot;title&quot;:&quot;Estabelecimento&quot;,&quot;prettyId&quot;:&quot;attr_estabelecimento_estabelecimento&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.estabelecimento.estabelecimento.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;estabelecimento__estabelecimento_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.estabelecimento.estabelecimento&quot;,&quot;title&quot;:&quot;Estabelecimento&quot;,&quot;prettyId&quot;:&quot;estabelecimento__estabelecimento&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.estabelecimento.estabelecimento.nome&quot;,&quot;title&quot;:&quot;Nome&quot;,&quot;prettyId&quot;:&quot;estabelecimento__estabelecimento_nome&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HKR_ESTABL&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.estabelecimento.estabelecimento&quot;,&quot;title&quot;:&quot;Estabelecimento&quot;,&quot;prettyId&quot;:&quot;estabelecimento__estabelecimento&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.familiacomercial.familiacomercial&quot;,&quot;title&quot;:&quot;Familia Comercial&quot;,&quot;prettyId&quot;:&quot;attr_familiacomercial_familiacomercial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.familiacomercial.familiacomercial.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;familiacomercial__familiacomercial_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.familiacomercial.familiacomercial&quot;,&quot;title&quot;:&quot;Familia Comercial&quot;,&quot;prettyId&quot;:&quot;familiacomercial__familiacomercial&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.familiacomercial.familiacomercial.nome&quot;,&quot;title&quot;:&quot;Nome&quot;,&quot;prettyId&quot;:&quot;familiacomercial__familiacomercial_nome&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.familiacomercial.familiacomercial.unidade&quot;,&quot;title&quot;:&quot;Unidade&quot;,&quot;prettyId&quot;:&quot;familiacomercial__familiacomercial_unidade&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HKR_FAMCOM&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.familiacomercial.familiacomercial&quot;,&quot;title&quot;:&quot;Familia Comercial&quot;,&quot;prettyId&quot;:&quot;familiacomercial__familiacomercial&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.familiamaterial.familiamaterial&quot;,&quot;title&quot;:&quot;Familia Material&quot;,&quot;prettyId&quot;:&quot;attr_familiamaterial_familiamaterial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.familiamaterial.familiamaterial.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;familiamaterial__familiamaterial_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.familiamaterial.familiamaterial&quot;,&quot;title&quot;:&quot;Familia Material&quot;,&quot;prettyId&quot;:&quot;familiamaterial__familiamaterial&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.familiamaterial.familiamaterial.nome&quot;,&quot;title&quot;:&quot;Nome&quot;,&quot;prettyId&quot;:&quot;familiamaterial__familiamaterial_nome&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.familiamaterial.familiamaterial.unidade&quot;,&quot;title&quot;:&quot;Unidade&quot;,&quot;prettyId&quot;:&quot;familiamaterial__familiamaterial_unidade&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HKR_FAMMAT&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.familiamaterial.familiamaterial&quot;,&quot;title&quot;:&quot;Familia Material&quot;,&quot;prettyId&quot;:&quot;familiamaterial__familiamaterial&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.grupodeestoque.grupodeestoque&quot;,&quot;title&quot;:&quot;Grupo de Estoque&quot;,&quot;prettyId&quot;:&quot;attr_grupodeestoque_grupodeestoque&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.grupodeestoque.grupodeestoque.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;grupodeestoque__grupodeestoque_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.grupodeestoque.grupodeestoque&quot;,&quot;title&quot;:&quot;Grupo de Estoque&quot;,&quot;prettyId&quot;:&quot;grupodeestoque__grupodeestoque&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.grupodeestoque.grupodeestoque.nome&quot;,&quot;title&quot;:&quot;Nome&quot;,&quot;prettyId&quot;:&quot;grupodeestoque__grupodeestoque_nome&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HKR_GRPEST&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.grupodeestoque.grupodeestoque&quot;,&quot;title&quot;:&quot;Grupo de Estoque&quot;,&quot;prettyId&quot;:&quot;grupodeestoque__grupodeestoque&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.item.item&quot;,&quot;title&quot;:&quot;Item&quot;,&quot;prettyId&quot;:&quot;attr_item_item&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.item.item.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;item__item_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.item.item&quot;,&quot;title&quot;:&quot;Item&quot;,&quot;prettyId&quot;:&quot;item__item&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.item.item.nome&quot;,&quot;title&quot;:&quot;Nome&quot;,&quot;prettyId&quot;:&quot;item__item_nome&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.item.item.unidade&quot;,&quot;title&quot;:&quot;Unidade&quot;,&quot;prettyId&quot;:&quot;item__item_unidade&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HKR_ITEM&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.item.item&quot;,&quot;title&quot;:&quot;Item&quot;,&quot;prettyId&quot;:&quot;item__item&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.moeda.moeda&quot;,&quot;title&quot;:&quot;Moeda&quot;,&quot;prettyId&quot;:&quot;attr_moeda_moeda&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.moeda.moeda.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;moeda__moeda_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.moeda.moeda&quot;,&quot;title&quot;:&quot;Moeda&quot;,&quot;prettyId&quot;:&quot;moeda__moeda&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.moeda.moeda.nome&quot;,&quot;title&quot;:&quot;Nome&quot;,&quot;prettyId&quot;:&quot;moeda__moeda_nome&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HKR_MOEDA&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.moeda.moeda&quot;,&quot;title&quot;:&quot;Moeda&quot;,&quot;prettyId&quot;:&quot;moeda__moeda&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.unidadenegocio.unidadedenegocio&quot;,&quot;title&quot;:&quot;Unidade de Negócio&quot;,&quot;prettyId&quot;:&quot;attr_unidadenegocio_unidadedenegocio&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.unidadenegocio.unidadedenegocio.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;unidadenegocio__unidadedenegocio_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.unidadenegocio.unidadedenegocio.nome&quot;,&quot;title&quot;:&quot;Nome&quot;,&quot;prettyId&quot;:&quot;unidadenegocio__unidadedenegocio_nome&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.unidadenegocio.unidadedenegocio&quot;,&quot;title&quot;:&quot;Unidade de Negócio&quot;,&quot;prettyId&quot;:&quot;unidadenegocio__unidadedenegocio&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HKR_UNDNEG&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.unidadenegocio.unidadedenegocio&quot;,&quot;title&quot;:&quot;Unidade de Negócio&quot;,&quot;prettyId&quot;:&quot;unidadenegocio__unidadedenegocio&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}}],&quot;dateAttributes&quot;:[{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;data.date&quot;,&quot;title&quot;:&quot;Date (DATA)&quot;,&quot;prettyId&quot;:&quot;data&quot;,&quot;assignedMetadataField&quot;:&quot;HKR_DATA&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;data.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (DATA)&quot;,&quot;prettyId&quot;:&quot;data_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;data.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (DATA)&quot;,&quot;prettyId&quot;:&quot;data_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}}],&quot;simpleFacts&quot;:[{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.estoquemensahkr.qtdeconsumoprevisto&quot;,&quot;title&quot;:&quot;Qtde Consumo Previsto&quot;,&quot;prettyId&quot;:&quot;qtdeconsumoprevisto&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;HKR_QEPREV&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.estoquemensahkr.qtdeconsumoreal&quot;,&quot;title&quot;:&quot;Qtde Consumo Real&quot;,&quot;prettyId&quot;:&quot;qtdeconsumoreal&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;HKR_QEREAL&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.estoquemensahkr.qtdefinaldosaldo&quot;,&quot;title&quot;:&quot;Qtde Final do Saldo&quot;,&quot;prettyId&quot;:&quot;qtdefinaldosaldo&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;HKR_QFINSD&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.estoquemensahkr.qtdeinicialdosaldo&quot;,&quot;title&quot;:&quot;Qtde Inicial do Saldo&quot;,&quot;prettyId&quot;:&quot;qtdeinicialdosaldo&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;HKR_QINISD&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.estoquemensahkr.qtdesaldomedio&quot;,&quot;title&quot;:&quot;Qtde Saldo Médio&quot;,&quot;prettyId&quot;:&quot;qtdesaldomedio&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;HKR_QSDMED&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.estoquemensahkr.vlconsumoprevisto&quot;,&quot;title&quot;:&quot;Vl Consumo Previsto&quot;,&quot;prettyId&quot;:&quot;vlconsumoprevisto&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;HKR_VEPREV&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.estoquemensahkr.vlconsumoreal&quot;,&quot;title&quot;:&quot;Vl Consumo Real&quot;,&quot;prettyId&quot;:&quot;vlconsumoreal&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;HKR_VEREAL&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.estoquemensahkr.vlestoquedeseguranca&quot;,&quot;title&quot;:&quot;Vl Estoque de Segurança&quot;,&quot;prettyId&quot;:&quot;vlestoquedeseguranca&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;HKR_VESEGU&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.estoquemensahkr.vlfinaldosaldo&quot;,&quot;title&quot;:&quot;Vl Final do Saldo&quot;,&quot;prettyId&quot;:&quot;vlfinaldosaldo&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;HKR_VFINSD&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.estoquemensahkr.vlinicialdosaldo&quot;,&quot;title&quot;:&quot;Vl Inicial do Saldo&quot;,&quot;prettyId&quot;:&quot;vlinicialdosaldo&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;HKR_VINISD&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.estoquemensahkr.vlsaldomedio&quot;,&quot;title&quot;:&quot;Vl Saldo Médio&quot;,&quot;prettyId&quot;:&quot;vlsaldomedio&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;HKR_VSDMED&quot;}}],&quot;dateFacts&quot;:[],&quot;fieldsWithMetadataConflict&quot;:[],&quot;entitiesWithoutValue&quot;:[],&quot;entitiesWithoutMetadata&quot;:[],&quot;unassigneddateFacts&quot;:[],&quot;datesWithFactConflict&quot;:[]}}" enabled="enabled" guiName="GD Dataset Writer" guiX="1199" guiY="720" id="GD_DATASET_WRITER_FATO_HKR" mode="INCREMENTAL" retriesInterval="60" retriesNumber="5" type="GD_DATASET_WRITER">
+<attr name="guiDescription"><![CDATA[Carrega HKR - ESTOQUE MENSAL]]></attr>
+</Node>
+<Edge fromNode="CSV_READER_CARREGA_FATO_HKR:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (output)" toNode="GD_DATASET_WRITER_FATO_HKR:0"/>
+</Phase>
+</Graph>

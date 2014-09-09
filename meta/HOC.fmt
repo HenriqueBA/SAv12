@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HOC" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HOC.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HOC_ISTCIA" type="string"/>
+<Field name="HOC_LINPRO" type="string"/>
+<Field name="HOC_FILIAL" type="string"/>
+<Field name="HOC_EMPRES" type="string"/>
+<Field name="HOC_ESTABL" type="string"/>
+<Field name="HOC_UNDNEG" type="string"/>
+<Field name="HOC_TIPTRA" type="string"/>
+<Field name="HOC_SERTRA" type="string"/>
+<Field name="HOC_TIPOCO" type="string"/>
+<Field name="HOC_TIPPEN" type="string"/>
+<Field name="HOC_VEICLO" type="string"/>
+<Field name="HOC_ROTA" type="string"/>
+<Field name="HOC_REGTRA" type="string"/>
+<Field name="HOC_REGDES" type="string"/>
+<Field name="HOC_VIAGEM" type="string"/>
+<Field format="yyyyMMdd" name="HOC_DATA" type="date"/>
+<Field length="15" name="HOC_VOLUME" scale="5" type="decimal"/>
+<Field length="15" name="HOC_PESO" scale="5" type="decimal"/>
+<Field length="15" name="HOC_QTDOCO" scale="5" type="decimal"/>
+<Field name="HOC_LIVRE0" type="string"/>
+<Field name="HOC_LIVRE1" type="string"/>
+<Field name="HOC_LIVRE2" type="string"/>
+<Field name="HOC_LIVRE3" type="string"/>
+<Field name="HOC_LIVRE4" type="string"/>
+<Field name="HOC_LIVRE5" type="string"/>
+<Field name="HOC_LIVRE6" type="string"/>
+<Field name="HOC_LIVRE7" type="string"/>
+<Field name="HOC_LIVRE8" type="string"/>
+<Field eofAsDelimiter="false" name="HOC_LIVRE9" type="string"/>
+</Record>

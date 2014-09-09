@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HQV_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HQV_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HQV_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_FILIAL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_FXASAL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_LINPRO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_ISTCIA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_CATSAL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_LOCALI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_SINDIC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_TURNO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_TIPMOB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_COLABR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_PLCCST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_CCUSTO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_PLOTAC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_ULOTAC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_INSTIT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_INSTRU" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_CURSO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_TIPCUR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_ESTCIV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_FXAETA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_GRAINS" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_NIVHIE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_RELTRB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_TPCASA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_TPCARG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_CARGO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_SECAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_BOLSA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_TIPCST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_MOTTRE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQV_STTREI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HQV_VTREIN" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HL1" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HL1.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HL1_LINPRO" type="string"/>
+<Field name="HL1_ISTCIA" type="string"/>
+<Field name="HL1_FILIAL" type="string"/>
+<Field name="HL1_EMPRES" type="string"/>
+<Field name="HL1_ESTABL" type="string"/>
+<Field name="HL1_REPRES" type="string"/>
+<Field name="HL1_ITEM" type="string"/>
+<Field name="HL1_FAMCOM" type="string"/>
+<Field name="HL1_FAMMAT" type="string"/>
+<Field name="HL1_GRPEST" type="string"/>
+<Field name="HL1_PRDUTO" type="string"/>
+<Field name="HL1_GRPCLI" type="string"/>
+<Field name="HL1_MOEDA" type="string"/>
+<Field name="HL1_UNDNEG" type="string"/>
+<Field name="HL1_DATA" type="string"/>
+<Field length="15" name="HL1_VPREVI" scale="5" type="decimal"/>
+<Field length="15" name="HL1_QPREVI" scale="5" type="decimal"/>
+<Field length="15" name="HL1_QPREFC" scale="5" type="decimal"/>
+<Field length="15" name="HL1_QPREFM" scale="5" type="decimal"/>
+<Field name="HL1_REGCOM" type="string"/>
+<Field name="HL1_MICREG" type="string"/>
+<Field name="HL1_REFER" type="string"/>
+<Field name="HL1_NUMPRV" type="string"/>
+<Field name="HL1_LIVRE0" type="string"/>
+<Field name="HL1_LIVRE1" type="string"/>
+<Field name="HL1_LIVRE2" type="string"/>
+<Field name="HL1_LIVRE3" type="string"/>
+<Field name="HL1_LIVRE4" type="string"/>
+<Field name="HL1_LIVRE5" type="string"/>
+<Field name="HL1_LIVRE6" type="string"/>
+<Field name="HL1_LIVRE7" type="string"/>
+<Field name="HL1_LIVRE8" type="string"/>
+<Field name="HL1_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

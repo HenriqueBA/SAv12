@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HQZ_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" type="delimited">
+<Field eofAsDelimiter="false" name="HQZ_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HQZ_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQZ_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQZ_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQZ_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQZ_DEPOSI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQZ_TIPITM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQZ_ITEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQZ_GRPEST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQZ_FAMCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQZ_FAMMAT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQZ_TPODER" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQZ_GRPCLI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQZ_CLIENT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQZ_GRPFOR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQZ_FORNEC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQZ_TIPMOV" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQZ_NUMDOC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HQZ_SERDOC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HQZ_QTPODE" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HQZ_QDPODE" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HQZ_VLPODE" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

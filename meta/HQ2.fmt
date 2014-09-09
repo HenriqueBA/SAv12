@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HQ2" previewAttachment="${DATA_TMP_DIR}/HQ2.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HQ2_LINPRO" type="string"/>
+<Field name="HQ2_ISTCIA" type="string"/>
+<Field name="HQ2_EMPRES" type="string"/>
+<Field name="HQ2_FILIAL" type="string"/>
+<Field name="HQ2_ESTABL" type="string"/>
+<Field name="HQ2_CANALV" type="string"/>
+<Field name="HQ2_REGCOM" type="string"/>
+<Field name="HQ2_MICREG" type="string"/>
+<Field name="HQ2_TRANSP" type="string"/>
+<Field name="HQ2_REPRES" type="string"/>
+<Field name="HQ2_NATOPR" type="string"/>
+<Field name="HQ2_CFOP" type="string"/>
+<Field name="HQ2_ITEM" type="string"/>
+<Field name="HQ2_FAMCOM" type="string"/>
+<Field name="HQ2_FAMMAT" type="string"/>
+<Field name="HQ2_GRPEST" type="string"/>
+<Field name="HQ2_PRDUTO" type="string"/>
+<Field name="HQ2_REFER" type="string"/>
+<Field name="HQ2_CONDPG" type="string"/>
+<Field name="HQ2_SEQINF" type="string"/>
+<Field name="HQ2_GRPCLI" type="string"/>
+<Field name="HQ2_CLIENT" type="string"/>
+<Field name="HQ2_REGIAO" type="string"/>
+<Field name="HQ2_MOEDA" type="string"/>
+<Field name="HQ2_UNDNEG" type="string"/>
+<Field name="HQ2_SERNF" type="string"/>
+<Field name="HQ2_NUMNF" type="string"/>
+<Field name="HQ2_NPREXP" type="string"/>
+<Field name="HQ2_FORNTI" type="string"/>
+<Field name="HQ2_FORNAC" type="string"/>
+<Field name="HQ2_FORNDP" type="string"/>
+<Field name="HQ2_FORNSG" type="string"/>
+<Field name="HQ2_SITEXP" type="string"/>
+<Field name="HQ2_VIATRA" type="string"/>
+<Field name="HQ2_PEDIDO" type="string"/>
+<Field name="HQ2_INCOTR" type="string"/>
+<Field name="HQ2_NATEXP" type="string"/>
+<Field name="HQ2_SEQIPE" type="string"/>
+<Field name="HQ2_ITINER" type="string"/>
+<Field name="HQ2_DATA" type="string"/>
+<Field name="HQ2_DTEXPP" type="string"/>
+<Field name="HQ2_DTEMBA" type="string"/>
+<Field length="15" name="HQ2_QTPESL" scale="5" type="decimal"/>
+<Field length="15" name="HQ2_QTPESB" scale="5" type="decimal"/>
+<Field length="15" name="HQ2_VLULIQ" scale="5" type="decimal"/>
+<Field length="15" name="HQ2_VLUORI" scale="5" type="decimal"/>
+<Field length="15" name="HQ2_QFATIT" scale="5" type="decimal"/>
+<Field length="15" name="HQ2_VLTOTP" scale="5" type="decimal"/>
+<Field length="15" name="HQ2_VDESEX" scale="5" type="decimal"/>
+<Field length="15" name="HQ2_VDESPD" scale="5" type="decimal"/>
+<Field length="15" name="HQ2_VDESPI" scale="5" type="decimal"/>
+<Field length="15" name="HQ2_VLLIQP" scale="5" type="decimal"/>
+<Field length="15" name="HQ2_VDSEXT" scale="5" type="decimal"/>
+<Field name="HQ2_LIVRE0" type="string"/>
+<Field name="HQ2_LIVRE1" type="string"/>
+<Field name="HQ2_LIVRE2" type="string"/>
+<Field name="HQ2_LIVRE3" type="string"/>
+<Field name="HQ2_LIVRE4" type="string"/>
+<Field name="HQ2_LIVRE5" type="string"/>
+<Field name="HQ2_LIVRE6" type="string"/>
+<Field name="HQ2_LIVRE7" type="string"/>
+<Field name="HQ2_LIVRE8" type="string"/>
+<Field name="HQ2_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field name="R_E_C_N_O_" type="string"/>
+<Field eofAsDelimiter="false" name="HQ2_UNITEM" type="string"/>
+</Record>

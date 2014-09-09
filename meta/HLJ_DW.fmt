@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLJ_DW" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="HLJ_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HLJ_DTVENC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLJ_DTEMIS" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLJ_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLJ_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLJ_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLJ_REPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLJ_BANCO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLJ_ESPDOC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLJ_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLJ_CLIENT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLJ_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLJ_MODALI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLJ_SERDOC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLJ_NUMDOC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLJ_PARCEL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLJ_GRPCLI" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HLJ_SEQREC" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HLJ_VSUBRC" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLJ_VDESCC" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLJ_VJUREC" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLJ_VRCBDO" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HLJ_PRZREC" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

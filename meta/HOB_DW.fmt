@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HOB_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyyMMdd" name="HOB_DATA" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HOB_DTSAID" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOB_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOB_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOB_UNDNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOB_FILBAS" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOB_VEICLO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOB_HORACH" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOB_HORASA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HOB_CONCLU" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HOB_TEMPO" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

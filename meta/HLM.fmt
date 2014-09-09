@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HLM" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HLM.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HLM_LINPRO" type="string"/>
+<Field name="HLM_ISTCIA" type="string"/>
+<Field name="HLM_EMPRES" type="string"/>
+<Field name="HLM_FILIAL" type="string"/>
+<Field name="HLM_ESTABL" type="string"/>
+<Field name="HLM_FXASAL" type="string"/>
+<Field name="HLM_MOEDA" type="string"/>
+<Field name="HLM_CATSAL" type="string"/>
+<Field name="HLM_SINDIC" type="string"/>
+<Field name="HLM_TURNO" type="string"/>
+<Field name="HLM_TIPMOB" type="string"/>
+<Field name="HLM_COLABR" type="string"/>
+<Field name="HLM_CCUSTO" type="string"/>
+<Field name="HLM_UNDNEG" type="string"/>
+<Field name="HLM_INSTIT" type="string"/>
+<Field name="HLM_INSTRU" type="string"/>
+<Field name="HLM_CURSO" type="string"/>
+<Field name="HLM_TIPCUR" type="string"/>
+<Field name="HLM_REGIAO" type="string"/>
+<Field name="HLM_ESTCIV" type="string"/>
+<Field name="HLM_FXAETA" type="string"/>
+<Field name="HLM_GRAINS" type="string"/>
+<Field name="HLM_NIVHIE" type="string"/>
+<Field name="HLM_RELTRB" type="string"/>
+<Field name="HLM_TPCASA" type="string"/>
+<Field name="HLM_TPCARG" type="string"/>
+<Field name="HLM_CARGO" type="string"/>
+<Field name="HLM_STTREI" type="string"/>
+<Field name="HLM_DATA" type="string"/>
+<Field length="15" name="HLM_QHTREI" scale="5" type="decimal"/>
+<Field length="15" name="HLM_VTREIN" scale="5" type="decimal"/>
+<Field length="15" name="HLM_QCTREI" scale="5" type="decimal"/>
+<Field name="HLM_PLCCST" type="string"/>
+<Field name="HLM_SECAO" type="string"/>
+<Field name="HLM_LOCALI" type="string"/>
+<Field name="HLM_PLOTAC" type="string"/>
+<Field name="HLM_ULOTAC" type="string"/>
+<Field name="HLM_BOLSA" type="string"/>
+<Field name="HLM_MOTTRE" type="string"/>
+<Field length="15" name="HLM_VINVEP" scale="5" type="decimal"/>
+<Field length="15" name="HLM_VINVCL" scale="5" type="decimal"/>
+<Field length="15" name="HLM_DBOLSA" scale="5" type="decimal"/>
+<Field length="15" name="HLM_QBOLSA" scale="5" type="decimal"/>
+<Field name="HLM_LIVRE0" type="string"/>
+<Field name="HLM_LIVRE1" type="string"/>
+<Field name="HLM_LIVRE2" type="string"/>
+<Field name="HLM_LIVRE3" type="string"/>
+<Field name="HLM_LIVRE4" type="string"/>
+<Field name="HLM_LIVRE5" type="string"/>
+<Field name="HLM_LIVRE6" type="string"/>
+<Field name="HLM_LIVRE7" type="string"/>
+<Field name="HLM_LIVRE8" type="string"/>
+<Field name="HLM_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

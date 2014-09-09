@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HSE_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyyMMdd" name="HSE_DTAINI" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" format="yyyyMMdd" name="HSE_DTAFEC" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HSE_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSE_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSE_STTOPO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSE_PROBAB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSE_OPOVEN" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSE_PROVEN" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSE_REPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSE_UNICOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSE_EQUVEN" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSE_CLIENT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSE_PROSPE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSE_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSE_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HSE_AREA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HSE_QTDADE" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HSE_VRECEI" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HSE_PARTIC" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HSE_SUCESS" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HSE_PROCES" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field default="0" eofAsDelimiter="false" length="15" name="RECEIABERTA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field default="0" eofAsDelimiter="false" length="15" name="RECEIGANHA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field default="0" eofAsDelimiter="false" length="15" name="RECEIPERDIDA" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+</Record>

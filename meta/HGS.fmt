@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HGS" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HGS.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="both" quotedStrings="false" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HGS_ISTCIA" type="string"/>
+<Field name="HGS_LINPRO" type="string"/>
+<Field name="HGS_GRPEMP" type="string"/>
+<Field name="HGS_CDUNEG" type="string"/>
+<Field name="HGS_CDEMPR" type="string"/>
+<Field name="HGS_FILIAL" type="string"/>
+<Field name="HGS_PTOCTR" type="string"/>
+<Field name="HGS_CODIGO" type="string"/>
+<Field name="HGS_DESC" type="string"/>
+<Field name="HGS_LIVRE0" type="string"/>
+<Field name="HGS_LIVRE1" type="string"/>
+<Field name="HGS_LIVRE2" type="string"/>
+<Field name="HGS_LIVRE3" type="string"/>
+<Field name="HGS_LIVRE4" type="string"/>
+<Field name="HGS_LIVRE5" type="string"/>
+<Field name="HGS_LIVRE6" type="string"/>
+<Field name="HGS_LIVRE7" type="string"/>
+<Field name="HGS_LIVRE8" type="string"/>
+<Field name="HGS_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

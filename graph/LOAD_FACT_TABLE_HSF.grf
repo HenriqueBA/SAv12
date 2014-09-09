@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="michel" created="Thu Aug 15 10:23:03 BRT 2013" guiVersion="3.4.4.P" id="1376591284372" licenseType="Commercial" modified="Wed May 21 17:34:55 BRT 2014" modifiedBy="robson.bezerra" name="DRE" revision="1.283" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata2" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="_2Dates" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="Min_Date" type="date"/>
+<Field name="Max_Date" type="date"/>
+</Record>
+</Metadata>
+<Metadata fileURL="${META_DIR}/DataStream.fmt" id="Metadata1"/>
+<Metadata fileURL="${META_DIR}/HSF_DW.fmt" id="Metadata5" previewAttachmentCharset="ISO-8859-1"/>
+<Metadata fileURL="${META_DIR}/HSF.fmt" id="Metadata0"/>
+<Metadata fileURL="${META_DIR}/HSL.fmt" id="Metadata6" previewAttachment="${DATA_TMP_DIR}/TOTVSSMARTANALYTICS/HSL.csv" previewAttachmentCharset="ISO-8859-1"/>
+<Metadata fileURL="${META_DIR}/OneString.fmt" id="Metadata3"/>
+<Metadata id="Metadata4" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="Date" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="Date" type="date"/>
+</Record>
+</Metadata>
+<Property fileURL="parameters/parametros.prm" id="GraphParameter0"/>
+<Property fileURL="workspace.prm" id="GraphParameter5"/>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="307" id="Note0" textColorB="0" textColorG="0" textColorR="0" textFontSize="12" title="Prepara Fato HSF para Carga" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="14" width="1547" x="-193" y="26">
+<attr name="text"><![CDATA[Le a fato HSF, agrega, transforma os campos data e armazena em um CSV interno     
+]]></attr>
+</Note>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="226" id="Note1" textColorB="0" textColorG="0" textColorR="0" textFontSize="12" title="Gera variáveis para apagar dados da fato" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="14" width="655" x="699" y="371">
+<attr name="text"><![CDATA[Obtém as datas iniciais e finais disponíveis na Fato, gera o statement de delete com essas datas e executa o delete dos dados  na fato. 
+]]></attr>
+</Note>
+<Note alignment="1" backgroundColorB="225" backgroundColorG="255" backgroundColorR="255" enabled="true" folded="false" height="226" id="Note3" textColorB="0" textColorG="0" textColorR="0" textFontSize="12" title="Carga Fato" titleColorB="0" titleColorG="0" titleColorR="0" titleFontSize="14" width="444" x="910" y="638">
+<attr name="text"><![CDATA[Carrega os dados preparados na fato que já teve as datas que irão entrar, apagadas.]]></attr>
+</Note>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node aggregateKey="HSF_DTAINI;HSF_DTAFIM;HSF_FILIAL;HSF_EMPRES;HSF_ESTABL;HSF_STTATI;HSF_TIPATI;HSF_REPRES;HSF_USUARI;HSF_UNICOM;HSF_EQUVEN;HSF_HORAIN;HSF_HORAFI" charset="MacRoman" enabled="enabled" equalNULL="true" guiName="Aggregate (AGGREGATE)" guiX="910" guiY="107" id="AGGREGATE_FATO_HSF" mapping="$HSF_DTAINI:=$HSF_DTAINI;$HSF_DTAFIM:=$HSF_DTAFIM;$HSF_FILIAL:=$HSF_FILIAL;$HSF_EMPRES:=$HSF_EMPRES;$HSF_ESTABL:=$HSF_ESTABL;$HSF_STTATI:=$HSF_STTATI;$HSF_TIPATI:=$HSF_TIPATI;$HSF_REPRES:=$HSF_REPRES;$HSF_USUARI:=$HSF_USUARI;$HSF_UNICOM:=$HSF_UNICOM;$HSF_EQUVEN:=$HSF_EQUVEN;$HSF_HORAIN:=$HSF_HORAIN;$HSF_HORAFI:=$HSF_HORAFI;$HSF_QTATVI:=sum($HSF_QTATVI);$HSF_QTMINT:=sum($HSF_QTMINT);$QTATVICOMP:=sum($QTATVICOMP);" sorted="true" type="AGGREGATE"/>
+<Node enabled="enabled" guiName="Aggregate" guiX="778" guiY="464" id="AGGREGATE_MENOR_DATA" mapping="$Min_Date:=min($HSF_DTAINI);$Max_Date:=max($HSF_DTAINI);" type="AGGREGATE">
+<attr name="guiDescription"><![CDATA[OBTÉM MAIOR E MENOR DATA]]></attr>
+</Node>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="zip:(${DATA_TMP_DIR}/TOTVSSMARTANALYTICS.zip)#HSF.csv" guiName="" guiX="-160" guiY="107" id="CSV_READER_FATO_HSF" quotedStrings="true" skipLeadingBlanks="false" skipTrailingBlanks="false" trim="false" type="DATA_READER" verbose="false">
+<attr name="guiDescription"><![CDATA[Lê Staging HSF]]></attr>
+</Node>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="zip:(${DATA_TMP_DIR}/TOTVSSMARTANALYTICS.zip)#HSL.csv" guiName="" guiX="-160" guiY="224" id="CSV_READER_FATO_HSL" quotedStrings="true" skipLeadingBlanks="false" skipTrailingBlanks="false" trim="false" type="DATA_READER" verbose="false">
+<attr name="guiDescription"><![CDATA[Lê Staging HSL]]></attr>
+</Node>
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="${DATA_TMP_DIR}/FATOTMPHSF.csv" guiName="CSV Writer (DATA_WRITER)" guiX="1155" guiY="107" id="CSV_WRITER_FATO_TMP_HSF" makeDirs="true" outputFieldNames="true" type="DATA_WRITER">
+<attr name="guiDescription"><![CDATA[GRAVA FATO TMP HSF]]></attr>
+</Node>
+<Node enabled="enabled" guiName="ExtMergeJoin" guiX="241" guiY="111" id="EXT_MERGE_JOIN" joinKey="$HSF_TIPATI(a)#$HSL_TIPATV(a);" joinType="leftOuter" type="EXT_MERGE_JOIN">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.HSF_FILIAL = $in.0.HSF_FILIAL;
+	$out.0.HSF_EMPRES = $in.0.HSF_EMPRES;
+	$out.0.HSF_ESTABL = $in.0.HSF_ESTABL;
+	$out.0.HSF_STTATI = $in.0.HSF_STTATI;
+	$out.0.HSF_TIPATI = $in.0.HSF_TIPATI;
+	$out.0.HSF_REPRES = $in.0.HSF_REPRES;
+	$out.0.HSF_USUARI = $in.0.HSF_USUARI;
+	$out.0.HSF_UNICOM = $in.0.HSF_UNICOM;
+	$out.0.HSF_EQUVEN = $in.0.HSF_EQUVEN;
+	$out.0.HSF_DTAINI = $in.0.HSF_DTAINI;
+	$out.0.HSF_HORAIN = $in.0.HSF_HORAIN;
+	$out.0.HSF_DTAFIM = $in.0.HSF_DTAFIM;
+	$out.0.HSF_HORAFI = $in.0.HSF_HORAFI;
+	$out.0.HSF_QTATVI = $in.0.HSF_QTATVI;
+	$out.0.HSF_QTMINT = $in.0.HSF_QTMINT;
+	$out.0.QTATVICOMP = iif(upperCase($in.1.HSL_CODIGO+"") == "INDEFINIDO" || $in.1.HSL_CODIGO == "" || $in.1.HSL_CODIGO == null, 0, iif(str2integer(trim($in.1.HSL_CODIGO))==2,$in.0.HSF_QTATVI,0));
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="ExtSort" guiX="44" guiY="107" id="EXT_SORT" sortKey="HSF_TIPATI(a)" type="EXT_SORT"/>
+<Node enabled="enabled" guiName="ExtSort" guiX="44" guiY="224" id="EXT_SORT1" sortKey="HSL_TIPATV(a)" type="EXT_SORT"/>
+<Node enabled="enabled" guiName="ExtSort" guiX="716" guiY="107" id="EXT_SORT_FATO_HSF" sortKey="HSF_DTAINI(a);HSF_DTAFIM(a);HSF_FILIAL(a);HSF_EMPRES(a);HSF_ESTABL(a);HSF_STTATI(a);HSF_TIPATI(a);HSF_REPRES(a);HSF_USUARI(a);HSF_UNICOM(a);HSF_EQUVEN(a);HSF_HORAIN(a);HSF_HORAFI(a)" type="EXT_SORT">
+<attr name="guiDescription"><![CDATA[ORDENAÇÃO PELA ORDEM ORIGINAL DOS CAMPOS]]></attr>
+</Node>
+<Node enabled="enabled" guiName="MAQL DML Execute" guiX="1147" guiY="464" id="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HSF" maqlInputField="syntax_content" type="MAQL_DML_EXECUTE">
+<attr name="guiDescription"><![CDATA[APAGA DADOS FATO HSF]]></attr>
+</Node>
+<Node charset="ISO-8859-1" enabled="disabled" guiName="Reformat" guiX="285" guiY="371" id="REFORMAT_FATO_HSF" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.HSF_FILIAL = $in.0.HSF_FILIAL;
+	$out.0.HSF_EMPRES = $in.0.HSF_EMPRES;
+	$out.0.HSF_ESTABL = $in.0.HSF_ESTABL;
+	$out.0.HSF_STTATI = $in.0.HSF_STTATI;
+	$out.0.HSF_TIPATI = $in.0.HSF_TIPATI;
+	$out.0.HSF_REPRES = $in.0.HSF_REPRES;
+	$out.0.HSF_USUARI = $in.0.HSF_USUARI;
+	$out.0.HSF_UNICOM = $in.0.HSF_UNICOM;
+	$out.0.HSF_EQUVEN = $in.0.HSF_EQUVEN;
+	$out.0.HSF_DTAINI = $in.0.HSF_DTAINI;
+	$out.0.HSF_HORAIN = $in.0.HSF_HORAIN;
+	$out.0.HSF_DTAFIM = $in.0.HSF_DTAFIM;
+	$out.0.HSF_HORAFI = $in.0.HSF_HORAFI;
+	$out.0.HSF_QTATVI = $in.0.HSF_QTATVI;
+	$out.0.HSF_QTMINT = $in.0.HSF_QTMINT;
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[TRANSFORMA OS CAMPOS DATA / ELIMINA CAMPOS INDESEJADOS]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="958" guiY="464" id="REFORMAT_MENOR_DATA" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.syntax_content = 'DELETE FROM {attr.atividadeshsf.factsof} WHERE {datainicial.date.yyyymmdd} BETWEEN '+'"'+date2str($in.0.Min_Date, "yyyy-MM-dd")+'" AND "'+date2str($in.0.Max_Date, "yyyy-MM-dd")+'"';
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+<attr name="guiDescription"><![CDATA[GERA STATEMENT DE DELETE]]></attr>
+</Node>
+<Node enabled="enabled" guiName="SimpleCopy" guiX="423" guiY="110" id="SIMPLE_COPY_PARALELISMO_PARAMETROS_GERA_FATO_HSF" type="SIMPLE_COPY">
+<attr name="guiDescription"><![CDATA[DISTRIBUI OS DADOS PARA DUAS PORTAS]]></attr>
+</Node>
+<Edge debugMode="true" fromNode="AGGREGATE_FATO_HSF:0" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="CSV_WRITER_FATO_TMP_HSF:0"/>
+<Edge debugMode="true" fromNode="AGGREGATE_MENOR_DATA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge20" inPort="Port 0 (in)" metadata="Metadata2" outPort="Port 0 (out)" toNode="REFORMAT_MENOR_DATA:0"/>
+<Edge fromNode="CSV_READER_FATO_HSF:0" guiBendpoints="" guiRouter="Manhattan" id="Edge0" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (output)" toNode="EXT_SORT:0"/>
+<Edge fromNode="CSV_READER_FATO_HSL:0" guiBendpoints="" guiRouter="Manhattan" id="Edge6" inPort="Port 0 (in)" metadata="Metadata6" outPort="Port 0 (output)" toNode="EXT_SORT1:0"/>
+<Edge fromNode="EXT_MERGE_JOIN:0" guiBendpoints="" guiRouter="Manhattan" id="Edge4" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="SIMPLE_COPY_PARALELISMO_PARAMETROS_GERA_FATO_HSF:0"/>
+<Edge debugMode="true" fromNode="EXT_SORT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge5" inPort="Port 0 (driver)" metadata="Metadata0" outPort="Port 0 (out)" toNode="EXT_MERGE_JOIN:0"/>
+<Edge debugMode="true" fromNode="EXT_SORT1:0" guiBendpoints="" guiRouter="Manhattan" id="Edge8" inPort="Port 1 (slave)" metadata="Metadata6" outPort="Port 0 (out)" toNode="EXT_MERGE_JOIN:1"/>
+<Edge debugMode="true" fromNode="EXT_SORT_FATO_HSF:0" guiBendpoints="" guiRouter="Manhattan" id="Edge7" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="AGGREGATE_FATO_HSF:0"/>
+<Edge debugMode="true" fromNode="REFORMAT_MENOR_DATA:0" guiBendpoints="" guiRouter="Manhattan" id="Edge2" inPort="Port 0 (input)" metadata="Metadata3" outPort="Port 0 (out)" toNode="MAQL_DML_EXECUTE_DELETE_DATA_FATO_HSF:0"/>
+<Edge fromNode="SIMPLE_COPY_PARALELISMO_PARAMETROS_GERA_FATO_HSF:0" guiBendpoints="" guiRouter="Manhattan" id="Edge19" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="EXT_SORT_FATO_HSF:0"/>
+<Edge fromNode="SIMPLE_COPY_PARALELISMO_PARAMETROS_GERA_FATO_HSF:1" guiBendpoints="" guiRouter="Manhattan" id="Edge15" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 1 (out)" toNode="AGGREGATE_MENOR_DATA:0"/>
+</Phase>
+<Phase number="1">
+<Node charset="ISO-8859-1" enabled="enabled" fileURL="${DATA_TMP_DIR}/FATOTMPHSF.csv" guiName="(DATA_READER)" guiX="945" guiY="730" id="CSV_READER_CARREGA_FATO_HSF" quotedStrings="true" skipSourceRows="1" skipTrailingBlanks="false" trim="false" type="DATA_READER" verbose="true">
+<attr name="guiDescription"><![CDATA[LE A FATO HSF PARA CARREGAR]]></attr>
+</Node>
+<Node dataset="dataset.atividadeshsf" datasetFieldMappings="{&quot;gd_dataset&quot;:{&quot;datasetId&quot;:&quot;dataset.atividadeshsf&quot;,&quot;datasetTitle&quot;:&quot;ATIVIDADES - HSF&quot;,&quot;attributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.atividadeshsf.horadeinicio&quot;,&quot;title&quot;:&quot;Hora de Início&quot;,&quot;prettyId&quot;:&quot;attr_atividadeshsf_horadeinicio&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.atividadeshsf.horadeinicio&quot;,&quot;title&quot;:&quot;Hora de Início&quot;,&quot;prettyId&quot;:&quot;horadeinicio&quot;,&quot;assignedMetadataField&quot;:&quot;HSF_HORAIN&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.atividadeshsf.horadetermino&quot;,&quot;title&quot;:&quot;Hora de Término&quot;,&quot;prettyId&quot;:&quot;attr_atividadeshsf_horadetermino&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.atividadeshsf.horadetermino&quot;,&quot;title&quot;:&quot;Hora de Término&quot;,&quot;prettyId&quot;:&quot;horadetermino&quot;,&quot;assignedMetadataField&quot;:&quot;HSF_HORAFI&quot;,&quot;referenceKey&quot;:true}}],&quot;assignedMetadataField&quot;:null,&quot;selectedDisplayForm&quot;:null}}],&quot;referencedAttributes&quot;:[{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.empresa.empresabk&quot;,&quot;title&quot;:&quot;Empresa&quot;,&quot;prettyId&quot;:&quot;attr_empresa_empresabk&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.empresa.empresabk.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;empresa__empresabk_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.empresa.empresabk&quot;,&quot;title&quot;:&quot;Empresa&quot;,&quot;prettyId&quot;:&quot;empresa__empresabk&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.empresa.empresabk.nome&quot;,&quot;title&quot;:&quot;Nome&quot;,&quot;prettyId&quot;:&quot;empresa__empresabk_nome&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HSF_EMPRES&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.empresa.empresabk&quot;,&quot;title&quot;:&quot;Empresa&quot;,&quot;prettyId&quot;:&quot;empresa__empresabk&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.equipedevendahso.equipedevenda&quot;,&quot;title&quot;:&quot;Equipe de Venda&quot;,&quot;prettyId&quot;:&quot;attr_equipedevendahso_equipedevenda&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.equipedevendahso.equipedevenda.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;equipedevendahso__equipedevenda_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.equipedevendahso.equipedevenda.descricao&quot;,&quot;title&quot;:&quot;Descrição&quot;,&quot;prettyId&quot;:&quot;equipedevendahso__equipedevenda_descricao&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.equipedevendahso.equipedevenda&quot;,&quot;title&quot;:&quot;Equipe de Venda&quot;,&quot;prettyId&quot;:&quot;equipedevendahso__equipedevenda&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HSF_EQUVEN&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.equipedevendahso.equipedevenda&quot;,&quot;title&quot;:&quot;Equipe de Venda&quot;,&quot;prettyId&quot;:&quot;equipedevendahso__equipedevenda&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.estabelecimento.estabelecimento&quot;,&quot;title&quot;:&quot;Estabelecimento&quot;,&quot;prettyId&quot;:&quot;attr_estabelecimento_estabelecimento&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.estabelecimento.estabelecimento.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;estabelecimento__estabelecimento_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.estabelecimento.estabelecimento&quot;,&quot;title&quot;:&quot;Estabelecimento&quot;,&quot;prettyId&quot;:&quot;estabelecimento__estabelecimento&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.estabelecimento.estabelecimento.nome&quot;,&quot;title&quot;:&quot;Nome&quot;,&quot;prettyId&quot;:&quot;estabelecimento__estabelecimento_nome&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HSF_ESTABL&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.estabelecimento.estabelecimento&quot;,&quot;title&quot;:&quot;Estabelecimento&quot;,&quot;prettyId&quot;:&quot;estabelecimento__estabelecimento&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.representante.representante&quot;,&quot;title&quot;:&quot;Representante / Vendedor&quot;,&quot;prettyId&quot;:&quot;attr_representante_representante&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.representante.representante.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;representante__representante_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.representante.representante.nome&quot;,&quot;title&quot;:&quot;Nome&quot;,&quot;prettyId&quot;:&quot;representante__representante_nome&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.representante.representante&quot;,&quot;title&quot;:&quot;Representante / Vendedor&quot;,&quot;prettyId&quot;:&quot;representante__representante&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HSF_REPRES&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.representante.representante&quot;,&quot;title&quot;:&quot;Representante / Vendedor&quot;,&quot;prettyId&quot;:&quot;representante__representante&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.statusdaatividadehsk.statusdaatividade&quot;,&quot;title&quot;:&quot;Status da Atividade&quot;,&quot;prettyId&quot;:&quot;attr_statusdaatividadehsk_statusdaatividade&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.statusdaatividadehsk.statusdaatividade.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;statusdaatividadehsk__statusdaatividade_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.statusdaatividadehsk.statusdaatividade.descricao&quot;,&quot;title&quot;:&quot;Descrição&quot;,&quot;prettyId&quot;:&quot;statusdaatividadehsk__statusdaatividade_descricao&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.statusdaatividadehsk.statusdaatividade&quot;,&quot;title&quot;:&quot;Status da Atividade&quot;,&quot;prettyId&quot;:&quot;statusdaatividadehsk__statusdaatividade&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HSF_STTATI&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.statusdaatividadehsk.statusdaatividade&quot;,&quot;title&quot;:&quot;Status da Atividade&quot;,&quot;prettyId&quot;:&quot;statusdaatividadehsk__statusdaatividade&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.tipodeatividadehsl.tipodeatividade&quot;,&quot;title&quot;:&quot;Tipo de Atividade&quot;,&quot;prettyId&quot;:&quot;attr_tipodeatividadehsl_tipodeatividade&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.tipodeatividadehsl.tipodeatividade.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;tipodeatividadehsl__tipodeatividade_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.tipodeatividadehsl.tipodeatividade.descricao&quot;,&quot;title&quot;:&quot;Descrição&quot;,&quot;prettyId&quot;:&quot;tipodeatividadehsl__tipodeatividade_descricao&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.tipodeatividadehsl.tipodeatividade&quot;,&quot;title&quot;:&quot;Tipo de Atividade&quot;,&quot;prettyId&quot;:&quot;tipodeatividadehsl__tipodeatividade&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HSF_TIPATI&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.tipodeatividadehsl.tipodeatividade&quot;,&quot;title&quot;:&quot;Tipo de Atividade&quot;,&quot;prettyId&quot;:&quot;tipodeatividadehsl__tipodeatividade&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.unidadecomercialhsp.unidadecomercial&quot;,&quot;title&quot;:&quot;Unidade Comercial&quot;,&quot;prettyId&quot;:&quot;attr_unidadecomercialhsp_unidadecomercial&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.unidadecomercialhsp.unidadecomercial.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;unidadecomercialhsp__unidadecomercial_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.unidadecomercialhsp.unidadecomercial.descricao&quot;,&quot;title&quot;:&quot;Descrição&quot;,&quot;prettyId&quot;:&quot;unidadecomercialhsp__unidadecomercial_descricao&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.unidadecomercialhsp.unidadecomercial&quot;,&quot;title&quot;:&quot;Unidade Comercial&quot;,&quot;prettyId&quot;:&quot;unidadecomercialhsp__unidadecomercial&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HSF_UNICOM&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.unidadecomercialhsp.unidadecomercial&quot;,&quot;title&quot;:&quot;Unidade Comercial&quot;,&quot;prettyId&quot;:&quot;unidadecomercialhsp__unidadecomercial&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}},{&quot;gd_dataset_attribute&quot;:{&quot;id&quot;:&quot;attr.usuariohsq.usuario&quot;,&quot;title&quot;:&quot;Usuário&quot;,&quot;prettyId&quot;:&quot;attr_usuariohsq_usuario&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.usuariohsq.usuario.codigo&quot;,&quot;title&quot;:&quot;Código&quot;,&quot;prettyId&quot;:&quot;usuariohsq__usuario_codigo&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.usuariohsq.usuario.descricao&quot;,&quot;title&quot;:&quot;Descrição&quot;,&quot;prettyId&quot;:&quot;usuariohsq__usuario_descricao&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}},{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.usuariohsq.usuario&quot;,&quot;title&quot;:&quot;Usuário&quot;,&quot;prettyId&quot;:&quot;usuariohsq__usuario&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}],&quot;assignedMetadataField&quot;:&quot;HSF_USUARI&quot;,&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;label.usuariohsq.usuario&quot;,&quot;title&quot;:&quot;Usuário&quot;,&quot;prettyId&quot;:&quot;usuariohsq__usuario&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:false}}}}],&quot;dateAttributes&quot;:[{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datafinal.date&quot;,&quot;title&quot;:&quot;Date (Data Final)&quot;,&quot;prettyId&quot;:&quot;datafinal&quot;,&quot;assignedMetadataField&quot;:&quot;HSF_DTAFIM&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datafinal.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Final)&quot;,&quot;prettyId&quot;:&quot;datafinal_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datafinal.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Final)&quot;,&quot;prettyId&quot;:&quot;datafinal_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}},{&quot;gd_dataset_date_attribute&quot;:{&quot;id&quot;:&quot;datainicial.date&quot;,&quot;title&quot;:&quot;Date (Data Inicial)&quot;,&quot;prettyId&quot;:&quot;datainicial&quot;,&quot;assignedMetadataField&quot;:&quot;HSF_DTAINI&quot;,&quot;displayForms&quot;:[{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datainicial.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Inicial)&quot;,&quot;prettyId&quot;:&quot;datainicial_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:true}}],&quot;selectedDisplayForm&quot;:{&quot;gd_dataset_attribute_display_form&quot;:{&quot;id&quot;:&quot;datainicial.date.yyyymmdd&quot;,&quot;title&quot;:&quot;yyyy-mm-dd (Data Inicial)&quot;,&quot;prettyId&quot;:&quot;datainicial_date_yyyymmdd&quot;,&quot;assignedMetadataField&quot;:null,&quot;referenceKey&quot;:true}},&quot;associatedFact&quot;:null}}],&quot;simpleFacts&quot;:[{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.atividadeshsf.duracaoemminutos&quot;,&quot;title&quot;:&quot;Duração – em minutos&quot;,&quot;prettyId&quot;:&quot;duracaoemminutos&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;HSF_QTMINT&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.atividadeshsf.qtdeatividadedotipocompromisso&quot;,&quot;title&quot;:&quot;Qtde Atividade do Tipo Compromisso&quot;,&quot;prettyId&quot;:&quot;qtdeatividadedotipocompromisso&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;QTATVICOMP&quot;}},{&quot;gd_dataset_fact&quot;:{&quot;id&quot;:&quot;fact.atividadeshsf.quantidadedeatividades&quot;,&quot;title&quot;:&quot;Quantidade de Atividades&quot;,&quot;prettyId&quot;:&quot;quantidadedeatividades&quot;,&quot;type&quot;:&quot;DECIMAL&quot;,&quot;assignedMetadataField&quot;:&quot;HSF_QTATVI&quot;}}],&quot;dateFacts&quot;:[],&quot;fieldsWithMetadataConflict&quot;:[],&quot;entitiesWithoutMetadata&quot;:[],&quot;entitiesWithoutValue&quot;:[],&quot;datesWithFactConflict&quot;:[],&quot;unassigneddateFacts&quot;:[]}}" enabled="enabled" guiName="GD Dataset Writer" guiX="1206" guiY="730" id="GD_DATASET_WRITER_FATO_HSF" mode="INCREMENTAL" retriesInterval="60" retriesNumber="5" type="GD_DATASET_WRITER">
+<attr name="guiDescription"><![CDATA[Carrega HSF – Atividades]]></attr>
+</Node>
+<Edge fromNode="CSV_READER_CARREGA_FATO_HSF:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (output)" toNode="GD_DATASET_WRITER_FATO_HSF:0"/>
+</Phase>
+</Graph>

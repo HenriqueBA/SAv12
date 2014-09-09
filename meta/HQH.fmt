@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," label="HQH.csv" name="HQH" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HQH.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HQH_ISTCIA" type="string"/>
+<Field name="HQH_LINPRO" type="string"/>
+<Field name="HQH_GRPEMP" type="string"/>
+<Field name="HQH_CDUNEG" type="string"/>
+<Field name="HQH_CDEMPR" type="string"/>
+<Field name="HQH_FILIAL" type="string"/>
+<Field name="HQH_NATCMP" type="string"/>
+<Field name="HQH_CODIGO" type="string"/>
+<Field name="HQH_DESC" type="string"/>
+<Field name="HQH_LIVRE0" type="string"/>
+<Field name="HQH_LIVRE1" type="string"/>
+<Field name="HQH_LIVRE2" type="string"/>
+<Field name="HQH_LIVRE3" type="string"/>
+<Field name="HQH_LIVRE4" type="string"/>
+<Field name="HQH_LIVRE5" type="string"/>
+<Field name="HQH_LIVRE6" type="string"/>
+<Field name="HQH_LIVRE7" type="string"/>
+<Field name="HQH_LIVRE8" type="string"/>
+<Field name="HQH_LIVRE9" type="string"/>
+<Field name="D_E_L_E_T_" type="string"/>
+<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
+</Record>

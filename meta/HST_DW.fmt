@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HST_DW" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" format="yyyyMMdd" name="HST_DTAINI" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" format="yyyyMMdd" name="HST_DTAFIM" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" name="HST_EMPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_ESTABL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_STTPRO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_STTOPO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_PROBAB" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_MOEDA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_AREA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_ITEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_FAMCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_GRPEST" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_OPOVEN" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_REPRES" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_PROVEN" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_UNICOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_EQUVEN" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_CLIENT" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_PROSPE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_UNITEM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_PROCOM" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HST_REVPRO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" length="15" name="HST_QTITEM" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HST_QTPROD" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HST_VLVEND" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HST_VLTABE" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HST_VLRTOT" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HST_VLPDES" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field eofAsDelimiter="false" length="15" name="HST_VLDESC" nullable="true" scale="5" shift="0" size="0" type="decimal"/>
+<Field default="0" length="15" name="VLRTOT_ABERTA" scale="5" type="decimal"/>
+<Field default="0" length="15" name="VLRTOT_GANHA" scale="5" type="decimal"/>
+<Field default="0" length="15" name="VLRTOT_PERDIDA" scale="5" type="decimal"/>
+<Field default="0" length="15" name="QTPROD_ABERTA" scale="5" type="decimal"/>
+<Field default="0" length="15" name="QTPROD_GANHA" scale="5" type="decimal"/>
+<Field default="0" length="15" name="QTPROD_PERDIDA" scale="5" type="decimal"/>
+</Record>

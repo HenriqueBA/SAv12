@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="|" name="HJB_DW" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="HJB_REGIAO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJB_ISTCIA" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJB_LINPRO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJB_GRPEMP" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJB_CDUNEG" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJB_CDEMPR" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJB_FILIAL" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJB_REGGEO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJB_ESTADO" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJB_CIDADE" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJB_PAIS" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="HJB_NOMEUF" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="Country_Lat_Long" nullable="true" shift="0" size="0" type="string"/>
+<Field name="State_Lat_Long" type="string"/>
+</Record>
