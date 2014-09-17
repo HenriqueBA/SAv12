@@ -66,3 +66,6 @@ entregasdatransportadorahof|data|years|2|HOF
 aproveitamentodeviagemhod|data|years|2|HOD
 alocacaoatendenteshor|data|years|2|HOR
 cumprimentodecontratodealocacaoderecursohoq|data|years|2|HOQ
+inadimplencia|data|years|5|HHE
+matriculas|data|years|5|HHF
+turmas|dataextracao|years|5|HHG

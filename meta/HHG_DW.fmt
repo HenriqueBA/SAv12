@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HHG" previewAttachment="./data/tmp/FATOHHG.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HHG_LINPRO" type="string"/>
+<Field name="HHG_ISTCIA" type="string"/>
+<Field name="HHG_EMPRES" type="string"/>
+<Field name="HHG_FILIAL" type="string"/>
+<Field name="HHG_ESTABL" type="string"/>
+<Field name="HHG_INSENS" type="string"/>
+<Field name="HHG_CAMPUS" type="string"/>
+<Field name="HHG_CURSOE" type="string"/>
+<Field name="HHG_HABILI" type="string"/>
+<Field name="HHG_CCHABI" type="string"/>
+<Field name="HHG_PERLET" type="string"/>
+<Field name="HHG_GRACUR" type="string"/>
+<Field name="HHG_DISCIP" type="string"/>
+<Field name="HHG_TURMA" type="string"/>
+<Field name="HHG_SUBTUR" type="string"/>
+<Field name="HHG_TITULA" type="string"/>
+<Field name="HHG_PROFES" type="string"/>
+<Field name="HHG_MOEDA" type="string"/>
+<Field name="HHG_NIVENS" type="string"/>
+<Field name="HHG_STATUR" type="string"/>
+<Field name="HHG_DTEXTR" type="date"/>
+<Field name="HHG_DTINPL" type="string"/>
+<Field name="HHG_DTFIPL" type="string"/>
+<Field name="HHG_QTTURM" type="integer"/>
+<Field name="HHG_QTMXAL" type="integer"/>
+<Field name="HHG_VLCSTM" type="decimal"/>
+<Field name="HHG_QTMATR" type="integer"/>
+<Field name="HHG_QTDISP" type="integer"/>
+<Field name="HHG_QTDLTV" type="long"/>
+</Record>

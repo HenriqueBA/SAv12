@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HH5" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HH5.csv" previewAttachmentCharset="ISO-8859-1" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HH5_ISTCIA" type="string"/>
+<Field name="HH5_LINPRO" type="string"/>
+<Field name="HH5_GRPEMP" type="string"/>
+<Field name="HH5_CDUNEG" type="string"/>
+<Field name="HH5_CDEMPR" type="string"/>
+<Field name="HH5_FILIAL" type="string"/>
+<Field name="HH5_CURSOE" type="string"/>
+<Field name="HH5_CODIGO" type="string"/>
+<Field name="HH5_DESC" type="string"/>
+<Field name="HH5_LIVRE1" type="string"/>
+<Field name="HH5_LIVRE2" type="string"/>
+<Field name="HH5_LIVRE3" type="string"/>
+<Field name="HH5_LIVRE4" type="string"/>
+<Field name="HH5_LIVRE5" type="string"/>
+<Field name="HH5_LIVRE6" type="string"/>
+<Field name="HH5_LIVRE7" type="string"/>
+<Field name="HH5_LIVRE8" type="string"/>
+<Field name="HH5_LIVRE9" type="string"/>
+<Field name="HH5_LIVRE0" type="string"/>
+</Record>

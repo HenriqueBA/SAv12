@@ -52,6 +52,4 @@
 <Field name="HLM_LIVRE7" type="string"/>
 <Field name="HLM_LIVRE8" type="string"/>
 <Field name="HLM_LIVRE9" type="string"/>
-<Field name="D_E_L_E_T_" type="string"/>
-<Field eofAsDelimiter="false" name="R_E_C_N_O_" type="string"/>
 </Record>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HHV" previewAttachment="zip:(${DATA_TMP_DIR}/TOTVSBA.zip)#HHV.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HHV_ISTCIA" type="string"/>
+<Field name="HHV_LINPRO" type="string"/>
+<Field name="HHV_GRPEMP" type="string"/>
+<Field name="HHV_CDUNEG" type="string"/>
+<Field name="HHV_CDEMPR" type="string"/>
+<Field name="HHV_FILIAL" type="string"/>
+<Field name="HHV_HABILI" type="string"/>
+<Field name="HHV_CUEDHA" type="string"/>
+<Field name="HHV_CODIGO" type="string"/>
+<Field delimiter="," name="HHV_DESC" type="string"/>
+<Field name="HHV_LIVRE1" type="string"/>
+<Field name="HHV_LIVRE2" type="string"/>
+<Field name="HHV_LIVRE3" type="string"/>
+<Field name="HHV_LIVRE4" type="string"/>
+<Field name="HHV_LIVRE5" type="string"/>
+<Field name="HHV_LIVRE6" type="string"/>
+<Field name="HHV_LIVRE7" type="string"/>
+<Field name="HHV_LIVRE8" type="string"/>
+<Field name="HHV_LIVRE9" type="string"/>
+<Field name="HHV_LIVRE0" type="string"/>
+</Record>

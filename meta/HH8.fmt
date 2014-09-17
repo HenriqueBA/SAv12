@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HH8" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HH8.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HH8_ISTCIA" type="string"/>
+<Field name="HH8_LINPRO" type="string"/>
+<Field name="HH8_GRPEMP" type="string"/>
+<Field name="HH8_CDUNEG" type="string"/>
+<Field name="HH8_CDEMPR" type="string"/>
+<Field name="HH8_FILIAL" type="string"/>
+<Field name="HH8_GRACUR" type="string"/>
+<Field name="HH8_CODIGO" type="string"/>
+<Field name="HH8_DTINI" type="string"/>
+<Field name="HH8_DTFIM" type="string"/>
+<Field name="HH8_QTCHGR" type="decimal"/>
+<Field name="HH8_LIVRE1" type="string"/>
+<Field name="HH8_LIVRE2" type="string"/>
+<Field name="HH8_LIVRE3" type="string"/>
+<Field name="HH8_LIVRE4" type="string"/>
+<Field name="HH8_LIVRE5" type="string"/>
+<Field name="HH8_LIVRE6" type="string"/>
+<Field name="HH8_LIVRE7" type="string"/>
+<Field name="HH8_LIVRE8" type="string"/>
+<Field name="HH8_LIVRE9" type="string"/>
+<Field name="HH8_LIVRE0" type="string"/>
+</Record>

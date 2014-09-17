@@ -18,6 +18,4 @@
 <Field eofAsDelimiter="false" name="HJ6_LIVRE7" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="HJ6_LIVRE8" nullable="true" shift="0" size="0" type="string"/>
 <Field eofAsDelimiter="false" name="HJ6_LIVRE9" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" name="D_E_L_E_T_" nullable="true" shift="0" size="0" type="string"/>
-<Field eofAsDelimiter="false" name="R_E_C_N_O_" nullable="true" shift="0" size="0" type="string"/>
 </Record>

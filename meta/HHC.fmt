@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HHC" previewAttachment="${DATA_TMP_DIR}/TOTVSBA/HHC.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HHC_ISTCIA" type="string"/>
+<Field name="HHC_LINPRO" type="string"/>
+<Field name="HHC_GRPEMP" type="string"/>
+<Field name="HHC_CDUNEG" type="string"/>
+<Field name="HHC_CDEMPR" type="string"/>
+<Field name="HHC_FILIAL" type="string"/>
+<Field name="HHC_TURNOA" type="string"/>
+<Field name="HHC_CODIGO" type="string"/>
+<Field name="HHC_DESC" type="string"/>
+<Field name="HHC_HORINI" type="string"/>
+<Field name="HHC_HORFIM" type="string"/>
+<Field name="HHC_TIPOAU" type="string"/>
+<Field name="HHC_LIVRE1" type="string"/>
+<Field name="HHC_LIVRE2" type="string"/>
+<Field name="HHC_LIVRE3" type="string"/>
+<Field name="HHC_LIVRE4" type="string"/>
+<Field name="HHC_LIVRE5" type="string"/>
+<Field name="HHC_LIVRE6" type="string"/>
+<Field name="HHC_LIVRE7" type="string"/>
+<Field name="HHC_LIVRE8" type="string"/>
+<Field name="HHC_LIVRE9" type="string"/>
+<Field name="HHC_LIVRE0" type="string"/>
+</Record>
