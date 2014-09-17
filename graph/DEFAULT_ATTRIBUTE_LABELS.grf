@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><Graph author="michel" created="Fri Oct 11 08:12:46 BRT 2013" guiVersion="3.4.4.P" id="1381498850750" licenseType="Commercial" modified="Thu Sep 11 14:56:13 BRT 2014" modifiedBy="mateus.silva" name="DEFAULT_ATTRIBUTE_LABLES" revision="1.33" showComponentDetails="true">
+<?xml version="1.0" encoding="UTF-8"?><Graph author="michel" created="Fri Oct 11 08:12:46 BRT 2013" guiVersion="3.4.4.P" id="1381498850750" licenseType="Commercial" modified="Wed Sep 17 17:33:34 BRT 2014" modifiedBy="mateus.silva" name="DEFAULT_ATTRIBUTE_LABLES" revision="1.34" showComponentDetails="true">
 <Global>
 <Property fileURL="workspace.prm" id="GraphParameter0"/>
 <Dictionary/>
@@ -179,7 +179,6 @@ ALTER ATTRIBUTE {attr.usuariohsq.usuario} DEFAULT LABEL {label.usuariohsq.usuari
 ALTER ATTRIBUTE {attr.prospecthsr.prospect} DEFAULT LABEL {label.prospecthsr.prospect.nomefantasia};
 ALTER ATTRIBUTE {attr.unidadedemedidadoitemhhw.unidadedemedidadoitem} DEFAULT LABEL {label.unidadedemedidadoitemhhw.unidadedemedidadoitem.unidademedidadoitem};
 ALTER ATTRIBUTE {attr.processodevendahsn.processodevenda} DEFAULT LABEL {label.processodevendahsn.processodevenda.descricaodoestagio} ORDER BY {label.processodevendahsn.processodevenda.codigodoestagio} ASC;
-ALTER ATTRIBUTE {attr.aluno.aluno} DEFAULT LABEL {label.aluno.aluno.nome};
 ALTER ATTRIBUTE {attr.aluno.aluno} DEFAULT LABEL {label.aluno.aluno.nome};
 ALTER ATTRIBUTE {attr.campus.campus} DEFAULT LABEL {label.campus.campus.nome};
 ALTER ATTRIBUTE {attr.centrodecusto2.centrodecusto1} DEFAULT LABEL {label.centrodecusto2.centrodecusto1.descricao} ORDER BY {label.centrodecusto2.centrodecusto1.codigo} ASC;

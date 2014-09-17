@@ -3,6 +3,6 @@
 
 YEARS_HISTORY=2
 STORAGE_PATH=project-uploads/${GDC_PROJECT_ID}/
-USER_PWD_SECURE_DI=mateus.silva%40totvs.com.br:Piramide9
+USER_PWD_SECURE_DI=user%40dominio:senha
 STORAGE_HOST_WEBDAV=na1-di.gooddata.com:443
 STORAGE_PATH_TODAY=project-uploads/${GDC_PROJECT_ID}/today
