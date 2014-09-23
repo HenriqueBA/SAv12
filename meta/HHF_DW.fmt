@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HHF" previewAttachment="./data/tmp/FATOHHF.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" skipSourceRows="1" type="delimited">
+<Field name="HHF_LINPRO" type="string"/>
+<Field name="HHF_ISTCIA" type="string"/>
+<Field name="HHF_EMPRES" type="string"/>
+<Field name="HHF_FILIAL" type="string"/>
+<Field name="HHF_ESTABL" type="string"/>
+<Field name="HHF_INSENS" type="string"/>
+<Field name="HHF_SITMAT" type="string"/>
+<Field name="HHF_NIVENS" type="string"/>
+<Field name="HHF_CAMPUS" type="string"/>
+<Field name="HHF_CURSOE" type="string"/>
+<Field name="HHF_HABILI" type="string"/>
+<Field name="HHF_CCHABI" type="string"/>
+<Field name="HHF_PERLET" type="string"/>
+<Field name="HHF_GRACUR" type="string"/>
+<Field name="HHF_TURNOA" type="string"/>
+<Field name="HHF_ALUNO" type="string"/>
+<Field name="HHF_DATA" type="date"/>
+<Field name="HHF_QTDESI" type="integer"/>
+<Field name="HHF_QTMATR" type="integer"/>
+</Record>

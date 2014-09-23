@@ -47,6 +47,4 @@
 <Field name="HKW_LIVRE7" type="string"/>
 <Field name="HKW_LIVRE8" type="string"/>
 <Field name="HKW_LIVRE9" type="string"/>
-<Field name="D_E_L_E_T_" type="string"/>
-<Field name="R_E_C_N_O_" type="string"/>
 </Record>

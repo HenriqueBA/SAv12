@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><Record fieldDelimiter="," name="HHE_DW" previewAttachment="./data/tmp/FATOHHE.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\n" recordSize="-1" skipSourceRows="1" type="delimited">
+<Field name="HHE_LINPRO" type="string"/>
+<Field name="HHE_ISTCIA" type="string"/>
+<Field name="HHE_EMPRES" type="string"/>
+<Field name="HHE_FILIAL" type="string"/>
+<Field name="HHE_ESTABL" type="string"/>
+<Field name="HHE_INSENS" type="string"/>
+<Field name="HHE_CAMPUS" type="string"/>
+<Field name="HHE_ALUNO" type="string"/>
+<Field name="HHE_CURSOE" type="string"/>
+<Field name="HHE_HABILI" type="string"/>
+<Field name="HHE_CCHABI" type="string"/>
+<Field name="HHE_PERLET" type="string"/>
+<Field name="HHE_CCUSTO" type="string"/>
+<Field name="HHE_SERVIC" type="string"/>
+<Field name="HHE_MOEDA" type="string"/>
+<Field name="HHE_TPPARC" type="string"/>
+<Field name="HHE_SITMAT" type="string"/>
+<Field name="HHE_NIVENS" type="string"/>
+<Field name="HHE_LANREF" type="integer"/>
+<Field name="HHE_DATA" type="date"/>
+<Field name="HHE_VLINAD" type="decimal"/>
+<Field name="HHE_VLTITU" type="decimal"/>
+<Field name="HHE_DTVLAN" type="string"/>
+<Field name="HHE_QTDATR" type="decimal"/>
+<Field name="HHE_VLSERV" type="decimal"/>
+</Record>

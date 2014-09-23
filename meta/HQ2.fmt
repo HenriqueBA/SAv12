@@ -62,7 +62,5 @@
 <Field name="HQ2_LIVRE7" type="string"/>
 <Field name="HQ2_LIVRE8" type="string"/>
 <Field name="HQ2_LIVRE9" type="string"/>
-<Field name="D_E_L_E_T_" type="string"/>
-<Field name="R_E_C_N_O_" type="string"/>
 <Field eofAsDelimiter="false" name="HQ2_UNITEM" type="string"/>
 </Record>

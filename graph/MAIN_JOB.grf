@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><Graph author="michel" created="Mon Aug 26 09:15:38 BRT 2013" guiVersion="3.4.4.P" id="1377537516488" licenseType="Commercial" modified="Thu May 15 09:29:48 BRT 2014" modifiedBy="robson.bezerra" name="JOB_Principal" revision="1.138" showComponentDetails="true">
+<?xml version="1.0" encoding="UTF-8"?><Graph author="michel" created="Mon Aug 26 09:15:38 BRT 2013" guiVersion="3.4.4.P" id="1377537516488" licenseType="Commercial" modified="Mon Sep 15 16:43:05 BRT 2014" modifiedBy="mateus.silva" name="JOB_Principal" revision="1.141" showComponentDetails="true">
 <Global>
 <Metadata fileURL="${META_DIR}/RunGraph_Output_Timestamp.fmt" id="RunGraph_Output1"/>
 <Metadata fileURL="${META_DIR}/RunGraph_Output.fmt" id="RunGraph_Output"/>
@@ -357,21 +357,36 @@
 </Node>
 </Phase>
 <Phase number="70">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/LOAD_FACT_TABLE_HHE.grf" guiName="RunGraph" guiX="239" guiY="6707" id="RUN_GRAPH_CARREGA_FATO_HHE" ignoreGraphFail="true" logAppend="true" paramsToPass="STORAGE_HOST_WEBDAV; STORAGE_PATH; STORAGE_PATH_TODAY; YEARS_HISTORY; USER_PWD_SECURE_DI; GDC_PROJECT_ID" type="RUN_GRAPH">
+<attr name="guiDescription"><![CDATA[LOAD FACT TABLE HHE]]></attr>
+</Node>
+</Phase>
+<Phase number="71">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/LOAD_FACT_TABLE_HHF.grf" guiName="RunGraph" guiX="239" guiY="6815" id="RUN_GRAPH_CARREGA_FATO_HHF" ignoreGraphFail="true" logAppend="true" paramsToPass="STORAGE_HOST_WEBDAV; STORAGE_PATH; STORAGE_PATH_TODAY; YEARS_HISTORY; USER_PWD_SECURE_DI; GDC_PROJECT_ID" type="RUN_GRAPH">
+<attr name="guiDescription"><![CDATA[LOAD FACT TABLE HHF]]></attr>
+</Node>
+</Phase>
+<Phase number="72">
+<Node enabled="enabled" graphName="${GRAPH_DIR}/LOAD_FACT_TABLE_HHG.grf" guiName="RunGraph" guiX="239" guiY="6922" id="RUN_GRAPH_CARREGA_FATO_HHG" ignoreGraphFail="true" logAppend="true" paramsToPass="STORAGE_HOST_WEBDAV; STORAGE_PATH; STORAGE_PATH_TODAY; YEARS_HISTORY; USER_PWD_SECURE_DI; GDC_PROJECT_ID" type="RUN_GRAPH">
+<attr name="guiDescription"><![CDATA[LOAD FACT TABLE HHG]]></attr>
+</Node>
+</Phase>
+<Phase number="73">
 <Node enabled="enabled" graphName="${GRAPH_DIR}/LOAD_DIMENSIONS.grf" guiName="RunGraph (RUN_GRAPH)" guiX="422" guiY="38" id="RUN_GRAPH_CARREGA_DIMENSOES" logAppend="true" paramsToPass="STORAGE_HOST_WEBDAV; STORAGE_PATH; STORAGE_PATH_TODAY; YEARS_HISTORY; USER_PWD_SECURE_DI; GDC_PROJECT_ID" type="RUN_GRAPH">
 <attr name="guiDescription"><![CDATA[LOAD DIMENSIONS]]></attr>
 </Node>
 </Phase>
-<Phase number="71">
+<Phase number="74">
 <Node enabled="enabled" graphName="${GRAPH_DIR}/PURGE_HISTORY_V.3.0.0.grf" guiName="RunGraph (RUN_GRAPH)" guiX="624" guiY="32" id="RUN_GRAPH_PURGE_HISTORICAL_DATA" logAppend="true" paramsToPass="STORAGE_HOST_WEBDAV; STORAGE_PATH; STORAGE_PATH_TODAY; YEARS_HISTORY; USER_PWD_SECURE_DI; GDC_PROJECT_ID" type="RUN_GRAPH">
 <attr name="guiDescription"><![CDATA[PURGE HISTORICAL DATA BASED ON PARAMETERS]]></attr>
 </Node>
 </Phase>
-<Phase number="72">
+<Phase number="75">
 <Node enabled="enabled" graphName="${GRAPH_DIR}/CLEAN_TMP_FOLDER.grf" guiName="RunGraph (RUN_GRAPH)" guiX="624" guiY="142" id="RUN_GRAPH_CLEAN_TMP" ignoreGraphFail="false" logAppend="true" paramsToPass="STORAGE_HOST_WEBDAV; STORAGE_PATH; STORAGE_PATH_TODAY; YEARS_HISTORY; USER_PWD_SECURE_DI; GDC_PROJECT_ID" type="RUN_GRAPH">
 <attr name="guiDescription"><![CDATA[CLEAN TMP FOLDER]]></attr>
 </Node>
 </Phase>
-<Phase number="73">
+<Phase number="76">
 <Node enabled="enabled" graphName="${GRAPH_DIR}/FILE_MOVEMENT.grf" guiName="RunGraph (RUN_GRAPH)" guiX="624" guiY="237" id="RUN_GRAPH_MOVE_ARQUIVOS" logAppend="true" paramsToPass="STORAGE_HOST_WEBDAV; STORAGE_PATH; STORAGE_PATH_TODAY; YEARS_HISTORY; USER_PWD_SECURE_DI; GDC_PROJECT_ID" type="RUN_GRAPH">
 <attr name="guiDescription"><![CDATA[MOVE DATA FILES FOR POSSIBLE REPROCESSING]]></attr>
 </Node>

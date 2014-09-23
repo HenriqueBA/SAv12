@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><Graph author="michel" created="Fri Oct 11 08:12:46 BRT 2013" guiVersion="3.4.4.P" id="1381498850750" licenseType="Commercial" modified="Wed May 21 10:29:04 BRT 2014" modifiedBy="robson.bezerra" name="DEFAULT_ATTRIBUTE_LABLES" revision="1.31" showComponentDetails="true">
+<?xml version="1.0" encoding="UTF-8"?><Graph author="michel" created="Fri Oct 11 08:12:46 BRT 2013" guiVersion="3.4.4.P" id="1381498850750" licenseType="Commercial" modified="Wed Sep 17 17:33:34 BRT 2014" modifiedBy="mateus.silva" name="DEFAULT_ATTRIBUTE_LABLES" revision="1.34" showComponentDetails="true">
 <Global>
 <Property fileURL="workspace.prm" id="GraphParameter0"/>
 <Dictionary/>
@@ -179,6 +179,31 @@ ALTER ATTRIBUTE {attr.usuariohsq.usuario} DEFAULT LABEL {label.usuariohsq.usuari
 ALTER ATTRIBUTE {attr.prospecthsr.prospect} DEFAULT LABEL {label.prospecthsr.prospect.nomefantasia};
 ALTER ATTRIBUTE {attr.unidadedemedidadoitemhhw.unidadedemedidadoitem} DEFAULT LABEL {label.unidadedemedidadoitemhhw.unidadedemedidadoitem.unidademedidadoitem};
 ALTER ATTRIBUTE {attr.processodevendahsn.processodevenda} DEFAULT LABEL {label.processodevendahsn.processodevenda.descricaodoestagio} ORDER BY {label.processodevendahsn.processodevenda.codigodoestagio} ASC;
+ALTER ATTRIBUTE {attr.aluno.aluno} DEFAULT LABEL {label.aluno.aluno.nome};
+ALTER ATTRIBUTE {attr.campus.campus} DEFAULT LABEL {label.campus.campus.nome};
+ALTER ATTRIBUTE {attr.centrodecusto2.centrodecusto1} DEFAULT LABEL {label.centrodecusto2.centrodecusto1.descricao} ORDER BY {label.centrodecusto2.centrodecusto1.codigo} ASC;
+ALTER ATTRIBUTE {attr.centrodecusto2.centrodecusto2} DEFAULT LABEL {label.centrodecusto2.centrodecusto2.descricao} ORDER BY {label.centrodecusto2.centrodecusto2.codigo} ASC;
+ALTER ATTRIBUTE {attr.centrodecusto2.centrodecusto3} DEFAULT LABEL {label.centrodecusto2.centrodecusto3.descricao} ORDER BY {label.centrodecusto2.centrodecusto3.codigo} ASC;
+ALTER ATTRIBUTE {attr.centrodecusto2.centrodecusto4} DEFAULT LABEL {label.centrodecusto2.centrodecusto4.descricao} ORDER BY {label.centrodecusto2.centrodecusto4.codigo} ASC;
+ALTER ATTRIBUTE {attr.centrodecusto2.centrodecusto5} DEFAULT LABEL {label.centrodecusto2.centrodecusto5.descricao} ORDER BY {label.centrodecusto2.centrodecusto5.codigo} ASC;
+ALTER ATTRIBUTE {attr.centrodecusto2.centrodecusto6} DEFAULT LABEL {label.centrodecusto2.centrodecusto6.descricao} ORDER BY {label.centrodecusto2.centrodecusto6.codigo} ASC;
+ALTER ATTRIBUTE {attr.centrodecusto2.centrodecusto7} DEFAULT LABEL {label.centrodecusto2.centrodecusto7.descricao} ORDER BY {label.centrodecusto2.centrodecusto7.codigo} ASC;
+ALTER ATTRIBUTE {attr.centrodecusto2.centrodecusto8} DEFAULT LABEL {label.centrodecusto2.centrodecusto8.descricao} ORDER BY {label.centrodecusto2.centrodecusto8.codigo} ASC;
+ALTER ATTRIBUTE {attr.centrodecusto2.centrodecusto9} DEFAULT LABEL {label.centrodecusto2.centrodecusto9.descricao} ORDER BY {label.centrodecusto2.centrodecusto9.codigo} ASC;
+ALTER ATTRIBUTE {attr.centrodecusto2.centrodecusto10} DEFAULT LABEL {label.centrodecusto2.centrodecusto10.descricao} ORDER BY {label.centrodecusto2.centrodecusto10.codigo} ASC;
+ALTER ATTRIBUTE {attr.centrodecusto2.centrodecusto11} DEFAULT LABEL {label.centrodecusto2.centrodecusto11.descricao} ORDER BY {label.centrodecusto2.centrodecusto11.codigo} ASC;
+ALTER ATTRIBUTE {attr.cursoeducacional.cursoeducacional} DEFAULT LABEL {label.cursoeducacional.cursoeducacional.nome};
+ALTER ATTRIBUTE {attr.disciplina.disciplina} DEFAULT LABEL {label.disciplina.disciplina.descricao};
+ALTER ATTRIBUTE {attr.gradecurricular.gradecurricular} DEFAULT LABEL {label.gradecurricular.gradecurricular.codigo};
+ALTER ATTRIBUTE {attr.instituicaodeensino.instituicaodeensino} DEFAULT LABEL {label.instituicaodeensino.instituicaodeensino.nome};
+ALTER ATTRIBUTE {attr.niveldeensino.niveldeensino} DEFAULT LABEL {label.niveldeensino.niveldeensino.nome};
+ALTER ATTRIBUTE {attr.periodoletivo.periodoletivo} DEFAULT LABEL {label.periodoletivo.periodoletivo.nome};
+ALTER ATTRIBUTE {attr.professor.professor} DEFAULT LABEL {label.professor.professor.descricao};
+ALTER ATTRIBUTE {attr.servico.servico} DEFAULT LABEL {label.servico.servico.nome};
+ALTER ATTRIBUTE {attr.situacaodamatricula.situacaodamatricula} DEFAULT LABEL {label.situacaodamatricula.situacaodamatricula.descricao};
+ALTER ATTRIBUTE {attr.titulacao.titulacao} DEFAULT LABEL {label.titulacao.titulacao.descricao};
+ALTER ATTRIBUTE {attr.turnoaula.turnoaula} DEFAULT LABEL {label.turnoaula.turnoaula.descricao};
+ALTER ATTRIBUTE {attr.habilitacao.habilitacao} DEFAULT LABEL {label.habilitacao.habilitacao.nome};
 ]]></attr>
 </Node>
 </Phase>
